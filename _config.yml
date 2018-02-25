@@ -2,14 +2,14 @@
 title: Capitol Cider House
 timezone: America/New_York
 collections:
+  cideries:
+    title: Cideries
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  cideries:
-    title: Cideries
     output: true
 defaults:
 - scope:
@@ -17,10 +17,11 @@ defaults:
     type: cideries
   values:
     distance: 
-
-logo:
+logo: 
 email: howdy@danrdesign.com
-description: Capitol Cider House brewery and bar is located in D.C.’s Petworth neighborhood. We focus on traditional craft hard cider brewing with modern flavors, producing more than [#] hand pressed ciders.
+description: Capitol Cider House brewery and bar is located in D.C.’s Petworth neighborhood.
+  We focus on traditional craft hard cider brewing with modern flavors, producing
+  more than [#] hand pressed ciders.
 url: https://capitolciderhouse.com
 permalink: pretty
-social-media-image:
+social-media-image: 
