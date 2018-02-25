@@ -4,12 +4,12 @@ layout: default
 <div class="vh80 cntr-cntr-child max-width-3 mx-auto">
     <h1>Capitol Cider House</h1>
 </div>
-<div class="vh80 vert-cntr-child max-width-3 mx-auto">
+<div class="vh80 center vert-cntr-child max-width-3 mx-auto">
     <h2>
         Capitol Cider House brewery and bar is located in D.C.’s Petworth neighborhood. We focus on traditional craft hard cider brewing with modern flavors, producing more than 12 hand pressed ciders.
     </h2>
 </div>
-<div class="vh80 vert-cntr-child max-width-3 mx-auto">
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
     <div class="">
         <h3>Why Cider?</h3>
         <p>
@@ -17,7 +17,7 @@ layout: default
         </p>
     </div>
 </div>
-<div class="vh80 vert-cntr-child max-width-3 mx-auto">
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
     <div class="">
         <h3>It’s DC as F*ck</h3>
         <p>
@@ -25,16 +25,51 @@ layout: default
         </p>
     </div>
 </div>
-<div class="vh80 vert-cntr-child max-width-3 mx-auto">
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
     <div class="">
         <p class="eyebrow">What’s on Tap</p>
-        <h3>Localy Sourced Brews</h3>
-        {% for cidery in cideries %}
+        <h3>Localy Sourced Ciders</h3>
+        {% for cidery in site.cideries %}
+            <img src="{{ cidery.icon }}" alt="">
             <h4>{{ cidery.title }}</h4>
             <p>{{ cidery.distance }}</p>
         {% endfor %}
     </div>
 </div>
-<div class="vh80">
-
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
+    <div class="">
+        <p class="eyebrow">Our Craft Ciders</p>
+        <h3>Keeping It Fresh</h3>
+        {% for freshies in page.fresh %}
+            <h4>{{ freshies.title }}</h4>
+            <p>{{ freshies.discription }}</p>
+        {% endfor %}
+    </div>
+</div>
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
+    <div class="">
+        <p class="eyebrow">Our Craft Ciders</p>
+        <h3>This is How We Brew It</h3>
+        {% for brew in page.brew-process %}
+            <h4>{{ brew.title }}</h4>
+            <p>{{ brew.discription }}</p>
+        {% endfor %}
+    </div>
+</div>
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
+    <div class="">
+        <p class="eyebrow">Our Location</p>
+        <h3>Check Out Our New Digs</h3>
+        {% for digs in page.digs %}
+            <img src="{{ digs.icon }}" alt="">
+            <h4>{{ digs.title }}</h4>
+            <p>{{ digs.distance }}</p>
+        {% endfor %}
+    </div>
+</div>
+<div class="vh80 cntr-cntr-child max-width-3 mx-auto">
+    <div class="center">
+        <p>👋</p>
+        <p>3930 Georgia Ave NW Washington, DC 20011</p>
+    </div>
 </div>
