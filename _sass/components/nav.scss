@@ -1,13 +1,23 @@
+.nav-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
 nav {
       height: 7.5rem;
       margin: 0 5%;
-}
 
-.clearNav {
-    & .nav-wrapper {
-        background: transparent;
-    }
+      & li {
+          color: white;
+          font-size: 2.4rem;
+          margin-bottom: 1rem;
+
+          &:visited {
+              color: white;
+          }
+      }
 }
 
 .brand-logo  {
@@ -100,53 +110,20 @@ nav {
 
 
 .nav-container  {
+        color: white;
         position: fixed;
         height: 100%;
         width: 40%;
         z-index: -1;
-        background: black !important;
+        background: #3D3D3D url(/uploads/menu-texture.png) bottom no-repeat;
+        background-size: contain;
         transform: translateX(100%);
         transition: $transition-1;
-
-        & ul {
-            position: absolute;
-            bottom: 68px;
-            right: 18px;
-
-            & .nav--links {
-            display: block;
-            float: none;
-            text-align: right;
-            margin-bottom: 10px;
-            color: white;
-            font-size: 28px;
-            line-height: 45px;
-            border-right: none;
-            padding-right: 0;
-            }
-
-            & .btn-nav {
-                margin-top: 24px;
-                margin-left: 0;
-                padding: 12px 48px;
-                width: 56vw;
-                max-width: 220px;
-                text-align: center;
-                font-size: 20px;
-                color: white;
-                cursor: pointer;
-            }
-
-            & .cart-icon {
-                display: none;
-            }
-
-            & .nav--links_active {
-                &:after {
-                    display: none;
-                }
-            }
-        }
+        // temp
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
     }
 
     .nav-open {
@@ -188,13 +165,13 @@ nav {
         transition: transform .2s ease;
 
         &:nth-child(1) {
-            transform: translateY(6px) rotate(180deg);
+            transform: translateY(3px) rotate(180deg);
         }
         &:nth-child(2) {
             opacity: 0;
         }
         &:nth-child(3) {
-            transform: translateY(-6px) rotate(90deg);
+            transform: translateY(-12px) rotate(90deg);
         }
         }
     }

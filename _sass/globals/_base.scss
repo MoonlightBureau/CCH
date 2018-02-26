@@ -17,8 +17,11 @@ img {
 
 body {
   min-height: 50vh;
-  background-color: $paper-tan;
   position: relative;
+}
+
+.body-wrap {
+    margin-top: 7.5rem;
 }
 
 
