@@ -26,41 +26,14 @@ layout: default
         </p>
     </div>
 </div>
-<div class="vh60 vert-cntr-child max-width-3 mx-auto">
-    <div class="">
-        <p class="eyebrow">What’s on Tap</p>
-        <h3>Localy Sourced Ciders</h3>
-        <div class="cider-rows">
-            {% for cidery in site.cideries %}
-                <div class="cider-item">
-                    <img src="{{ cidery.icon }}" alt="">
-                    <h4>{{ cidery.title }}</h4>
-                    <p>{{ cidery.distance }}</p>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-<div class="vh60 vert-cntr-child max-width-3 mx-auto">
-    <div class="">
-        <p class="eyebrow">Our Craft Ciders</p>
-        <h3>Keeping It Fresh</h3>
-        {% for freshies in page.fresh %}
-            <h4>{{ freshies.title }}</h4>
-            <p>{{ freshies.discription }}</p>
-        {% endfor %}
-    </div>
-</div>
-<div class="vh60 vert-cntr-child max-width-3 mx-auto">
-    <div class="">
-        <p class="eyebrow">Our Craft Ciders</p>
-        <h3>This is How We Brew It</h3>
-        {% for brew in page.brew-process %}
-            <h4>{{ brew.title }}</h4>
-            <p>{{ brew.discription }}</p>
-        {% endfor %}
-    </div>
-</div>
+
+{% include components/cideries.html %}
+
+{% include components/freshies.html %}
+
+{% include components/brew-process.html %}
+
+
 <div class="vh60 vert-cntr-child max-width-3 mx-auto">
     <div class="">
         <p class="eyebrow">Our Location</p>

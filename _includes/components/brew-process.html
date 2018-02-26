@@ -1,0 +1,10 @@
+<div class="vh60 vert-cntr-child max-width-3 mx-auto">
+    <div class="">
+        <p class="eyebrow">Our Craft Ciders</p>
+        <h3>This is How We Brew It</h3>
+        {% for brew in page.brew-process %}
+            <h4>{{ brew.title }}</h4>
+            <p>{{ brew.discription }}</p>
+        {% endfor %}
+    </div>
+</div>
