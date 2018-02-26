@@ -16,8 +16,8 @@ OurCider2:
 OurCider3:
   image: "/uploads/icon2@2x.png"
   title: Made With Love
-  description: Our process and passion makes every glass deliver the best modern cider
-    tasting experience you can get in the DC area.
+  Description: "Our process and passion makes every glass deliver the best modern
+    cider tasting experience you can get in the DC area. \n"
 layout: home
 ---
 
