@@ -33,18 +33,8 @@ layout: default
 
 {% include components/brew-process.html %}
 
+{% include components/location.html %}
 
-<div class="vh60 vert-cntr-child max-width-3 mx-auto">
-    <div class="">
-        <p class="eyebrow">Our Location</p>
-        <h3>Check Out Our New Digs</h3>
-        {% for digs in page.digs %}
-            <img src="{{ digs.icon }}" alt="">
-            <h4>{{ digs.title }}</h4>
-            <p>{{ digs.distance }}</p>
-        {% endfor %}
-    </div>
-</div>
 <div class="vh80 cntr-cntr-child max-width-3 mx-auto">
     <div class="center">
         <p>👋</p>
