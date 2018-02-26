@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: Home
 description: Capitol Cider House brewery and bar is located in D.C.’s Petworth neighborhood.
   We focus on traditional craft hard cider brewing with modern flavors, producing
@@ -36,6 +35,4 @@ BrewProcess4:
     title: Brew
     description: "Capitol Cider House is a new cider bar and brewery coming to Petworth May 2018. We only selling ciders produced with in 200 miles and our brew’s are made with only local apples and ingredients."    
 layout: home
-=======
->>>>>>> origin/master
 ---
