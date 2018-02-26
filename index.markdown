@@ -18,5 +18,21 @@ OurCider3:
   title: Made With Love
   description: "Our process and passion makes every glass deliver the best modern
     cider tasting experience you can get in the DC area."
+BrewProcess1:
+  number-image:
+  title: Harvest
+  description: "Capitol Cider House is a new cider bar and brewery coming to Petworth May 2018. We only selling ciders produced with in 200 miles and our brew’s are made with only local apples and ingredients."
+BrewProcess2:
+    number-image:
+    title: Press
+    description: "Capitol Cider House is a new cider bar and brewery coming to Petworth May 2018. We only selling ciders produced with in 200 miles and our brew’s are made with only local apples and ingredients."
+BrewProcess3:
+  number-image:
+  title: Fermentation
+  description: "Capitol Cider House is a new cider bar and brewery coming to Petworth May 2018. We only selling ciders produced with in 200 miles and our brew’s are made with only local apples and ingredients."
+BrewProcess4:
+    number-image:
+    title: Brew
+    description: "Capitol Cider House is a new cider bar and brewery coming to Petworth May 2018. We only selling ciders produced with in 200 miles and our brew’s are made with only local apples and ingredients."    
 layout: home
 ---
