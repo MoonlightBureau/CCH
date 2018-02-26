@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: cideries
   values:
-    distance: 
+    distance: "1.2 Miles"
 
 logo:
 email: howdy@danrdesign.com
