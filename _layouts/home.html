@@ -30,11 +30,15 @@ layout: default
     <div class="">
         <p class="eyebrow">What’s on Tap</p>
         <h3>Localy Sourced Ciders</h3>
-        {% for cidery in site.cideries %}
-            <img src="{{ cidery.icon }}" alt="">
-            <h4>{{ cidery.title }}</h4>
-            <p>{{ cidery.distance }}</p>
-        {% endfor %}
+        <div class="cider-rows">
+            {% for cidery in site.cideries %}
+                <div class="cider-item">
+                    <img src="{{ cidery.icon }}" alt="">
+                    <h4>{{ cidery.title }}</h4>
+                    <p>{{ cidery.distance }}</p>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 <div class="vh60 vert-cntr-child max-width-3 mx-auto">
