@@ -1,7 +1,49 @@
+// hero SVG stuff
 
-    #flipflop {
-        height: 100% !important;
+.hero {
+    position: relative;
+
+    div {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
     }
+    svg {
+        width: 100%;
+        max-height: 150vh;
+    }
+}
+
+.hero-first{
+    z-index: 0;
+    transition: .15s;
+    opacity: var(--or);
+}
+
+.hero-second {
+    z-index: 999;
+    opacity: var(--o);
+    transition: .15s;
+    svg {
+        transform: rotate(180deg);
+    }
+}
+
+#flipflop {
+    height: 100% !important;
+}
+
+// .flipflop-blue {
+//     fill: var(--c) !important;
+// }
+//
+// .flipflop-red {
+//     fill: #ff2600 !important;
+// }
+
+
 
 .cch-intro {
     font-weight: 200;
@@ -16,7 +58,7 @@
     margin: 0;
     line-height: 1.1;
     text-transform: uppercase;
-    transform: rotate(var(--rotate));
+    transform: rotate(var(--r));
 
     & span {
         display: inline-block;
