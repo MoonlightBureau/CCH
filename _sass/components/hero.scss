@@ -1,49 +1,23 @@
-// hero SVG stuff
-
 .hero {
     position: relative;
-
-    div {
-        position: absolute;
-        margin: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
-    svg {
+    & svg {
         width: 100%;
-        max-height: 150vh;
+        position: relative;
+        z-index: 2;
     }
 }
-
-.hero-first{
-    z-index: 0;
-    transition: .15s;
-    opacity: var(--or);
+.hero-image {
+    width: 100%;
+    position: absolute;
+    top: -7.5rem;
+    left: 0;
+    z-index: -9999;
+    opacity: .3;
 }
 
-.hero-second {
-    z-index: 999;
-    opacity: var(--o);
-    transition: .15s;
-    svg {
-        transform: rotate(180deg);
-    }
+.move-up {
+    transform: translateY(var(--yu));
 }
-
-#flipflop {
-    height: 100% !important;
-}
-
-// .flipflop-blue {
-//     fill: var(--c) !important;
-// }
-//
-// .flipflop-red {
-//     fill: #ff2600 !important;
-// }
-
-
 
 .cch-intro {
     font-weight: 200;
