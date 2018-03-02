@@ -15,34 +15,17 @@ const rotate = basicScroll.create({
 	}
 })
 
-// const fadeBox = basicScroll.create({
-//         elem: document.querySelector('.hero-second'),
-//         from: 'middle-middle',
-//         to: 'middle-middle',
-//         inside: (instance, percentage, props) => console.log('fadeBox is animating'),
-//         outside: (instance, percentage, props) => console.log('fadeBox is not animating'),
-//         props: {
-//             '--o': {
-//                 from: .01,
-//                 to: .99
-//             }
-//         }
-//     })
-//
-//     const fadeBox_rev = basicScroll.create({
-//             elem: document.querySelector('.hero-second'),
-//             from: 'middle-middle',
-//             to: 'middle-middle',
-//             inside: (instance, percentage, props) => console.log('fadeBox is animating'),
-//             outside: (instance, percentage, props) => console.log('fadeBox is not animating'),
-//             props: {
-//                 '--or': {
-//                     from: .99,
-//                     to: .01
-//                 }
-//             }
-//         })
+const moveUp = basicScroll.create({
+	elem: document.querySelector('.move-up'),
+	from: 'top-top',
+	to: 'bottom-top',
+	props: {
+		'--yu': {
+			from: '0',
+			to: '20rem'
+		}
+	}
+})
 
 rotate.start()
-// fadeBox.start()
-// fadeBox_rev.start()
+moveUp.start()
