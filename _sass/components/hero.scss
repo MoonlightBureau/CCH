@@ -32,27 +32,19 @@
     margin: 0;
     line-height: 1.1;
     text-transform: uppercase;
-    transform: rotate(var(--r));
 
     & span {
         display: inline-block;
         transform-origin: center;
         margin-right: 1rem;
         padding: 1.6rem;
-        &:nth-child(odd) {
-            transform: rotate(45deg);
-        }
-        &:nth-child(even) {
-            transform: rotate(-45deg);
-        }
     }
 }
 
-.cch-open_rev{
-    & span:nth-child(odd) {
-        transform: rotate(-45deg);
-    }
-    & span:nth-child(even) {
-        transform: rotate(45deg);
-    }
+.letters-odd {
+    transform: rotate(var(--r));
+}
+
+.letters-even {
+    transform: rotate(var(--rr));
 }

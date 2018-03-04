@@ -1,31 +1,47 @@
-$(document).ready(function() {
+$( document ).ready(function(){
     $(".cch-open").lettering();
-});
 
+    $(".cch-open").find("span").filter( ":odd" ).addClass('letters-odd');
+    $(".cch-open").find("span").filter( ":even" ).addClass('letters-even');
+
+    const moveUp = basicScroll.create({
+    	elem: document.querySelector('.move-up'),
+    	from: 'top-top',
+    	to: 'bottom-top',
+    	props: {
+    		'--yu': {
+    			from: '0',
+    			to: '20rem'
+    		}
+    	}
+    }, 3000);
 
 const rotate = basicScroll.create({
-	elem: document.querySelector('.cch-open'),
-	from: 'top-bottom',
-	to: 'bottom-top',
+	elem: document.querySelector('.letters-odd'),
+	from: 'middle-bottom',
+	to: 'top-top',
 	props: {
 		'--r': {
-			from: '-45deg',
+			from: '0',
 			to: '45deg'
 		}
 	}
 })
 
-const moveUp = basicScroll.create({
-	elem: document.querySelector('.move-up'),
-	from: 'top-top',
-	to: 'bottom-top',
+const rotateRev = basicScroll.create({
+	elem: document.querySelector('.letters-even'),
+	from: 'middle-bottom',
+	to: 'top-top',
 	props: {
-		'--yu': {
+		'--rr': {
 			from: '0',
-			to: '20rem'
+			to: '-45deg'
 		}
 	}
 })
 
-rotate.start()
-moveUp.start()
+
+    rotate.start()
+    rotateRev.start()
+    moveUp.start()
+});
