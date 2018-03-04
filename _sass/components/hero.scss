@@ -9,7 +9,7 @@
 .hero-image {
     width: 100%;
     position: absolute;
-    top: -7.5rem;
+    top: -37.5rem;
     left: 0;
     z-index: -9999;
     transition: .3s ease-out;
@@ -51,4 +51,15 @@
 
 .letters-even {
     transform: rotate(var(--rr));
+}
+
+.col-offset {
+    margin-left: 25%;
+
+    & p{
+        margin-left: 25%
+    }
+    & h3:after {
+        margin-left: 50%
+    }
 }
