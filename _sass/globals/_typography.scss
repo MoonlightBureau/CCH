@@ -17,6 +17,14 @@ p {
     color: darken( $cch-blue, 16% )
 }
 
+.eyebrow {
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-size: 16px;
+}
+
 h1 {
     font-weight: 800;
     font-size: 64px;
@@ -41,6 +49,7 @@ h3 {
     text-transform: uppercase;
     position: relative;
     margin-bottom: 6rem;
+    margin-top: 0;
     max-width: 50%;
 
     &:after {

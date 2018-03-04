@@ -1,10 +1,10 @@
-    <div class="">
-        <p class="eyebrow">What’s on Tap</p>
+    <div class="cch-cideries relative">
+        <h5 class="eyebrow">What’s on Tap</h5>
         <h3>Localy Sourced Ciders</h3>
+        <p>All our goods are sourced from within 200 miles of the US Capitol Building. We have a few of our own concoctions and many ciders from Mid-Atlantic producers that are otherwise hard to find in DC. We’re always keeping it local.</p>
         <div class="cider-rows">
-            {% for cidery in site.cideries %}
+            {% for cidery in site.cideries limit:6 %}
                 <div class="cider-item">
-                    <img src="{{ cidery.icon }}" alt="">
                     <h4>{{ cidery.title }}</h4>
                     <p>{{ cidery.distance }}</p>
                 </div>
