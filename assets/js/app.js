@@ -11,7 +11,7 @@ $( document ).ready(function(){
     	props: {
     		'--yu': {
     			from: '0',
-    			to: '20rem'
+    			to: '15rem'
     		}
     	}
     }, 3000);

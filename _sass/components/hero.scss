@@ -12,6 +12,8 @@
     top: -7.5rem;
     left: 0;
     z-index: -9999;
+    transition: .3s ease-out;
+    will-change: transform;
     // opacity: .3;
 }
 
@@ -38,6 +40,8 @@
         transform-origin: center;
         margin-right: 1rem;
         padding: 1.6rem;
+        transition: .3s ease-out;
+        will-change: transform;
     }
 }
 
