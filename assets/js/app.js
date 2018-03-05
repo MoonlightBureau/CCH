@@ -19,7 +19,7 @@ $( document ).ready(function(){
 const rotate = basicScroll.create({
 	elem: document.querySelector('.letters-odd'),
 	from: 'middle-bottom',
-	to: 'top-top',
+	to: 'bottom-top',
 	props: {
 		'--r': {
 			from: '0',
@@ -31,7 +31,7 @@ const rotate = basicScroll.create({
 const rotateRev = basicScroll.create({
 	elem: document.querySelector('.letters-even'),
 	from: 'middle-bottom',
-	to: 'top-top',
+	to: 'bottom-top',
 	props: {
 		'--rr': {
 			from: '0',

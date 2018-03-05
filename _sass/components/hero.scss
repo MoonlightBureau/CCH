@@ -54,6 +54,15 @@
 }
 
 .col-offset {
+    & p{
+        margin-left: 12.5%
+    }
+    & h3:after {
+        margin-left: 25%
+    }
+}
+
+.col-offset-offset {
     margin-left: 25%;
 
     & p{
