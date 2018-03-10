@@ -40,6 +40,25 @@ const rotateRev = basicScroll.create({
 	}
 })
 
+document.querySelectorAll('.moneyPiece').forEach((elem) => {
+
+	const modifier = elem.getAttribute('data-modifier')
+
+	basicScroll.create({
+		elem: elem,
+        from: 'top-middle',
+    	to: 'top-top',
+		direct: true,
+		props: {
+			'--translateY': {
+				from: '0',
+				to: `${ 2.2 * modifier }px`
+			}
+		}
+	}).start()
+
+})
+
 
     rotate.start()
     rotateRev.start()

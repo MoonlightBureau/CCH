@@ -91,4 +91,10 @@
     position: absolute;
     right: -21rem;
     top: -16rem;
+    overflow: visible;
+}
+
+.moneyPiece {
+    transform: translate3d(0, var(--translateY), 0);
+    will-change: transform;
 }
