@@ -64,11 +64,29 @@ h3 {
 }
 
 h4{
-    font-weight: 700;
-    font-size: 18px;
-    margin: 0;
-    margin-bottom: 9px;
-    line-height: 24px;
+    font-size: 32px;
+    font-weight: 500;
+    color: $cch-red;
+    letter-spacing: 18px;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    max-width: 50%;
+
+    &:after {
+        content: "";
+        width: 4rem;
+        height: 5px;
+        background-color: #2733FF;
+        position: absolute;
+        bottom: -2.3rem;
+        left: 0;
+    }
+}
+h5 {
+    font-size: 25px;
 }
 
 a {
