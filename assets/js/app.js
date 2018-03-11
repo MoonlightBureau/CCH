@@ -4,17 +4,25 @@ $( document ).ready(function(){
     $(".cch-open").find("span").filter( ":odd" ).addClass('letters-odd');
     $(".cch-open").find("span").filter( ":even" ).addClass('letters-even');
 
-    const moveUp = basicScroll.create({
-    	elem: document.querySelector('.move-up'),
-    	from: 'top-top',
-    	to: 'bottom-top',
-    	props: {
-    		'--yu': {
-    			from: '0',
-    			to: '15rem'
+    document.querySelectorAll('.move-vert').forEach((elem) => {
+
+    	const modifier = elem.getAttribute('data-modifier')
+        const from = elem.getAttribute('data-from')
+        const to = elem.getAttribute('data-to')
+
+    	basicScroll.create({
+    		elem: elem,
+            from: from,
+            to: to,
+    		direct: true,
+    		props: {
+    			'--yu': {
+    				from: '0',
+    				to: `${ 1 * modifier }rem`
+    			}
     		}
-    	}
-    }, 3000);
+    	}).start()
+    });
 
 const rotate = basicScroll.create({
 	elem: document.querySelector('.letters-odd'),
@@ -38,7 +46,7 @@ const rotateRev = basicScroll.create({
 			to: '-45deg'
 		}
 	}
-})
+});
 
 document.querySelectorAll('.moneyPiece').forEach((elem) => {
 
@@ -46,21 +54,20 @@ document.querySelectorAll('.moneyPiece').forEach((elem) => {
 
 	basicScroll.create({
 		elem: elem,
-        from: 'top-middle',
-    	to: 'top-top',
+        from: 'middle-middle',
+    	to: 'bottom-top',
 		direct: true,
 		props: {
 			'--translateY': {
 				from: '0',
-				to: `${ 2.2 * modifier }px`
+				to: `${ 2.4 * modifier }px`
 			}
 		}
 	}).start()
 
-})
+});
 
 
     rotate.start()
     rotateRev.start()
-    moveUp.start()
 });

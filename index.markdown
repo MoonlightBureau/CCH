@@ -20,7 +20,7 @@ OurCider3:
     tasting experience you can get in the DC area.
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
-  title: Harvest
+  title: Select
   description: Capitol Cider House is a new cider bar and brewery coming to Petworth
     May 2018. We only selling ciders produced with in 200 miles and our brew’s are
     made with only local apples and ingredients.
@@ -32,13 +32,13 @@ BrewProcess2:
     made with only local apples and ingredients.
 BrewProcess3:
   number-image: "/uploads/3@2x.png"
-  title: Fermentation
+  title: Ferment
   description: Capitol Cider House is a new cider bar and brewery coming to Petworth
     May 2018. We only selling ciders produced with in 200 miles and our brew’s are
     made with only local apples and ingredients.
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
-  title: Brew
+  title: Bottle & Pour
   description: Capitol Cider House is a new cider bar and brewery coming to Petworth
     May 2018. We only selling ciders produced with in 200 miles and our brew’s are
     made with only local apples and ingredients.

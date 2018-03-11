@@ -17,7 +17,7 @@
     // opacity: .3;
 }
 
-.move-up {
+.move-vert {
     transform: translateY(var(--yu));
 }
 
@@ -73,6 +73,16 @@
     }
 }
 
+.col-super-offset {
+    margin-left: 50%;
+    & p{
+        margin-left: 25%
+    }
+    & h3:after {
+        margin-left: 50%
+    }
+}
+
 .intro-cap {
     position: absolute;
     left: 0;
@@ -97,4 +107,5 @@
 .moneyPiece {
     transform: translate3d(0, var(--translateY), 0);
     will-change: transform;
+    transition: .3s ease-out;
 }

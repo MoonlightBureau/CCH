@@ -1,5 +1,37 @@
-.brew-process-item {
-    & img {
-        width: 7rem;
+.brew-process-group {
+    & h3:after {
+        content: none;
     }
+}
+.brew-process-item {
+    position: relative;
+
+}
+.number {
+    position: absolute;
+    width: 12rem;
+}
+
+.numberRight {
+    top: -8rem;
+    right: 5%;
+}
+.numberLeft {
+    top: 0;
+    left: 5%;
+}
+
+.process-tree {
+    position: absolute;
+    width: 459px;
+    left: 3vw;
+    top: -6rem;
+
+}
+
+.process-press {
+    position: absolute;
+    width: 350px;
+    right: 3vw;
+    top: -6rem;
 }
