@@ -53,35 +53,7 @@
     transform: rotate(var(--rr));
 }
 
-.col-offset {
-    & p{
-        margin-left: 12.5%
-    }
-    & h3:after {
-        margin-left: 25%
-    }
-}
 
-.col-offset-offset {
-    margin-left: 25%;
-
-    & p{
-        margin-left: 25%
-    }
-    & h3:after {
-        margin-left: 50%
-    }
-}
-
-.col-super-offset {
-    margin-left: 50%;
-    & p{
-        margin-left: 25%
-    }
-    & h3:after {
-        margin-left: 50%
-    }
-}
 
 .intro-cap {
     position: absolute;

@@ -1,8 +1,7 @@
 $( document ).ready(function(){
-    $(".cch-open").lettering();
-
-    $(".cch-open").find("span").filter( ":odd" ).addClass('letters-odd');
-    $(".cch-open").find("span").filter( ":even" ).addClass('letters-even');
+    $('.cch-open').lettering();
+    $('.cch-open').find('span').filter( ':odd' ).addClass('letters-odd');
+    $('.cch-open').find('span').filter( ':even' ).addClass('letters-even');
 
     document.querySelectorAll('.move-vert').forEach((elem) => {
 

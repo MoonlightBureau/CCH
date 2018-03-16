@@ -32,6 +32,41 @@ body {
   flex-basis: auto;
 }
 
+.col-offset {
+    & p{
+        margin-left: 12.5%
+    }
+    & h3:after {
+        margin-left: 25%
+    }
+}
+
+.col-offset-offset {
+    margin-left: 25%;
+
+    & p{
+        margin-left: 25%
+    }
+    & h3:after {
+        margin-left: 50%
+    }
+}
+
+.col-bump {
+    margin-left: 20%;
+}
+
+.col-super-offset {
+    margin-left: 37.5%;
+    & p{
+        margin-left: 25%
+    }
+    & h3:after {
+        margin-left: 50%
+    }
+}
+
+
 // Starter Styles
 .vh150 {
     height: 150vh;
@@ -66,4 +101,13 @@ body {
 .my15 {
     margin-top: 15rem;
     margin-bottom: 15rem;
+}
+
+.my20 {
+    margin-top: 18rem;
+    margin-bottom: 18rem;
+}
+
+.mb20 {
+    margin-bottom: 18rem;
 }
