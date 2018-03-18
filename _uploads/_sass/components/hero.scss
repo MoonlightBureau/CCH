@@ -28,7 +28,7 @@
     line-height: 62px;
 }
 
-.cch-open, .cch-events {
+.cch-open {
     font-weight: 800;
     font-size: 9rem;
     margin: 0;
@@ -53,15 +53,6 @@
     transform: rotate(var(--rr));
 }
 
-// DEBUG ME
-
-.events-odd {
-    transform: rotate(var(--events-rotate));
-}
-
-.events-even {
-    transform: rotate(var(--events-rotate-r));
-}
 
 
 .intro-cap {

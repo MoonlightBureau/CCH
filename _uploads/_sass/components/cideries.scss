@@ -1,0 +1,32 @@
+/* On the flex container */
+.cider-rows {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    height: 20vh;
+    margin-left: 12.5%;
+    margin-top: 2rem;
+    & .cider-item {
+        margin-right: 3rem;
+
+        & p {
+            margin-left: 0;
+            line-height: 1;
+        }
+    }
+}
+
+.cideries-twohundred {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    width: 166px;
+}
+
+.cideries-horsey {
+    width: 530px;
+    top: 20rem;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
