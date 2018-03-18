@@ -1,0 +1,66 @@
+.brew-process-group {
+    & h3:after {
+        content: none;
+    }
+}
+.brew-process-item {
+    position: relative;
+
+    h4 {
+        max-width: 71%;
+    }
+}
+
+
+.number {
+    position: absolute;
+    width: 12rem;
+}
+
+.numberRight {
+    top: -4rem;
+    right: -16%;
+}
+.numberLeft {
+    top: -1rem;
+    left: -16%;
+}
+
+.numberOne {
+    top: -8rem;
+}
+
+img.process-tree {
+    position: absolute;
+    width: 477px;
+    left: -32%;
+    top: 0rem;
+}
+
+img.process-wheel {
+    position: absolute;
+    width: 386px;
+    right: -57%;
+    top: 13rem;
+}
+
+img.process-press {
+    position: absolute;
+    width: 360px;
+    right: -26%;
+    top: -4rem;
+}
+
+img.process-ferment {
+    position: absolute;
+    width: 490px;
+    left: -33%;
+    top: -10rem;
+}
+
+img.process-pour {
+    position: absolute;
+    width: 550px;
+    right: -46%;
+    top: 3rem;
+}
