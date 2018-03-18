@@ -5,6 +5,9 @@ collections:
   cideries:
     title: Cideries
     output: true
+  events:
+    title: Events
+    output: true
   posts:
     title: Posts
     output: true
