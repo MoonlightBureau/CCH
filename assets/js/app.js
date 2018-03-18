@@ -103,4 +103,39 @@ $( document ).ready(function(){
 
 // DEBUG ME <————————————
 
+
+// <!-- Smooth scrolling on anchor links. effects any link with a hashtag -->
+
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 800, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+
+
+    // <!-- Make all external links open in blank tab -->
+        $(document.links).filter(function() {
+            return this.hostname != window.location.hostname;
+        }).attr('target', '_blank');
+
+        $(".nav-item").click(function(){
+            $("#nav").prop("checked", false);
+            console.log(close)
+        });
+
 });
+
+// NAV FUNCTIONS
+
+window.onload = function() {
+    document.getElementsByClassName("nav-item").onclick = function checkoff() {
+        document.getElementById("nav").checked = false;
+    }
+}
