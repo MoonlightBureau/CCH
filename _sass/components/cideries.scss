@@ -2,17 +2,23 @@
 .cider-rows {
     display: flex;
     flex-flow: column wrap;
-    align-content: stretch;
-    height: 20vh;
+    align-content: space-between;
+    height: 208px;
     margin-left: 12.5%;
     margin-top: 2rem;
     & .cider-item {
         margin-right: 3rem;
 
+        & h5 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
         & p {
             margin-left: 0;
             line-height: 1;
         }
+
     }
 }
 
