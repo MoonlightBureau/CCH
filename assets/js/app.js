@@ -130,6 +130,11 @@ $( document ).ready(function(){
             console.log(close)
         });
 
+    function infinite(){
+        $('.text-link').css({backgroundPosition:'0px 0px'}).animate({backgroundPosition:"-5000px -2500px"},12000, infinite);
+    }
+    infinite();
+
 });
 
 // NAV FUNCTIONS

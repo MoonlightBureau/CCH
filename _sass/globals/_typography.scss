@@ -91,28 +91,17 @@ h5 {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: inherit;
+
   &:visited {
-    color: blue;
+    color: inherit;
   }
+
   &:hover {
     text-decoration: none;
   }
 }
 
-.post__content, .team-details {
-    & a {
-      font-weight: 900;
-      border-bottom: 1px;
-      color: #4848b9;
-      text-decoration: underline;
-      transition: $transition-1;
-
-      &:hover {
-          color: #6f6ffb;
-      }
-    }
-}
 
 strong {
   font-weight: 700;
@@ -130,17 +119,20 @@ li p {
 
 .text-link {
     position: relative;
-    font-weight: 700;
-    border: 0;
-    box-shadow: inset 0 -4px 0 #61ccc6;
-    -webkit-font-smoothing: antialiased;
-    transition: .3s;
-}
+    cursor: url(/uploads/press@2x.png);
 
-.text-link:hover {
-    color: $white;
-    background-color: $cch-blue;
-    box-shadow: inset 0 -5px 0 $cch-blue;
+    &:after {
+        content: "";
+        background-image: url(/uploads/squiggle_blue.png);
+        position: absolute;
+        width: 100%;
+        bottom: -10px;
+        left: 0;
+        height: 7px;
+        background-size: 28%;
+        background-repeat-y: no-repeat;
+    }
+
 }
 
 hr {
