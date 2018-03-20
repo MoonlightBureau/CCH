@@ -1,23 +1,20 @@
 ---
 title: Home
-description: Capitol Cider House brewery and bar is located in D.C.’s Petworth neighborhood.
-  We focus on traditional craft hard cider brewing with modern flavors, producing
-  more than [#] hand pressed ciders.
-OurCider1:
-  image: "/uploads/icon1@2x.png"
-  title: Mid Atlantic Apples
-  description: Capitol Cider House carefully hand selects local DC, Maryland, and
-    Virginia orchard apples for their unique flavors that are grown for taste.
-OurCider2:
-  image: "/uploads/icon3@2x.png"
-  title: All Natural
-  description: 'In our hand pressed cider making, we preserve all natural ingredients
-    while elevating them further with unique flavor blends.  '
-OurCider3:
-  image: "/uploads/icon2@2x.png"
-  title: Made With Love
-  description: Our process and passion makes every glass deliver the best modern cider
-    tasting experience you can get in the DC area.
+why-cider:
+  title: Why Cider
+  text: 'It’s making a comeback. Cider is the original American beverage of choice,
+    but it fell out of favor during Prohibition. We’re joining the national movement
+    to reclaim cider for the States, and what better place to make our mark on Americana
+    culture than in good ole Washington, D.C.? '
+why-cch:
+  title: Why Capitol Cider House?
+  text: 'At Capitol Cider House, we do cider right. No added chemicals or preservatives.
+    Only showcasing producers within 200 miles of the Capitol building. Always gluten
+    free. Not cloyingly sweet. More like a fine wine than a popsicle. '
+local-source-text: All our goods are sourced from within 200 miles of the US Capitol
+  Building. We have a few of our own concoctions and many ciders from Mid-Atlantic
+  producers that are otherwise hard to find in DC. Our menu is always changing, but
+  we’re always keeping it local.
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
   title: Select
@@ -60,3 +57,4 @@ Location3:
 layout: home
 ---
 
+Capitol Cider House is located at 3930 Georgia Avenue, steps from the metro in the heart of D.C.’s Petworth neighborhood. We focus on creating craft hard cider with modern flavors, producing more than 15 hand pressed ciders.
