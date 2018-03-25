@@ -7,7 +7,7 @@
     position: relative;
 
     h4 {
-        max-width: 71%;
+        max-width: 74%;
     }
 }
 
@@ -15,19 +15,34 @@
 .number {
     position: absolute;
     width: 12rem;
+    @media #{$media-max-tablet}{
+        width: 7rem;
+    }
 }
 
 .numberRight {
-    top: -4rem;
+    top: -3rem;
     right: -16%;
+    @media #{$media-max-tablet}{
+        right: 2%;
+    }
 }
+
 .numberLeft {
     top: -1rem;
     left: -16%;
+    @media #{$media-max-tablet}{
+        right: 2%;
+        top: -3rem;
+        left: auto;
+    }
 }
 
 .numberOne {
     top: -8rem;
+    @media #{$media-max-tablet}{
+        top: -4rem;
+    }
 }
 
 img.process-tree {
@@ -42,6 +57,13 @@ img.process-wheel {
     width: 386px;
     right: -57%;
     top: 13rem;
+    @media #{$media-max-tablet}{
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: 0;
+        margin: auto;
+    }
 }
 
 img.process-press {
@@ -49,6 +71,14 @@ img.process-press {
     width: 360px;
     right: -26%;
     top: -4rem;
+    @media #{$media-max-tablet}{
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: -43px;
+        margin: auto;
+        width: 261px;
+    }
 }
 
 img.process-ferment {
@@ -56,6 +86,16 @@ img.process-ferment {
     width: 490px;
     left: -33%;
     top: -10rem;
+    z-index: -1;
+
+    @media #{$media-max-tablet}{
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: -44px;
+        margin: auto;
+        width: 320px;
+    }
 }
 
 img.process-pour {
@@ -63,4 +103,12 @@ img.process-pour {
     width: 550px;
     right: -46%;
     top: -8rem;
+    @media #{$media-max-tablet}{
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: -136px;
+        margin: auto;
+        width: 370px;
+    }
 }

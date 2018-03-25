@@ -6,6 +6,7 @@
     height: 208px;
     margin-left: 12.5%;
     margin-top: 2rem;
+
     & .cider-item {
         margin-right: 3rem;
 
@@ -18,7 +19,11 @@
             margin-left: 0;
             line-height: 1;
         }
+    }
 
+    @media #{$media-max-tablet}{
+        margin: 0;
+        height: 318px;
     }
 }
 
@@ -35,4 +40,9 @@
     right: 0;
     position: absolute;
     z-index: -1;
+
+    @media #{$media-max-tablet}{
+        top: auto;
+        bottom: 0;
+    }
 }

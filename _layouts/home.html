@@ -2,37 +2,42 @@
 layout: default
 ---
 
-<div class="max-width-3 mx-auto hero">
+<div id="top" class="max-width-3 mx-auto hero">
         {% include svg/FlipFlop.svg %}
 </div>
-<img class="hero-image move-vert"
+<img class="hide-below-tablet hero-image move-vert"
     data-modifier="15"
     data-from="top-top"
     data-to="bottom-top"
     src="/uploads/hero-bg.png"
     alt="">
+<img class="hide-above-tablet hero-image move-vert"
+    data-modifier="15"
+    data-from="top-top"
+    data-to="bottom-top"
+    src="/uploads/bg-mobile.png"
+    alt="">
 
 <!-- Lede -->
-<div class="my15 center max-width-3 mx-auto">
+<div class="my15 center max-width-3 mx-auto px2">
     <p class="cch-intro blue-text">
-        Capitol Cider House brewery and bar is located in D.C.’ <span class="squiggle">Petworth</span> neighborhood. We focus on traditional craft hard cider brewing with modern flavors, producing more than 12 hand pressed ciders.
+        Capitol Cider House is located at 3930 Georgia Avenue, steps from the metro in the heart of D.C.’s Petworth neighborhood. We focus on creating craft hard cider with modern flavors, producing more than 15 hand pressed ciders.
     </p>
 </div>
 
 <!-- Open Time -->
-<div class="my15 center max-width-4 mx-auto">
+<div class="  center mx-auto">
     <div class="cch-open red-text">Open</div>
     <div class="cch-open red-text">May 20</div>
 </div>
 
 <!-- Intro1 Section -->
 <div id="about" class="outter-wrapper relative">
-    <div class="my15 max-width-3 mx-auto">
-        <div class="col-6">
+    <div class="my15 illo-space max-width-3 mx-auto">
+        <div class="sm-col-6 px3">
             <h3>Why Cider?</h3>
             <p>
-                Even our country’s founding fathers were in the cider making game, making it the #1 preferred drink by the early colonists. Inspired by the history of this once go-to pub beverage, the resurgence is alive and flowing at Capitol Cider House. No longer is cider a syrupy, painfully sweet hangover regret, but a choice for the more adventurous.
-            </p>
+                It’s making a comeback. Cider is the original American beverage of choice, but it fell out of favor during Prohibition. We’re joining the national movement to reclaim cider for the States, and what better place to make our mark on Americana culture than in good ole Washington, D.C.?             </p>
         </div>
     </div>
     {% include/svg/money.svg %}
@@ -41,11 +46,11 @@ layout: default
 <!-- Intro2 Section -->
 
 <div class="outter-wrapper relative">
-    <div class="my15 max-width-3 mx-auto">
-        <div class="col-8 col-offset-offset">
+    <div class="my15 max-width-3 mx-auto illo-space">
+        <div class="px3 sm-col-8 col-offset-offset">
             <h3>Why Capitol Cider House?</h3>
-            <p>Capitol Cider House is a part of the fiercely innovative city landscape that is DC culture. We’re proud to be from the same city as Go-go music, 1980s punk legends, the two Daves (Chappelle and Grohl) and mumbo sauce. DC is so fantastic even retired presidents like Barry (Obama) still live down the street. We rep DC hard and wanna help you love it too. So pop down and have a couple classic brews in our thriving neighborhood of Petworth.
-            </p>
+            <p>
+                At Capitol Cider House, we do cider right. No added chemicals or preservatives. Only showcasing producers within 200 miles of the Capitol building. Always gluten free. Not cloyingly sweet. More like a fine wine than a popsicle.             </p>
         </div>
     </div>
     <img src="/uploads/cap.png" class="intro-cap" alt="">
@@ -58,12 +63,13 @@ layout: default
     <div class="my15 max-width-3 mx-auto col-offset">
         {% include components/cideries.html %}
     </div>
-    <img src="/uploads/twohundred.png" class="cideries-twohundred move-vert"
+    <img src="/uploads/twohundred.png" class="xs-hide cideries-twohundred move-vert"
     data-modifier="-16"
     data-from="top-bottom"
     data-to="bottom-top"
     alt="">
     <img src="/uploads/horsey.png" class="cideries-horsey" alt="">
+</div>
 
 <!-- Brew Process -->
 
@@ -74,7 +80,7 @@ layout: default
 <!-- Location section -->
 <div id="location" class="location my15 mb10 relative clearfix">
     <div class="max-width-3 mx-auto ">
-        <div class="relative col-7 right">
+        <div class="relative sm-col-7 right px3 illo-space">
             <h5 class="eyebrow">Our Location</h5>
             <h3>Check out  our new digs</h3>
             <p>We invite you to visit our brand new production space and tasting room at 3930 Georgia Ave NW. Chill out on our patio, play a round of shuffleboard and enjoy a snack while sample a flight of regional ciders.</p>
@@ -87,7 +93,7 @@ layout: default
 <div id="events" class="my5 center max-width-4 mx-auto">
     <div class="cch-events red-text">Events</div>
 </div>
-<div class="my5 max-width-4 mx-auto clearfix">
+<div class="my5 max-width-4 mx-auto clearfix px4">
 
     {% include components/event.html%}
 
@@ -96,10 +102,13 @@ layout: default
 
 <!-- contact -->
 
-<div id="contact" class="cch-address vh80 cntr-cntr-child ">
+<div id="contact" class="cch-address vh80 cntr-cntr-child px3">
     <div class="center max-width-4 margin-auto">
         <p class="hiiiiii">👋</p>
         <p>3930 Georgia Ave NW Washington, DC 20011</p>
-        <p class="email">SAY <a class="text-link" href="mailto:hello@capitolciderhouse.com">hello@capitolciderhouse.com</a></p>
+        <!-- desktop email  -->
+        <p class="email hide-xs">SAY <a class="text-link" href="mailto:hello@capitolciderhouse.com">hello@capitolciderhouse.com</a></p>
+        <!-- mobile email  -->
+        <p class="mobile-email show-xs py2"><a class="text-link" href="mailto:hello@capitolciderhouse.com">Shoot us a Line</a></p>
     </div>
 </div>
