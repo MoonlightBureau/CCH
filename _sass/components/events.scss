@@ -36,6 +36,10 @@
         letter-spacing: 2px;
         margin-top: 1px;
         color: $cch-red;
+
+        @media #{$media-max-tablet}{
+            font-weight: 600;
+        }
     }
 
     & h5.event-title {

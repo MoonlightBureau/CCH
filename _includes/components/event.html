@@ -13,7 +13,7 @@
           {% assign month = event.event-date | date: "%b" %}
           {% assign day-num = event.event-date | date: "%d" %}
           {% assign start-time = event.event-date | date: "%I%p" %}
-          <div class="event-item col md-col-4 flex flex-stretch">
+          <div class="event-item col md-col-4 flex flex-stretch py2">
                 <div class="flex-1 event-col1">
                     <p class="event-date"><span class="day">{{day}}</span></p>
                     <p class="event-time">{{ start-time }}<br>to<br>{{ event.end-time }}</p>
@@ -36,7 +36,7 @@
 <!-- If there are no event coming up, use this placeholder -->
 
     {% if events.size <= 128 %}
-        <div class="events-empty max-width-3 mx-auto">
+        <div class="events-empty max-width-3 mx-auto px3">
             <h4>🤠 Check Back Later 🤠</h4>
             <p>Womp Womp. We don't have any events right now but sign up for our newsletter to stay in the loop about special events, new ciders, and more! </p> </br>
             <a class="btn-prime block" href="#footer">Stay in the Loop</a>

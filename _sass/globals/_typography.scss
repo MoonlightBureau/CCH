@@ -14,7 +14,13 @@ p {
 	margin: 0;
 	margin-bottom: 1rem;
     letter-spacing: .3px;
-    color: darken( $cch-blue, 16% )
+    color: darken( $cch-blue, 16% );
+
+    @media #{$media-max-tablet}{
+        font-size: 18px;
+    	line-height: 38px;
+        font-weight: 400;
+    }
 }
 
 .eyebrow {
@@ -51,6 +57,9 @@ h3 {
     margin-bottom: 6rem;
     margin-top: 0;
     max-width: 50%;
+    @media #{$media-max-tablet}{
+        letter-spacing: 13px;
+    }
 
     &:after {
         content: "";
@@ -63,17 +72,23 @@ h3 {
     }
 }
 
+
+
 h4{
     font-size: 32px;
     font-weight: 500;
     color: $cch-red;
     letter-spacing: 18px;
-    line-height: 46px;
+    line-height: 38px;
     text-transform: uppercase;
     position: relative;
     margin-bottom: 4rem;
     margin-top: 0;
     max-width: 68%;
+
+    @media #{$media-max-tablet}{
+        letter-spacing: 12px;
+    }
 
     &:after {
         content: "";
@@ -130,7 +145,7 @@ li p {
         left: 0;
         height: 7px;
         background-size: 28%;
-        background-repeat-y: no-repeat;
+        background-repeat: repeat-x;
     }
 
 }

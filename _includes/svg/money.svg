@@ -226,54 +226,80 @@
     </symbol>
 </defs>
 <title>money</title>
-<g id="Layer_2" data-name="Layer 2">
-    <g class="moneyPiece" data-modifier="300">
-        <use id="money13" width="466.55" height="317.78" transform="translate(501.47 45.3) scale(0.81)" xlink:href="#money"/>
+<g id="moneystacks" data-name="Layer 2">
+    <g class="push-mobile-12">
+        <g class="moneyPiece" data-modifier="300">
+            <use id="money13" width="466.55" height="317.78" transform="translate(501.47 45.3) scale(0.81)" xlink:href="#money"/>
+        </g>
     </g>
-    <g class="moneyPiece" data-modifier="250">
-        <use id="money12" width="466.55" height="317.78" transform="translate(464.21 79.39) scale(0.82)" xlink:href="#money"/>
+    <g class="push-mobile-11">
+        <g class="moneyPiece" data-modifier="250">
+            <use id="money12" width="466.55" height="317.78" transform="translate(464.21 79.39) scale(0.82)" xlink:href="#money"/>
+        </g>
     </g>
-    <g class="moneyPiece" data-modifier="200">
-        <use id="money11" width="466.55" height="317.78" transform="translate(426.96 113.47) scale(0.84)" xlink:href="#money"/>
+    <g class="push-mobile-10">
+        <g class="moneyPiece" data-modifier="200">
+            <use id="money11" width="466.55" height="317.78" transform="translate(426.96 113.47) scale(0.84)" xlink:href="#money"/>
+        </g>
     </g>
-    <g class="moneyPiece" data-modifier="150">
-        <use id="money10" width="466.55" height="317.78" transform="translate(389.7 147.56) scale(0.86)" xlink:href="#money"/>
-    </g>
-
-    <g class="moneyPiece" data-modifier="100">
-        <use id="money9" width="466.55" height="317.78" transform="translate(352.45 181.64) scale(0.87)" xlink:href="#money"/>
-    </g>
-
-    <g class="moneyPiece" data-modifier="50">
-        <use id="money8" width="466.55" height="317.78" transform="translate(315.19 215.72) scale(0.89)" xlink:href="#money"/>
-    </g>
-
-    <g class="moneyPiece" data-modifier="0">
-        <use id="money7" width="466.55" height="317.78" transform="translate(277.94 249.81) scale(0.9)" xlink:href="#money"/>
+    <g class="push-mobile-9">
+        <g class="moneyPiece" data-modifier="150">
+            <use id="money10" width="466.55" height="317.78" transform="translate(389.7 147.56) scale(0.86)" xlink:href="#money"/>
+        </g>
     </g>
 
-    <g class="moneyPiece" data-modifier="-50">
-        <use id="money6" width="466.55" height="317.78" transform="translate(240.68 283.89) scale(0.92)" xlink:href="#money"/>
+    <g class="push-mobile-8">
+        <g class="moneyPiece" data-modifier="100">
+            <use id="money9" width="466.55" height="317.78" transform="translate(352.45 181.64) scale(0.87)" xlink:href="#money"/>
+        </g>
     </g>
 
-    <g class="moneyPiece" data-modifier="-100">
-        <use id="money5" width="466.55" height="317.78" transform="translate(203.43 317.98) scale(0.94)" xlink:href="#money"/>
+    <g class="push-mobile-7">
+        <g class="moneyPiece" data-modifier="50">
+            <use id="money8" width="466.55" height="317.78" transform="translate(315.19 215.72) scale(0.89)" xlink:href="#money"/>
+        </g>
     </g>
 
-    <g class="moneyPiece" data-modifier="-150">
-        <use id="money4" width="466.55" height="317.78" transform="translate(166.17 352.06) scale(0.95)" xlink:href="#money"/>
+    <g class="push-mobile-6">
+        <g class="moneyPiece" data-modifier="0">
+            <use id="money7" width="466.55" height="317.78" transform="translate(277.94 249.81) scale(0.9)" xlink:href="#money"/>
+        </g>
     </g>
 
-    <g class="moneyPiece" data-modifier="-200">
-        <use id="money3" width="466.55" height="317.78" transform="translate(128.92 386.14) scale(0.97)" xlink:href="#money"/>
+    <g class="push-mobile-5">
+        <g class="moneyPiece" data-modifier="-50">
+            <use id="money6" width="466.55" height="317.78" transform="translate(240.68 283.89) scale(0.92)" xlink:href="#money"/>
+        </g>
     </g>
 
-    <g class="moneyPiece" data-modifier="-250">
-        <use id="money2" width="466.55" height="317.78" transform="translate(91.66 420.23) scale(0.98)" xlink:href="#money"/>
+    <g class="push-mobile-4">
+        <g class="moneyPiece" data-modifier="-100">
+            <use id="money5" width="466.55" height="317.78" transform="translate(203.43 317.98) scale(0.94)" xlink:href="#money"/>
+        </g>
     </g>
 
-    <g class="moneyPiece" data-modifier="-300">
-        <use id="money1" width="466.55" height="317.78" transform="translate(54.41 454.31)" xlink:href="#money"/>
+    <g class="push-mobile-3">
+        <g class="moneyPiece" data-modifier="-150">
+            <use id="money4" width="466.55" height="317.78" transform="translate(166.17 352.06) scale(0.95)" xlink:href="#money"/>
+        </g>
+    </g>
+
+    <g class="push-mobile-2">
+        <g class="moneyPiece" data-modifier="-200">
+            <use id="money3" width="466.55" height="317.78" transform="translate(128.92 386.14) scale(0.97)" xlink:href="#money"/>
+        </g>
+    </g>
+
+    <g class="push-mobile-1">
+        <g class="moneyPiece" data-modifier="-250">
+            <use id="money2" width="466.55" height="317.78" transform="translate(91.66 420.23) scale(0.98)" xlink:href="#money"/>
+        </g>
+    </g>
+
+    <g class="">
+        <g class="moneyPiece" data-modifier="-300">
+            <use id="money1" width="466.55" height="317.78" transform="translate(54.41 454.31)" xlink:href="#money"/>
+        </g>
     </g>
 </g>
 

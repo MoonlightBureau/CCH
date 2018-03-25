@@ -1,5 +1,6 @@
 $( document ).ready(function(){
     $('.cch-open').lettering();
+
     $('.cch-open').find('span').filter( ':odd' ).addClass('letters-odd');
     $('.cch-open').find('span').filter( ':even' ).addClass('letters-even');
 
@@ -127,7 +128,6 @@ $( document ).ready(function(){
 
         $(".nav-item").click(function(){
             $("#nav").prop("checked", false);
-            console.log(close)
         });
 
     function infinite(){

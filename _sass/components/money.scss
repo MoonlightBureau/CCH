@@ -1,0 +1,69 @@
+
+#money-illo {
+    width: 950px;
+    position: absolute;
+    right: -21rem;
+    top: -16rem;
+    overflow: visible;
+
+    @media #{$media-max-tablet}{
+        top: inherit;
+        bottom: -4rem;
+        width: 700px;
+        right: -18rem;
+    }
+}
+
+#moneystacks {
+    &:nth-child(1) {
+        transform: translateX(1rem);
+    }
+}
+
+.moneyPiece {
+    transform: translate3d(0, var(--translateY), 0);
+    will-change: transform;
+    transition: .3s ease-out;
+    @media #{$media-max-tablet}{
+        transform: translate3d(0, calc(var(--translateY)/2), 0);
+    }
+}
+
+@media #{$media-max-tablet}{
+    .push-mobile-12 {
+        display: none;
+    }
+    .push-mobile-11 {
+        display: none;
+    }
+    .push-mobile-10 {
+        display: none;
+    }
+    .push-mobile-9 {
+        display: none;
+    }
+    .push-mobile-8 {
+        display: none;
+    }
+    .push-mobile-7 {
+        display: none;
+    }
+    .push-mobile-6 {
+        transform: translateX(14rem);
+    }
+    .push-mobile-5 {
+        transform: translateX(12rem);
+    }
+    .push-mobile-4 {
+        transform: translateX(9rem);
+    }
+    .push-mobile-3 {
+        transform: translateX(6rem);
+    }
+    .push-mobile-2 {
+        transform: translateX(3rem);
+    }
+    .push-mobile-1 {
+        transform: translateX(1.5rem);
+    }
+}

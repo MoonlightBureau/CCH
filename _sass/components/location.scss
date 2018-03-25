@@ -1,10 +1,16 @@
 .location {
     & div {
         margin-left: 25%;
+        @media #{$media-max-tablet}{
+            margin: 0;
+        }
     }
 
     & h3 {
         max-width: none;
+    }
+    @media #{$media-max-tablet}{
+        overflow: hidden;
     }
 }
 
@@ -13,4 +19,14 @@
     left: -24rem;
     top: -5rem;
     width: 900px;
+    z-index: -1;
+
+    @media #{$media-max-tablet}{
+        top: auto;
+        left: -14rem;
+        right: 0;
+        bottom: -303px;
+        margin: auto;
+        min-width: 650px;
+    }
 }
