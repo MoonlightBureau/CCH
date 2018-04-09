@@ -42,7 +42,9 @@ BrewProcess4:
 Location:
   label: Our Location
   title: Check out our new digs
-  description: We invite you to visit our brand new production space and tasting room at 3930 Georgia Ave NW. Chill out on our patio, play a round of shuffleboard and enjoy a snack while sample a flight of regional ciders.
+  description: We invite you to visit our brand new production space and tasting room
+    at 3930 Georgia Ave NW. Chill out on our patio, play a round of shuffleboard and
+    enjoy a snack while sample a flight of regional ciders.
 address: 3930 Georgia Ave NW Washington, DC 20011
 email: hello@capitolciderhouse.com
 layout: home
