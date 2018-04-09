@@ -1,9 +1,6 @@
 ---
 title: Home
-intro-text: Capitol Cider House is located at 3930 Georgia Avenue, steps from the
-  metro in the heart of D.C.’s Petworth neighborhood. We focus on creating craft hard
-  cider with modern flavors, producing more than 15 hand pressed ciders.
-open-date: May 24
+opening-day: May 23
 why-cider:
   title: Why Cider
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
