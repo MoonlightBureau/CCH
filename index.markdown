@@ -1,6 +1,6 @@
 ---
 title: Home
-opening-day: May 23, 2001 at 7:00pm
+opening-day: May 23
 why-cider:
   title: Why Cider
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
