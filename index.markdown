@@ -1,5 +1,7 @@
 ---
 title: Home
+intro-text: Capitol Cider House is located at 3930 Georgia Avenue, steps from the metro in the heart of D.C.’s Petworth neighborhood. We focus on creating craft hard cider with modern flavors, producing more than 15 hand pressed ciders.
+open-date: May 24
 why-cider:
   title: Why Cider
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
@@ -11,10 +13,9 @@ why-cch:
   text: 'At Capitol Cider House, we do cider right. No added chemicals or preservatives.
     Only showcasing producers within 200 miles of the Capitol building. Always gluten
     free. Not cloyingly sweet. More like a fine wine than a popsicle. '
-local-source-text: All our goods are sourced from within 200 miles of the US Capitol
-  Building. We have a few of our own concoctions and many ciders from Mid-Atlantic
-  producers that are otherwise hard to find in DC. Our menu is always changing, but
-  we’re always keeping it local.
+BrewProcess-intro:
+  label: Made Right Here
+  title: Our Craft Ciders
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
   title: Select
@@ -39,21 +40,12 @@ BrewProcess4:
   description: Capitol Cider House is a new cider bar and brewery coming to Petworth
     May 2018. We only selling ciders produced with in 200 miles and our brew’s are
     made with only local apples and ingredients.
-Location1:
-  image: "/uploads/icon1@2x.png"
-  title: Point One
-  description: Capitol Cider House carefully hand selects local DC, Maryland, and
-    Virginia orchard apples for their unique flavors that are grown for taste.
-Location2:
-  image: "/uploads/icon2@2x.png"
-  title: Point Two
-  description: Capitol Cider House carefully hand selects local DC, Maryland, and
-    Virginia orchard apples for their unique flavors that are grown for taste.
-Location3:
-  image: "/uploads/icon3@2x.png"
-  title: Point Three
-  description: Capitol Cider House carefully hand selects local DC, Maryland, and
-    Virginia orchard apples for their unique flavors that are grown for taste.
+Location:
+  label: Our Location
+  title: Check out our new digs
+  description: We invite you to visit our brand new production space and tasting room at 3930 Georgia Ave NW. Chill out on our patio, play a round of shuffleboard and enjoy a snack while sample a flight of regional ciders.
+address: 3930 Georgia Ave NW Washington, DC 20011
+email: hello@capitolciderhouse.com
 layout: home
 ---
 
