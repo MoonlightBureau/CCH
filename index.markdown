@@ -1,6 +1,6 @@
 ---
 title: Home
-opening-day: May 23
+opening-day: June 28
 why-cider:
   title: Why Cider
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
