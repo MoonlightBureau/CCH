@@ -1,6 +1,6 @@
 ---
 title: Home
-opening-day: June 28
+opening-day: Thursday through Sunday, noon to 10 pm
 why-cider:
   title: Why Cider
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
