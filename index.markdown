@@ -18,9 +18,8 @@ BrewProcess-intro:
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
   title: Select
-  description: Capitol Cider House is a new cider bar and brewery coming to Petworth
-    May 2018. We only selling ciders produced with in 200 miles and our brew’s are
-    made with only local apples and ingredients.
+  description: 'Our home grown ciders start in local orchards. We choose cider apples
+    known for complex flavors. '
 BrewProcess2:
   number-image: "/uploads/2@2x.png"
   title: Press
