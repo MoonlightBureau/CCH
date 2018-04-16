@@ -13,31 +13,31 @@ why-cch:
     Only showcasing producers within 200 miles of the Capitol building. Always gluten
     free. Not cloyingly sweet. More like a fine wine than a popsicle. '
 BrewProcess-intro:
-  label: Made Right Here
-  title: Our Craft Ciders
+  label: Our Craft Ciders
+  title: Made Right Here
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
   title: Select
-  description: 'Our home grown ciders start in local orchards. We choose cider apples
-    known for complex flavors. '
+  description: Our home grown ciders start in local orchards. We choose cider apples
+    known for complex flavors. Every production run is different. We grab what's growing
+    well and will taste great in your cup!
 BrewProcess2:
   number-image: "/uploads/2@2x.png"
   title: Press
-  description: Capitol Cider House is a new cider bar and brewery coming to Petworth
-    May 2018. We only selling ciders produced with in 200 miles and our brew’s are
-    made with only local apples and ingredients.
+  description: 'Next, we grind our apples into small bits in a process called milling.
+    Then we''re ready to press fresh juice. '
 BrewProcess3:
   number-image: "/uploads/3@2x.png"
   title: Ferment
-  description: Capitol Cider House is a new cider bar and brewery coming to Petworth
-    May 2018. We only selling ciders produced with in 200 miles and our brew’s are
-    made with only local apples and ingredients.
+  description: 'We add yeast and other natural ingredients, like honey or fruit juice,
+    to our fresh apple juice. Then it''s time to sit back and let nature take her
+    course. The yeast gets to work, turning those natural sugars into alcohol and
+    CO2. '
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
-  title: Bottle & Pour
-  description: Capitol Cider House is a new cider bar and brewery coming to Petworth
-    May 2018. We only selling ciders produced with in 200 miles and our brew’s are
-    made with only local apples and ingredients.
+  title: Package  &  Pour
+  description: Once the cider is ready, we package it up in bottles and kegs. Now,
+    it's ready to enjoy!
 Location:
   label: Our Location
   title: Check out our new digs
