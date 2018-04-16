@@ -25,8 +25,7 @@ BrewProcess2:
   number-image: "/uploads/2@2x.png"
   title: Press
   description: 'Next, we grind our apples into small bits in a process called milling.
-    Then we''re ready to press fresh juice. One bushel yields about 2.5 gallons of
-    delicious juice. '
+    Then we''re ready to press! One bushel yields about 2.5 gallons of delicious juice. '
 BrewProcess3:
   number-image: "/uploads/3@2x.png"
   title: Ferment
@@ -37,8 +36,8 @@ BrewProcess3:
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
   title: Package  &  Pour
-  description: Once the cider is ready, we package it up in bottles and kegs. Now,
-    it's ready to enjoy!
+  description: 'Once the cider is ready, we package it up in bottles and kegs. It''s
+    ready to enjoy now, or we can wait a few months to develop more flavor. '
 Location:
   label: Our Location
   title: Check out our new digs
