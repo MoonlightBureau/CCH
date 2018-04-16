@@ -25,7 +25,8 @@ BrewProcess2:
   number-image: "/uploads/2@2x.png"
   title: Press
   description: 'Next, we grind our apples into small bits in a process called milling.
-    Then we''re ready to press fresh juice. '
+    Then we''re ready to press fresh juice. One bushel yields about 2.5 gallons of
+    delicious juice. '
 BrewProcess3:
   number-image: "/uploads/3@2x.png"
   title: Ferment
