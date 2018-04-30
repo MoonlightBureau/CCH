@@ -7,36 +7,67 @@
         <div class="mb20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-6 col-super-offset px3">
                     <h4>{{ page.BrewProcess1.title }}</h4>
-                    <p>{{ page.BrewProcess1.description }}</p>
+                    <p>{{ page.BrewProcess1.description | markdownify| markdownify }}</p>
                 </div>
-                <img class="number numberRight numberOne" src="{{ page.BrewProcess1.number-image}}" alt="">
-                <img class="process-tree xs-hide" src="/uploads/tree@2x.png" alt="">
-                <img class="process-wheel" src="/uploads/wheelbarrel@2x.png" alt="">
+                <img class="number numberRight numberOne move-vert" src="{{ page.BrewProcess1.number-image}}" alt=""
+                data-modifier="-4"
+                data-from="top-middle"
+                data-to="bottom-top"
+                alt="">
+                <img class="process-tree xs-hide move-vert" src="/uploads/tree@2x.png" alt=""
+                data-modifier="-4"
+                data-from="top-bottom"
+                data-to="bottom-middle"
+                alt="">
+                <img class="process-wheel move-horiz" src="/uploads/wheelbarrel@2x.png" alt=""
+                data-modifier="-4"
+                data-from="top-bottom"
+                data-to="bottom-top"
+                alt="">
         </div>
 
         <div class="my20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-6 col-bump px3">
                     <h4>{{ page.BrewProcess2.title }}</h4>
-                    <p>{{ page.BrewProcess2.description }}</p>
+                    <p>{{ page.BrewProcess2.description | markdownify}}</p>
                 </div>
-            <img class="number numberLeft" src="{{ page.BrewProcess2.number-image}}" alt="">
-            <img class="process-press" src="/uploads/press@2x.png" alt="">
+            <img class="number numberLeft move-vert" src="{{ page.BrewProcess2.number-image}}" alt=""
+            data-modifier="-4"
+            data-from="top-middle"
+            data-to="bottom-top"
+            alt="">
+            <div id="squeezy"></div>
         </div>
         <div class="my20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-6 col-super-offset px3">
                     <h4>{{ page.BrewProcess3.title }}</h4>
-                    <p>{{ page.BrewProcess3.description }}</p>
+                    <p>{{ page.BrewProcess3.description | markdownify}}</p>
                 </div>
-            <img class="number numberRight" src="{{ page.BrewProcess3.number-image}}" alt="">
-            <img class="process-ferment" src="/uploads/Ferment@2x.png" alt="">
+            <img class="number numberRight move-vert" src="{{ page.BrewProcess3.number-image}}" alt=""
+            data-modifier="-4"
+            data-from="top-middle"
+            data-to="bottom-top"
+            alt="">
+            <div id="bubbly" class="move-horiz"
+            data-modifier="5"
+            data-from="top-bottom"
+            data-to="bottom-top"
+            alt=""></div>
         </div>
         <div class="my20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-5 col-bump px3">
                     <h4>{{ page.BrewProcess4.title }}</h4>
-                    <p>{{ page.BrewProcess4.description }}</p>
+                    <p>{{ page.BrewProcess4.description | markdownify}}</p>
                 </div>
-                <img class="number numberLeft" src="{{ page.BrewProcess4.number-image}}" alt="">
-                <img class="process-pour" src="/uploads/pour@2x.png" alt="">
+                <img class="number numberLeft move-vert" src="{{ page.BrewProcess4.number-image}}" alt=""
+                data-modifier="-4"
+                data-from="top-middle"
+                data-to="bottom-top"
+                alt="">
+                <div id="drippy" class="move-vert"
+                data-modifier="-8"
+                data-from="top-middle"
+                data-to="bottom-top"
+                alt=""></div>
         </div>
     </div>
-</div>

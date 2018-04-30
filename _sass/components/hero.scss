@@ -26,12 +26,22 @@
             transform: translateY(calc(var(--yu)/2));
     }
 }
+.move-horiz {
+    transform: translateX(var(--yu));
+    @media #{$media-max-tablet}{
+            transform: translateX(calc(var(--yu)/2));
+    }
+}
 
 .cch-intro {
-    font-weight: 200;
-    font-size: 2.3rem;
-    margin: 0;
-    line-height: 62px;
+    & p{
+        font-weight: 200;
+        font-size: 2.3rem;
+        margin: 0;
+        line-height: 62px;
+        color: $cch-blue;
+    }
+
 
     @media #{$media-max-tablet}{
         font-size: 1.7rem;
@@ -40,6 +50,13 @@
 }
 
 .cch-open, .cch-events {
+        display: inline-block;
+        transform-origin: center;
+        font-weight: 800;
+        font-size: 12vw;
+        line-height: 1.1;
+        text-transform: uppercase;
+        letter-spacing: 3rem;
     & span {
         display: inline-block;
         transform-origin: center;
@@ -50,6 +67,7 @@
         line-height: 1.1;
         text-transform: uppercase;
         margin-right: 1rem;
+        letter-spacing: 0;
 
         transition: .3s ease-out;
         will-change: transform;
@@ -59,6 +77,12 @@
             margin-right: 0;
         }
     }
+}
+
+.cch-open_hours {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 500;
 }
 
 .cch-events {
@@ -83,7 +107,7 @@
 .intro-cap {
     position: absolute;
     left: 0;
-    top: 14rem;
+    top: 3rem;
     width: 410px;
     z-index: -1;
 
