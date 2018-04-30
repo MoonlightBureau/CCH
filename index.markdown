@@ -1,6 +1,5 @@
 ---
 title: Home
-opening-day: July 21
 hours: Thu-Fri (4pm-12am) | Sat-Sun (12pm-12am)
 why-cider:
   title: Why Cider?
