@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var shell = require('gulp-shell');
 var browserSync = require('browser-sync').create();
 
+
 // Task for building blog when something changed:
 gulp.task('build', shell.task(['jekyll serve']));
 // If you don't use bundle:
