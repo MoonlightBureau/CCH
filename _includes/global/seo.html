@@ -4,7 +4,7 @@
 <title>{{ page.title }} - {{site.title}}</title>
 <meta property="og:title" content="{{ site.title | escape }}" />
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %} {{ site.description | strip_html }} {% endif %}"/>
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %} {{ site.description | strip_html }} {% endif %}"/>
+<meta property="og:description" content=" {{ site.description | strip_html }}"/>
 <link rel="canonical" href="{{site.url}}{{page.url}}" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
 <meta property="og:site_name" content="{{site.title}}" />
@@ -28,7 +28,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@CapCiderHouse" />
 <meta name="twitter:creator" content="@CapCiderHouse" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+<meta name="twitter:title" content=" {{ site.title | escape }}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 120}}{% else %} {{ site.description | strip_html | truncate: 120}} {% endif %}">
 <meta name="twitter:image" content="{{ site.url }}{{ site.social-media-image }}">
 <script type="application/ld+json">
