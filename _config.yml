@@ -20,13 +20,8 @@ defaults:
     type: cideries
   values:
     distance: 1.2 Miles
-<<<<<<< HEAD
-logo: 
-email: hello@capitolciderhouse.com
-=======
 logo:
-email: howdy@danrdesign.com
->>>>>>> scroll4ever_take2
+email: hello@capitolciderhouse.com
 description: Capitol Cider House brewery and bar is located in D.C.’s Petworth neighborhood.
   We focus on traditional craft hard cider brewing with modern flavors, producing
   more than [#] hand pressed ciders.
