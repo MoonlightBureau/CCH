@@ -1,6 +1,7 @@
 ---
 title: Petworth Holiday Carolling
 date: 2018-03-18 11:56:00 -04:00
+published: false
 event-date: 2018-05-26 00:00:00 -04:00
 end-time: 2AM
 giphy-url: https://giphy.com/gifs/s2qXK8wAvkHTO/html5
