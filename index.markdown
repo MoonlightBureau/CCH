@@ -1,8 +1,9 @@
 ---
 title: Home
 opening-day: July 21
+hours: Thu-Fri (4pm-12am) | Sat-Sun (12pm-12am)
 why-cider:
-  title: Why Cider
+  title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
     but it fell out of favor during Prohibition. We’re joining the national movement
     to reclaim cider for the States, and what better place to make our mark on Americana
@@ -49,4 +50,4 @@ email: hello@capitolciderhouse.com
 layout: home
 ---
 
-Capitol Cider House is located at 3930 Georgia Avenue, steps from the metro in the heart of D.C.’s Petworth neighborhood. We focus on creating craft hard cider with modern flavors, producing more than 15 hand pressed ciders.
+Capitol Cider House is located at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of D.C.’s Petworth neighborhood. We focus on creating craft hard cider with modern flavors, producing more than 15 hand pressed ciders.

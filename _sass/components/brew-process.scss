@@ -66,19 +66,48 @@ img.process-wheel {
     }
 }
 
-img.process-press {
-    position: absolute;
-    width: 360px;
+// img.process-press {
+//
+//     width: 360px;
+//
+//     @media #{$media-max-tablet}{
+//         right: 0;
+//         left: 0;
+//         top: auto;
+//         bottom: -43px;
+//         margin: auto;
+//         width: 261px;
+//     }
+// }
+
+#squeezy {
     right: -26%;
     top: -4rem;
-    @media #{$media-max-tablet}{
-        right: 0;
-        left: 0;
-        top: auto;
-        bottom: -43px;
-        margin: auto;
-        width: 261px;
-    }
+    position: absolute;
+    $frames: 5;
+    $img-width: 3608px;
+    $img-height: 1090px;
+    $sprite-width: $img-width / $frames;
+
+  width: ($sprite-width / 2);
+  height: ($img-height/2);
+  background: url('/uploads/presssprite.png') left center;
+  background-size: cover;
+  animation: play 3s steps($frames, start) infinite;
+  animation-direction: alternate;
+
+  @keyframes play {
+  0% {background-position: 0;}
+  100% { background-position: ($img-width /2); }
+  }
+
+  @media #{$media-max-tablet}{
+      right: 0;
+      left: 0;
+      top: auto;
+      bottom: -43px;
+      margin: auto;
+  }
 }
 
 img.process-ferment {
@@ -97,18 +126,78 @@ img.process-ferment {
         width: 320px;
     }
 }
+#bubbly {
+    position: absolute;
+    left: -43%;
+    top: -10rem;
+    z-index: -1;
+    $bub-frames: 4;
+    $bub-img-width: 4213px;
+    $bub-img-height: 1336px;
+    $bub-sprite-width: $bub-img-width / $bub-frames;
 
-img.process-pour {
+  width: ($bub-sprite-width / 2);
+  height: ($bub-img-height/2);
+  background: url('/uploads/fermentsprite.png') left center;
+  background-size: cover;
+  animation: bub-play 2s steps($bub-frames, start) infinite;
+  animation-direction: alternate;
+
+  @keyframes bub-play {
+  0% {background-position: 0;}
+  100% { background-position: ($bub-img-width /2); }
+  }
+
+  @media #{$media-max-tablet}{
+      right: 0;
+      left: 0;
+      top: auto;
+      bottom: -43px;
+      margin: auto;
+  }
+}
+
+// img.process-pour {
+//     position: absolute;
+//     width: 550px;
+//     right: -46%;
+//     top: -8rem;
+//     @media #{$media-max-tablet}{
+//         right: 0;
+//         left: 0;
+//         top: auto;
+//         bottom: -136px;
+//         margin: auto;
+//         width: 370px;
+//     }
+// }
+#drippy {
     position: absolute;
     width: 550px;
     right: -46%;
     top: -8rem;
-    @media #{$media-max-tablet}{
-        right: 0;
-        left: 0;
-        top: auto;
-        bottom: -136px;
-        margin: auto;
-        width: 370px;
-    }
+    $drip-frames: 7;
+    $drip-img-width: 7643px;
+    $drip-img-height: 1455px;
+    $drip-sprite-width: $drip-img-width / $drip-frames;
+
+  width: ($drip-sprite-width / 2);
+  height: ($drip-img-height/2);
+  background: url('/uploads/drippySprite.png') left center;
+  background-size: cover;
+  animation: drip-play 3s steps($drip-frames, start) infinite;
+  animation-direction: alternate;
+
+  @keyframes drip-play {
+  0% {background-position: 0;}
+  100% { background-position: ($drip-img-width /2); }
+  }
+  @media #{$media-max-tablet}{
+      right: 0;
+      left: 0;
+      top: auto;
+      bottom: -136px;
+      margin: auto;
+  }
+
 }

@@ -1,31 +1,39 @@
 /* On the flex container */
 .cider-rows {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-content: space-between;
     height: 208px;
     margin-left: 12.5%;
     margin-top: 2rem;
 
     & .cider-item {
-        margin-right: 3rem;
+        margin-right: 1.4rem;
+        width: 6.4rem;
+        @media #{$media-max-tablet}{
+            margin-right: 0.6rem;
+        }
 
         & h5 {
-            font-size: 20px;
-            margin-bottom: 10px;
+            font-size: 18px;
+            margin-bottom: 6px;
+            margin-top: 22px;
         }
 
         & p {
             margin-left: 0;
             line-height: 1;
+            font-size: 15px;
         }
     }
 
     @media #{$media-max-tablet}{
-        margin: 0;
-        height: 318px;
+            margin: 0;
     }
 }
+
+
+
 
 .cideries-twohundred {
     position: absolute;
@@ -36,8 +44,8 @@
 
 .cideries-horsey {
     width: 530px;
-    top: 20rem;
-    right: 0;
+    top: 11rem;
+    right: -11rem;
     position: absolute;
     z-index: -1;
 

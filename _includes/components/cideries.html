@@ -3,7 +3,8 @@
         <h3>Localy Sourced Ciders</h3>
         <p>All our goods are sourced from within 200 miles of the US Capitol Building. We have a few of our own concoctions and many ciders from Mid-Atlantic producers that are otherwise hard to find in DC. Our menu is always changing, but we’re always keeping it local.</p>
         <div class="cider-rows">
-            {% for cidery in site.cideries limit:6 %}
+            {% assign ciderSort = site.cideries | sort:"position" %}
+            {% for cidery in site.cideries %}
                 <div class="cider-item">
                     <h5>{{ cidery.title }}</h5>
                     <p>{{ cidery.distance }}</p>
