@@ -32,7 +32,7 @@ BrewProcess3:
   description: 'We add yeast and other natural ingredients, like honey or fruit juice,
     to our fresh apple juice. Then it''s time to sit back and let nature take her
     course. The yeast gets to work, turning those natural sugars into alcohol and
-    CO~2. '
+    CO~2~. '
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
   title: Package  &  Pour
