@@ -41,7 +41,7 @@
         <div class="my20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-6 col-super-offset px3">
                     <h4>{{ page.BrewProcess3.title }}</h4>
-                    <p>{{ page.BrewProcess3.description | markdownify}}</p>
+                    {{ page.BrewProcess3.description | markdownify }}
                 </div>
             <img class="number numberRight move-vert" src="{{ page.BrewProcess3.number-image}}" alt=""
             data-modifier="-4"
