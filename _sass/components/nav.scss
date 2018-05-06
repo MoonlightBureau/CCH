@@ -214,6 +214,9 @@ nav {
 
 form {
     position: relative;
+    & input:focus {
+        outline: none;
+    }
 
     & input.email {
         width: 100%;
