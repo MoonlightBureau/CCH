@@ -142,22 +142,29 @@ $( document ).ready(function(){
         });
     });
 
+// MAILCHIMP FUNCTION
 
-    // <!-- Make all external links open in blank tab -->
-        $(document.links).filter(function() {
-            return this.hostname != window.location.hostname;
-        }).attr('target', '_blank');
+$('.myform').submit(function(e) {
+  var $this = $(this);
+  $.ajax({
+      type: "GET", // GET & url for json slightly different
+      url: "http://XXXXXXXX.list-manage2.com/subscribe/post-json?c=?",
+      data: $this.serialize(),
+      dataType    : 'json',
+      contentType: "application/json; charset=utf-8",
+      error       : function(err) { alert("Could not connect to the registration server."); },
+      success     : function(data) {
+          if (data.result != "success") {
+              // Something went wrong, parse data.msg string and display message
+          } else {
+              // It worked, so hide form and display thank-you message.
+          }
+      }
+  });
+  return false;
+});
 
-        $(".nav-item").click(function(){
-            $("#nav").prop("checked", false);
-        });
-
-    // function infinite(){
-    //     $('.text-link').css({backgroundPosition:'0px 0px'}).animate({backgroundPosition:"-5000px -2500px"},12000, infinite);
-    // }
-    // infinite();
-
-
+// END DOCUMENT READY
 });
 
 // NAV FUNCTIONS
@@ -172,84 +179,72 @@ window.onload = function() {
 
 // Get window width and height
 
-var w=window,
-d=document,
-e=d.documentElement,
-g=d.getElementsByTagName('body')[0],
-x=w.innerWidth||e.clientWidth||g.clientWidth,
-y=w.innerHeight||e.clientHeight||g.clientHeight;
-
-
-
-
-// Track Scroll Position
-window.onload = function() {
-     firstSection = document.getElementById('firstSection');
-     lastSection = document.getElementById('lastSection');
-     scrollPosition = 0;
-     topReloadPoint = firstSection.clientHeight;
-     bottomReloadPoint = document.body.clientHeight - lastSection.clientHeight
-     bottom = document.body.clientHeight - window.outerHeight + 194
-     feed = document.getElementById('sections');
-     sections = feed.getElementsByTagName('section')
-     sectionCount = sections.length
-
-
-     ticking = false;
-        window.addEventListener('scroll', function(e) {
-          scrollPosition = window.scrollY;
-          if (scrollPosition <= topReloadPoint) {
-              console.log("I'm at the top!")
-          }
-        //   if (scrollPosition >= bottom) {
-        //       console.log("I'm at the bottom!")
-          //
-        //     //   newSection = newSectionfx(newestSection);
-        //     //   firstSection.remove();
-        2//     //   feed.appendChild(feed);
-        //     //   feed.appendCount ++;
-        //   }
-        if (scrollPosition >= bottom) {
-            console.log("I'm at the bottom!")
-            window.scrollTo(0, 0);
-
-          //   newSection = newSectionfx(newestSection);
-          //   firstSection.remove();
-          //   feed.appendChild(feed);
-          //   feed.appendCount ++;
-        }
-
-        });
-// fin
-};
-
-
-// function trackScroll(scrollPosition) {
+// var w=window,
+// d=document,
+// e=d.documentElement,
+// g=d.getElementsByTagName('body')[0],
+// x=w.innerWidth||e.clientWidth||g.clientWidth,
+// y=w.innerHeight||e.clientHeight||g.clientHeight;
+//
+//
+//
+// newSection = function() {
+//     console.log("you're doing it peter")
 // }
-// newSectionfx = function() {
-//       newestSection = feed;
-//     }
+//
+//
+//
+// var feed = document.getElementById('content-wrapper');
+// var sections = document.getElementsByTagName('section');
+// var itm = feed.lastElementChild;
+// function myFunction() {
+//  var clone = itm.cloneNode(true);
+//  feed.appendChild(clone);
+// }
+//
+// // Track Scroll Position
+// window.onload = function() {
+//      firstSection = document.getElementById('firstSection');
+//      lastSection = document.getElementById('lastSection');
+//      scrollPosition = 0;
+//      topReloadPoint = firstSection.clientHeight;
+//      bottomReloadPoint = document.body.clientHeight - lastSection.clientHeight - 200
+//      bottom = document.body.clientHeight - window.outerHeight + 194
+//     //  feed = document.getElementById('sections');
+//     //  sections = feed.getElementsByTagName('section')
+//      sectionCount = sections.length
+//
+//      var feed = {
+//        sectionCount: 10,
+//        appendCount: 0,
+//        currentName: 'curated',
+//        isLoadingSection: false
+//      };
+//
+//      feed.el = {
+//        feed: d.getElementById('feed'),
+//        sections: d.getElementById('sections'),
+//        firstSection: d.getElementById('firstSection'),
+//        lastSection:d.getElementById('lastSection'),
+//      };
+//
+//
+//      ticking = false;
+//         window.addEventListener('scroll', function(e) {
+//           scrollPosition = window.scrollY;
+//           if (scrollPosition <= topReloadPoint) {
+//               console.log("I'm at the top!")
+//           }
+//         if (scrollPosition >= bottomReloadPoint) {
+//             console.log("I'm at the bottom!")
+//
+//         }
+//
+//         });
+// fin
+// };
 
-    //     showFeed = function() {
-    //     fadeOut(500, function() {
-    //       feed.html('');
-    //       for (var i = 0; i < feed.sectionCount; i++) {
-    //         var $newSection = feed.newSection(feedName);
-    //         feed.el.sections.append($newSection);
-    //         feed.appendCount ++;
-    //       }
-    //   });
-    //   showFeed();
-      //
-    //       // Set initial scroll position to middle.
-    //       var $theSections = feed.el.sections.find("section"),
-    //         initialOffset = $theSections.eq(Math.floor($theSections.length / 2)).offset().top;
-    //       page.prevScroll = initialOffset;
-    //       $(window).scrollTop(initialOffset);
-    //       // Fade in active feed
-    //       feed.el.feed.fadeIn(500);
-
-    // };
+// MailChimp function
 
 
 

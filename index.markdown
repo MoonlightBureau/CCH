@@ -12,6 +12,13 @@ why-cch:
   text: 'At Capitol Cider House, we do cider right. No added chemicals or preservatives.
     Only showcasing producers within 200 miles of the Capitol building. Always gluten
     free. Not too sweet. More like a fine wine than a popsicle. '
+cideries:
+  eyebrow: What’s on Tap
+  title: Localy Sourced Ciders
+  description: All our goods are sourced from within 200 miles of the US Capitol Building.
+    We have a few of our own concoctions and many ciders from Mid-Atlantic producers
+    that are otherwise hard to find in DC. Our menu is always changing, but we’re
+    always keeping it local.
 BrewProcess-intro:
   label: Our Craft Ciders
   title: Made Right Here
@@ -29,10 +36,9 @@ BrewProcess2:
 BrewProcess3:
   number-image: "/uploads/3@2x.png"
   title: Ferment
-  description: 'We add yeast and other natural ingredients, like honey or fruit juice,
-    to our fresh apple juice. Then it''s time to sit back and let nature take her
-    course. The yeast gets to work, turning those natural sugars into alcohol and
-    CO~2~. '
+  description: We add yeast and other natural ingredients, like honey or fruit juice,
+    to our fresh apple juice. Then it's time to sit back and let nature take her course.
+    The yeast gets to work, turning those natural sugars into alcohol and CO~2~.
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
   title: Package  &  Pour
