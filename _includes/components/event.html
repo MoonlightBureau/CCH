@@ -37,9 +37,9 @@
 
     {% if events.size <= 128 %}
         <div class="events-empty max-width-3 mx-auto px3">
-            <h4>🤠 Check Back Later 🤠</h4>
-            <p>Womp Womp. We don't have any events right now but sign up for our newsletter to stay in the loop about special events, new ciders, and more! </p> </br>
-            <a class="btn-prime block" href="#footer">Stay in the Loop</a>
+            <h4>{{ page.no-events.title }}</h4>
+            <p>{{ page.no-events.description }}</p> </br>
+            {% include components/signupform.html%}
         </div>
 
     {% else %}
