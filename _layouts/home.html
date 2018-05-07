@@ -33,10 +33,17 @@ layout: default
             <!-- Open Time -->
             {% assign today = site.time | date: "%s" %}
             {% assign openingday = site.opening-date | date: "%s" %}
+            {% capture date %}
+                {% if page.is-open-month-only %}
+                    <div class="cch-open red-text">{{site.opening-date | date: "%B"}}</div>
+                {%else%}
+                    <div class="cch-open red-text">{{site.opening-date | date: "%B %d"}}</div>
+                {%endif%}
+            {% endcapture %}
             {% if today < openingday %}
             <div class="  center mx-auto">
                 <div class="cch-open red-text">Open</div>
-                <div class="cch-open red-text">{{site.opening-date | date: "%B %d"}}</div>
+                {{ date }}
             </div>
             {% else %}
             <div class="  center mx-auto">
