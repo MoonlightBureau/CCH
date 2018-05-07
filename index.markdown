@@ -1,6 +1,6 @@
 ---
 title: Home
-is-only-month: true
+is-show-open-month: true
 hours: Opening in late June or early July!
 why-cider:
   title: Why Cider?
