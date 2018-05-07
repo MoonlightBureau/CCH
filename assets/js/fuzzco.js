@@ -164,38 +164,38 @@ var bp = {
         page.goingDown = false;
       };
 
-      // Add a new section
-    //   feed.newSection = function(feedName) {
-    //     feed.isLoadingSection = true;
-    //     if (feedName === 'curated') {
-    //       // Prep Curated Source
-    //       var $newSection = $(feed.source.curated);
-    //     } else {
-    //       // Prep Dynamic Source
-    //       var sectionSource = $(".section-all-template").html();
-    //       var sectionTemplate = Handlebars.compile(sectionSource),
-    //         numberOfPosts = 7,
-    //         numberOfTweets = 3,
-    //         numberOfInstagrams = 2;
-    //       // Data source that we'll put post items and tweets into.
-    //       var data = {};
+      Add a new section
+      feed.newSection = function(feedName) {
+        feed.isLoadingSection = true;
+        if (feedName === 'curated') {
+          // Prep Curated Source
+          var $newSection = $(feed.source.curated);
+        } else {
+          // Prep Dynamic Source
+          var sectionSource = $(".section-all-template").html();
+          var sectionTemplate = Handlebars.compile(sectionSource),
+            numberOfPosts = 7,
+            numberOfTweets = 3,
+            numberOfInstagrams = 2;
+          // Data source that we'll put post items and tweets into.
+          var data = {};
 
-        //   // GET POSTS
-        //   for (var i = 0; i < numberOfPosts; i++) {
-        //     var randomIndex, post = null;
-        //     // If this is the last post that isn't in feed.usedPosts, reset feed.usedPosts.
-        //     if (feed.used.work.length + 1 == POSTS.length) { feed.used.work = [] };
-        //     // Get a random post until it finds one that's not already been feed.used.
-        //     while (!post) {
-        //       randomIndex = Math.floor(Math.random() * (POSTS.length - 1)),
-        //         post = POSTS[randomIndex];
-        //       if (feed.used.work.indexOf(post.id) > -1) {
-        //         post = null;
-        //       }
-        //     }
-        //     feed.used.work.push(post.id);
-        //     // Compile the handlebars template using the post data.
-        //     data["work-" + (i + 1)] = templates.work(post);
+          // GET POSTS
+          for (var i = 0; i < numberOfPosts; i++) {
+            var randomIndex, post = null;
+            // If this is the last post that isn't in feed.usedPosts, reset feed.usedPosts.
+            if (feed.used.work.length + 1 == POSTS.length) { feed.used.work = [] };
+            // Get a random post until it finds one that's not already been feed.used.
+            while (!post) {
+              randomIndex = Math.floor(Math.random() * (POSTS.length - 1)),
+                post = POSTS[randomIndex];
+              if (feed.used.work.indexOf(post.id) > -1) {
+                post = null;
+              }
+            }
+            feed.used.work.push(post.id);
+            // Compile the handlebars template using the post data.
+            data["work-" + (i + 1)] = templates.work(post);
         //   }
 
         //   // GET TWEETS
