@@ -49,12 +49,14 @@ Location:
   label: Our Location
   title: Check out our new digs
   description: 'We invite you to visit our brand new production space and tasting
-    room at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on our patio, play a round of shuffleboard
-    and enjoy a snack while sampling a flight of regional ciders. Kids are welcome,
-    and friendly dogs can hang out in our outside space. '
+    room at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on
+    our patio, play a round of shuffleboard and enjoy a snack while sampling a flight
+    of regional ciders. Kids are welcome, and friendly dogs can hang out in our outside
+    space. '
 no-events:
   title: Check Back Later
-  description: Womp Womp. We don't have any events right now but sign up for our newsletter to stay in the loop about special events, new ciders, and more!
+  description: Womp Womp. We don't have any events right now but sign up for our newsletter
+    to stay in the loop about special events, new ciders, and more!
 address: 3930 Georgia Ave NW Washington, DC 20011
 email: hello@capitolciderhouse.com
 layout: home
