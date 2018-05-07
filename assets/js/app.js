@@ -174,7 +174,9 @@ window.onload = function() {
         document.getElementById("nav").checked = false;
     }
 }
-
+$(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
 // -----------------------------------
 
 // Get window width and height

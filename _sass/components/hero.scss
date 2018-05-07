@@ -40,6 +40,10 @@
         margin: 0;
         line-height: 62px;
         color: $cch-blue;
+        & a {
+            background-position: 0 43px;
+            background-size: 24px 7px;
+        }
     }
 
 

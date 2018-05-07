@@ -1,5 +1,6 @@
 ---
 title: Home
+is-open-month-only: true
 hours: Opening in late June or early July!
 why-cider:
   title: Why Cider?
@@ -38,7 +39,7 @@ BrewProcess3:
   title: Ferment
   description: We add yeast and other natural ingredients, like honey or fruit juice,
     to our fresh apple juice. Then it's time to sit back and let nature take her course.
-    The yeast gets to work, turning those natural sugars into alcohol and CO~2~.
+    The yeast gets to work, turning those natural sugars into alcohol and CO<sub>2</sub>.
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
   title: Package  &  Pour
@@ -49,9 +50,14 @@ Location:
   label: Our Location
   title: Check out our new digs
   description: 'We invite you to visit our brand new production space and tasting
-    room at 3930 Georgia Ave NW. Chill out on our patio, play a round of shuffleboard
-    and enjoy a snack while sampling a flight of regional ciders. Kids are welcome,
-    and friendly dogs can hang out in our outside space. '
+    room at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on
+    our patio, play a round of shuffleboard and enjoy a snack while sampling a flight
+    of regional ciders. Kids are welcome, and friendly dogs can hang out in our outside
+    space. '
+no-events:
+  title: Check Back Later
+  description: Womp Womp. We don't have any events right now but sign up for our newsletter
+    to stay in the loop about special events, new ciders, and more!
 address: 3930 Georgia Ave NW Washington, DC 20011
 email: hello@capitolciderhouse.com
 layout: home

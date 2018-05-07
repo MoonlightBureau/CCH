@@ -16,6 +16,20 @@ p {
     letter-spacing: .3px;
     color: darken( $cch-blue, 16% );
 
+    a {
+       color: inherit;
+       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0%3C/style%3E%3Cpath fill='none' stroke='%23f00' stroke-width='3' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+       background-position: 0 21px;
+       background-size: 17px 7px;
+       background-repeat: repeat-x;
+       padding-bottom: 13px;
+       text-decoration: none;
+     &:hover {
+           background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f00' stroke-width='3' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+     }
+   }
+
+
     @media #{$media-max-tablet}{
         font-size: 18px;
     	line-height: 38px;
@@ -74,6 +88,7 @@ h3 {
 
 
 
+
 h4{
     font-size: 32px;
     font-weight: 500;
@@ -104,17 +119,10 @@ h5 {
     font-size: 25px;
 }
 
+
 a {
-  text-decoration: none;
-  color: inherit;
-
-  &:visited {
-    color: inherit;
-  }
-
-  &:hover {
     text-decoration: none;
-  }
+    color: inherit;
 }
 
 
@@ -133,21 +141,10 @@ li p {
 }
 
 .text-link {
-    position: relative;
-    cursor: url(/uploads/press@2x.png);
-
-    &:after {
-        content: "";
-        background-image: url(/uploads/squiggle_blue.png);
-        position: absolute;
-        width: 100%;
-        bottom: -10px;
-        left: 0;
-        height: 7px;
-        background-size: 28%;
-        background-repeat: repeat-x;
+    @media #{$media-max-tablet}{
+        background-position: 0 36px;
+        background-size: 23px 7px;
     }
-
 }
 
 hr {

@@ -62,4 +62,22 @@
             margin: auto;
         }
     }
+    & p {
+        line-height: 42px;
+    }
+    & form input.email {
+        border: 1px solid $cch-red;
+    }
+    & .mc-field-group {
+        margin: auto;
+        width: 300px;
+        position: relative;
+    }
+}
+
+.events-wrap {
+    padding: 0 4rem;
+    @media #{$media-max-tablet}{
+        padding: 0;
+    }
 }

@@ -3,7 +3,6 @@
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
-    height: 208px;
     margin-left: 12.5%;
     margin-top: 2rem;
 
@@ -42,10 +41,22 @@
     width: 166px;
 }
 
-.cideries-horsey {
+.cideries-horsey-bg {
     width: 530px;
-    top: 11rem;
-    right: -11rem;
+    top: -5rem;
+    right: -9rem;
+    position: absolute;
+    z-index: -1;
+
+    @media #{$media-max-tablet}{
+        top: auto;
+        bottom: 0;
+    }
+}
+.cideries-horsey-horse {
+    width: 530px;
+    bottom: -7rem;
+    right: -9rem;
     position: absolute;
     z-index: -1;
 

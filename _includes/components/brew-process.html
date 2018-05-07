@@ -7,7 +7,7 @@
         <div class="mb20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-6 col-super-offset px3">
                     <h4>{{ page.BrewProcess1.title }}</h4>
-                    <p>{{ page.BrewProcess1.description | markdownify| markdownify }}</p>
+                    {{ page.BrewProcess1.description | markdownify}}
                 </div>
                 <img class="number numberRight numberOne move-vert" src="{{ page.BrewProcess1.number-image}}" alt=""
                 data-modifier="-4"
@@ -29,7 +29,7 @@
         <div class="my20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-6 col-bump px3">
                     <h4>{{ page.BrewProcess2.title }}</h4>
-                    <p>{{ page.BrewProcess2.description | markdownify}}</p>
+                    {{ page.BrewProcess2.description | markdownify}}
                 </div>
             <img class="number numberLeft move-vert" src="{{ page.BrewProcess2.number-image}}" alt=""
             data-modifier="-4"
@@ -57,7 +57,7 @@
         <div class="my20 brew-process-item max-width-3 mx-auto relative illo-space">
                 <div class="sm-col-5 col-bump px3">
                     <h4>{{ page.BrewProcess4.title }}</h4>
-                    <p>{{ page.BrewProcess4.description | markdownify}}</p>
+                    {{ page.BrewProcess4.description | markdownify}}
                 </div>
                 <img class="number numberLeft move-vert" src="{{ page.BrewProcess4.number-image}}" alt=""
                 data-modifier="-4"
