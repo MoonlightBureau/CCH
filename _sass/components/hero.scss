@@ -34,22 +34,25 @@
 }
 
 .cch-intro {
+    max-width: 42rem;
     & p{
         font-weight: 200;
         font-size: 2.3rem;
         margin: 0;
         line-height: 62px;
         color: $cch-blue;
+        @media #{$media-max-tablet}{
+            font-size: 1.7rem;
+            line-height: 48px;
+        }
         & a {
             background-position: 0 43px;
             background-size: 24px 7px;
+            @media #{$media-max-tablet}{
+                background-position: 0 37px;
+                background-size: 21px 6px;
+            }
         }
-    }
-
-
-    @media #{$media-max-tablet}{
-        font-size: 1.7rem;
-        line-height: 42px;
     }
 }
 
