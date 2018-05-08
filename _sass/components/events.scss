@@ -6,8 +6,24 @@
     transform: rotate(var(--events-rotate-r));
 }
 .event-item {
+    &:hover .event-col1 {
+        background-color: $cch-blue;
+        & p, span, h5 {
+            color: white;
+        }
+    }
+    &:hover .event-col2 {
+        background-color: $cch-red;
+        & p, span, h5, .month {
+            color: white;
+        }
+    }
     & .event-col1 {
         padding-right: 12px;
+        transition: .2s;
+    }
+    & .event-col2 {
+        transition: .2s;
     }
     & p.event-date {
         font-size: 38px;
@@ -27,7 +43,6 @@
             margin-right: 7px;
         }
     }
-
     & p.event-time {
         text-align: right;
         line-height: 18px;
@@ -78,6 +93,6 @@
 .events-wrap {
     padding: 0 4rem;
     @media #{$media-max-tablet}{
-        padding: 0;
+        padding: 0 2rem;
     }
 }

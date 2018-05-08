@@ -111,8 +111,9 @@ img.process-wheel {
       right: 0;
       left: 0;
       top: auto;
-      bottom: -43px;
+      bottom: -126px;
       margin: auto;
+      transform: scale(0.74);
   }
 }
 #bubbly {
@@ -130,10 +131,11 @@ img.process-wheel {
 
     @media #{$media-max-tablet}{
         right: 0;
-        left: 0;
+        left: -28px;
         top: auto;
-        bottom: -43px;
+        bottom: -11rem;
         margin: auto;
+        transform: scale(0.6);
     }
 }
 #drippy {
@@ -151,9 +153,10 @@ img.process-wheel {
 
     @media #{$media-max-tablet}{
         right: 0;
-        left: 0;
+        left: -84px;
         top: auto;
-        bottom: -136px;
+        bottom: -204px;
         margin: auto;
+        transform: scale(0.65);
     }
 }

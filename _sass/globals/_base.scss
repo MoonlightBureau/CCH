@@ -198,3 +198,48 @@ body {
         display: none;
     }
 }
+
+
+
+// HIDE THE SCROLLBAR
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+
+.mouseOver_text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  transform: translateY(-50%);
+  top: 50%;
+  text-align: center;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+    margin: 0 auto;
+  }
+}
+
+#previewImage {
+  position: absolute;
+  display: none;
+  color: #fff;
+  z-index: -2;
+  img {
+    width: 80vw;
+  }
+}
