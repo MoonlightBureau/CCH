@@ -10,20 +10,30 @@
         background-color: $cch-blue;
         & p, span, h5 {
             color: white;
+            transform: translateX(5px);
         }
     }
     &:hover .event-col2 {
         background-color: $cch-red;
         & p, span, h5, .month {
             color: white;
+            transform: translateX(5px);
         }
     }
     & .event-col1 {
         padding-right: 12px;
         transition: .2s;
+        & p, span, h5 {
+            transform: none;
+            transition: .2s transform;
+        }
     }
     & .event-col2 {
         transition: .2s;
+        & p, span, h5, .month {
+            transform: none;
+            transition: .2s transform;
+        }
     }
     & p.event-date {
         font-size: 38px;
@@ -42,6 +52,9 @@
             color: $cch-red;
             margin-right: 7px;
         }
+    }
+    & p.event-day {
+        text-align: right;
     }
     & p.event-time {
         text-align: right;
