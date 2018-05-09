@@ -47,9 +47,10 @@
 
 img.process-tree {
     position: absolute;
-    width: 477px;
+    width: 569px;
     left: -32%;
     top: 0rem;
+    z-index: -3;
 }
 
 img.process-wheel {
@@ -66,19 +67,20 @@ img.process-wheel {
     }
 }
 
-// img.process-press {
-//
-//     width: 360px;
-//
-//     @media #{$media-max-tablet}{
-//         right: 0;
-//         left: 0;
-//         top: auto;
-//         bottom: -43px;
-//         margin: auto;
-//         width: 261px;
-//     }
-// }
+img.process-press {
+    width: 360px;
+    right: -26%;
+    top: -4rem;
+    position: absolute;
+    @media #{$media-max-tablet}{
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: -43px;
+        margin: auto;
+        width: 261px;
+    }
+}
 
 @mixin animateSprite($name, $frames, $img-width, $img-height, $image) {
     $sprite-width: $img-width / $frames;
@@ -94,6 +96,7 @@ img.process-wheel {
     100% { background-position: ($img-width /2); }
     }
 }
+
 
 #squeezy {
     right: -26%;
@@ -122,10 +125,10 @@ img.process-wheel {
     top: -10rem;
     z-index: -1;
     @include animateSprite(
-      $image: "/uploads/fermentsprite.png",
+      $image: "/uploads/sprite-brew.png",
       $name: "bubbly",
       $frames: 4,
-      $img-width: 4213px,
+      $img-width: 4234px,
       $img-height: 1336px,
     );
 
