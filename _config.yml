@@ -27,7 +27,7 @@ description: Capitol Cider House brewery and bar is located in D.C.’s Petworth
   more hand pressed ciders.
 url: https://capitolciderhouse.com
 permalink: pretty
-social-media-image: "/uploads/og-image.jpg"
+social-media-image: "/uploads/cch_OG.png"
 exclude:
 - node_modules
 - gulpfile.js
