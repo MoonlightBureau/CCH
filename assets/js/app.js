@@ -193,8 +193,38 @@ $(document.links).filter(function() {
  function previewImages() {
    /* CONFIG */
 
-   xOffset = 350;
-   yOffset = 20;
+   // get the position of the items
+   function getPosition(element) {
+       var xPosition = 0;
+       var yPosition = 0;
+
+       while (element) {
+           xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+           yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+           element = element.offsetParent;
+       }
+       return {
+           x: xPosition,
+           y: yPosition
+       };
+    }
+
+    // function showDetails() {
+    //    var ww = Math.max(document.documentElement.clientWidth, window.innerWidth || 0); //width of the window
+    //    var pos = getPosition(this); //position of the hovered element relative to window
+    //    var ew = this.offsetWidth; //width of the hovered element
+    //
+    //    if (pos.x > (ww / 2)) { //element is on right side of viewport
+    //        var xOffset = -350;
+    //        var yOffset = -20;
+    //    } else { //element is on left side of viewport
+    //        var xOffset = 350;
+    //        var yOffset = 20;
+    //    }
+    // }
+
+    var xOffset = 350;
+    var yOffset = 20;
 
    // these 2 variable determine popup's distance from the cursor
    // you might want to adjust to get the right result
@@ -204,7 +234,21 @@ $(document.links).filter(function() {
 
    $("a.screenshot").hover(function(e) {
 
+       var ww = Math.max(document.documentElement.clientWidth, window.innerWidth || 0); //width of the window
+       var pos = getPosition(this); //position of the hovered element relative to window
+       var ew = this.offsetWidth; //width of the hovered element
+
+       if (pos.x > (ww / 2)) { //element is on right side of viewport
+            xOffset = -350;
+            yOffset = -20;
+       } else { //element is on left side of viewport
+            xOffset = 350;
+            yOffset = 20;
+       }
+
        var $this = $(this); // caching $(this)
+
+
 
 
        $("body").append("<div id='previewImage'><img src='" + this.rel + "' alt='rens preview image' />" + "</div>");
