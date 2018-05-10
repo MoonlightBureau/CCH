@@ -58,7 +58,7 @@ no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
     to stay in the loop about special events, new ciders, and more!
-address: 3930 Georgia Ave NW Washington, DC 20011
+address: 3930 Georgia Ave NW, Washington, DC 20011
 email: hello@capitolciderhouse.com
 layout: home
 ---
