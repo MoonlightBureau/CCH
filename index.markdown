@@ -7,7 +7,7 @@ why-cider:
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
     but it fell out of favor during Prohibition. We’re joining the national movement
     to reclaim cider for the States, and what better place to make our mark on Americana
-    culture than in good ole Washington, D.C.? '
+    culture than in good ole Washington, DC? '
 why-cch:
   title: Why Capitol Cider House?
   text: 'At Capitol Cider House, we do cider right. No added chemicals or preservatives.
@@ -58,9 +58,9 @@ no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
     to stay in the loop about special events, new ciders, and more!
-address: 3930 Georgia Ave NW Washington, DC 20011
+address: 3930 Georgia Ave NW, Washington, DC 20011
 email: hello@capitolciderhouse.com
 layout: home
 ---
 
-Capitol Cider House is located at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of D.C.’s Petworth neighborhood. We focus on creating and curating craft hard cider with modern flavors.
+Capitol Cider House is located at [3930 Georgia Avenue NW](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of DC’s Petworth neighborhood. We focus on creating and curating craft hard cider with modern flavors.
