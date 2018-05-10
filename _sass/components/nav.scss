@@ -265,3 +265,11 @@ p.sign-up {
         letter-spacing: 3px;
     }
 }
+
+.nav-item {
+    transform: none;
+    transition: .3s;
+    &:hover {
+        transform: translateX(4px);
+    }
+}
