@@ -15,7 +15,7 @@ why-cch:
     free. Not too sweet. More like a fine wine than a popsicle. '
 cideries:
   eyebrow: What’s on Tap
-  title: Localy Sourced Ciders
+  title: Locally Sourced Ciders
   description: All our goods are sourced from within 200 miles of the US Capitol Building.
     We have a few of our own concoctions and many ciders from Mid-Atlantic producers
     that are otherwise hard to find in DC. Our menu is always changing, but we’re
