@@ -1,7 +1,7 @@
 ---
 title: Home
-is-open-month-only: true
-hours: Opening in late June or early July!
+is-open-month-only: false
+hours: Thursday and Friday- 4pm to 10pm, Saturday and Sunday - 11am to 10pm
 why-cider:
   title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
