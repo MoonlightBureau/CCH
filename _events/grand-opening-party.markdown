@@ -6,4 +6,3 @@ layout: default
 ---
 
 We're making an entrance July 20. Get excidered! [Learn more and register on Eventbrite. ](https://www.eventbrite.com/e/capitol-cider-house-grand-opening-party-tickets-47978014533)
-
