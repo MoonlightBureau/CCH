@@ -54,7 +54,7 @@ Location:
     our patio, play a round of shuffleboard and enjoy a snack while sampling a flight
     of regional ciders. Kids are welcome, and friendly dogs can hang out in our outside
     space. Our peppy space is also available for private and semi-private events.
-    Email us at [events@capitolciderhouse.com](mailto: events@capitolciderhouse.com)
+    Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info! '
 no-events:
   title: Check Back Later
