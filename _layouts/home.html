@@ -40,17 +40,11 @@ layout: default
                     <div class="cch-open red-text">{{site.opening-date | date: "%B %d"}}</div>
                 {%endif%}
             {% endcapture %}
-            {% if today < openingday %}
-            <div class="  center mx-auto">
-                <div class="cch-open red-text">Open</div>
-                {{ date }}
-            </div>
-            {% else %}
+
             <div class="  center mx-auto">
                 <div class="cch-open red-text">Open</div>
                 <div class="cch-open_hours">{{page.hours}}</div>
             </div>
-            {% endif %}
         </section>
         <section>
             <!-- Intro1 Section -->
