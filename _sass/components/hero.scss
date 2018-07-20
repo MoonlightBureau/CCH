@@ -92,8 +92,14 @@
     font-weight: 500;
     line-height: 1.7;
     padding: 0 16px;
-    max-width: 530px;
+    max-width: 620px;
     margin: auto;
+    font-size: 27px;
+    @media #{$media-max-tablet}{
+        font-size: 16px;
+        letter-spacing: 4px;
+        max-width: 360px;
+    }
 }
 
 .cch-events {
