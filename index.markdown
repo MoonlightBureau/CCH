@@ -1,7 +1,7 @@
 ---
 title: Home
 is-open-month-only: false
-hours: "Thurs & Fri — 4pm to 12am \nSat — 11am to 12am \nSun —11am to 10pm"
+hours: "Thurs & Fri: 4pm to 12am \nSat: 11am to 12am \nSun: 11am to 10pm"
 why-cider:
   title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
