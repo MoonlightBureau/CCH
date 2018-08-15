@@ -1,5 +1,5 @@
 ---
-title: Yoga & Cider
+title: Yoga & Cider Tasting
 date: 2018-08-14 22:15:00 -04:00
 event-date: 2018-09-15 10:00:00 -04:00
 end-time: 11:30am
