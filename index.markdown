@@ -52,10 +52,10 @@ Location:
   title: Check out our new digs
   description: 'We invite you to visit our brand new production space and tasting
     room at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on
-    our patio, play a round of shuffleboard and enjoy a snack while sampling a flight
-    of regional ciders. Kids are welcome, and friendly dogs can hang out in our outside
-    space. Our peppy space is also available for private and semi-private events.
-    Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
+    our patio, play one of our many board games and enjoy a snack while sampling a
+    flight of regional ciders. Kids are welcome, and friendly dogs can hang out in
+    our outside space. Our peppy space is also available for private and semi-private
+    events. Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info! '
 no-events:
   title: Check Back Later
