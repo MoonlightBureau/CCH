@@ -1,0 +1,8 @@
+---
+title: 'MUSIC: 7th St Rockers'
+date: 2018-09-19 21:03:00 -04:00
+event-date: 2018-10-05 19:00:00 -04:00
+end-time: '09:00pm'
+giphy-url: https://media.giphy.com/media/8BlUiWKQbiwfOVWnDY/giphy.gif
+---
+
