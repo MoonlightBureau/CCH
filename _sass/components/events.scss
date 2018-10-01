@@ -1,3 +1,7 @@
+
+
+
+
 .events-odd {
     transform: rotate(var(--events-rotate));
 }
@@ -105,7 +109,24 @@
 
 .events-wrap {
     padding: 0 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    grid-column-start: left;
+
+    & a {
+        justify-self: start;
+        justify-content: start;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1100px ){
+        grid-template-columns: 1fr 1fr;
+    }
+
     @media #{$media-max-tablet}{
         padding: 0 2rem;
+        grid-template-columns: 1fr;
     }
 }
