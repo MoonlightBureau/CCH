@@ -14,7 +14,7 @@
           {% assign day-num = event.event-date | date: "%d" %}
           {% assign start-time = event.event-date | date: "%I%p" %}
           <a href="{{ event.event-url }}" rel="{{event.giphy-url}}" class="screenshot">
-              <div class="event-item col md-col-4 flex flex-stretch py2">
+              <div class="event-item flex flex-stretch py2">
                     <div class="flex-1 event-col1">
                         <p class="event-date event-day"><span class="day">{{day}}</span></p>
                         <p class="event-time">{{ start-time }}<br>to<br>{{ event.end-time }}</p>
@@ -24,7 +24,7 @@
                             <span class="month">{{month}}</span><span class="day-num">{{day-num}}</span>
                         </p>
                         <h5 class="event-title">{{ event.title }}</h5>
-                    </div>`
+                    </div>
               </div>
           </a>
 
