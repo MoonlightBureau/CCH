@@ -1,5 +1,5 @@
 ---
-title: Battle of the Bands
+title: 'LIVE MUSIC: Battle of the Bands'
 date: 2018-10-06 17:17:00 -04:00
 event-date: 2018-10-11 20:00:00 -04:00
 end-time: 10PM
