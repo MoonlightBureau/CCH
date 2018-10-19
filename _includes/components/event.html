@@ -3,7 +3,7 @@
 {% assign event-sort = site.events | sort: "event-date" %}
 {% capture events %}
       {% for event in event-sort %}
-          {% assign today = "now" | date: "%s"%}
+          {% assign today = "today" | date: "%s"%}
           {% assign event-date = event.event-date | date: "%s" %}
           {% if today <= event-date %}
 
