@@ -4,6 +4,6 @@ date: 2018-10-11 12:12:00 -04:00
 event-date: 2018-10-27 12:00:00 -04:00
 end-time: 04PM
 giphy-url: https://media.giphy.com/media/J1ZajKJKzD0PK/giphy.gif
-event-url: https://www.eventbrite.com/e/1st-annual-spooky-spirits-bus-ride-tickets-51293902443?aff=efbevent
+event-url: https://www.eventbrite.com/e/spooky-spirits-bus-ride-tickets-51731106131
 ---
 
