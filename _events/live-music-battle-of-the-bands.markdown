@@ -1,6 +1,7 @@
 ---
 title: 'LIVE MUSIC: Battle of the Bands'
 date: 2018-10-06 17:21:00 -04:00
+published: false
 event-date: 2018-10-25 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/JdCz7YXOZAURq/giphy.gif
