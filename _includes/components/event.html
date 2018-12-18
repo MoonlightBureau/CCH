@@ -13,7 +13,7 @@
           {% assign month = event.event-date | date: "%b" %}
           {% assign day-num = event.event-date | date: "%d" %}
           {% assign start-time = event.event-date | date: "%I%p" %}
-          <a href="{{ event.event-url }}" rel="{{event.giphy-url}}" class="screenshot">
+          <a href="{{ event.event-url }}" rel="{{event.giphy-url}}" data-date="{{ event-date }}" class="event-item screenshot">
               <div class="event-item flex flex-stretch py2">
                     <div class="flex-1 event-col1">
                         <p class="event-date event-day"><span class="day">{{day}}</span></p>
@@ -28,12 +28,9 @@
               </div>
           </a>
 
-
-
 <!-- LAYOUT -->
 
-
-          {% endif %}
+        {% endif %}
       {% endfor %}
 {% endcapture %}
 <!-- If there are no event coming up, use this placeholder -->

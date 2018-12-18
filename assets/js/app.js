@@ -154,6 +154,28 @@ $(document.links).filter(function() {
 // -----------------------------------
 
 
+// Remove old events---------------------
+
+    var d = new Date()
+    var e = (d.getTime() / 1000)
+    var f = parseInt(e)
+    var event = Array.from(document.getElementsByClassName('event-item'))
+
+    event.forEach(function(event) {
+        eventDate = event.dataset.date
+        g = parseInt(eventDate)
+
+        if (g < f) {
+            event.parentNode.removeChild(event)
+        }
+    });
+
+// ------------------------------------------
+
+
+
+
+
 function previewImages() {
   function getPosition(element) {
       var xPosition = 200;

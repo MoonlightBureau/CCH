@@ -89,16 +89,16 @@
 .cch-open_hours {
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.7;
     padding: 0 16px;
     max-width: 620px;
     margin: auto;
-    font-size: 27px;
+    font-size: 21px;
     @media #{$media-max-tablet}{
         font-size: 16px;
         letter-spacing: 4px;
-        max-width: 360px;
+        max-width: 370px;
     }
 }
 
