@@ -62,6 +62,7 @@ no-events:
     to stay in the loop about special events, new ciders, and more!
 address: 3930 Georgia Ave NW, Washington, DC 20011
 email: hello@capitolciderhouse.com
+gift: 'Give the gift of cider with an [**eGift Card**](https://squ.re/2E1T1Dc)! '
 layout: home
 ---
 
