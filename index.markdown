@@ -57,8 +57,7 @@ Location:
     events. Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info! \n\nLooking for an awesome gift? Hook someone up with an [**eGift
     Card**](https://squ.re/2E1T1Dc) to the cider house! Or, even better, some [**District-made
-    cider**] (https://vinoshipper.com/shop/capitol_cider_house) - now shipping to
-    40+ states!"
+    cider**](https://bit.ly/2RMsfoE) - now shipping to 40+ states!"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
