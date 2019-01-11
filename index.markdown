@@ -56,7 +56,11 @@ Location:
     our outside space. \n\nOur peppy space is also available for private and semi-private
     events. Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info! \n\n\nLooking for an awesome gift? Hook someone up with an [**eGift
-    Card**](https://squ.re/2E1T1Dc) to the cider house!"
+    Card**](https://squ.re/2E1T1Dc) to the cider house!\n\n<!-- VinoShipper Wine List
+    Integration -->\n<div id=\"vs-winelist\"></div>\n<script type=\"text/javascript\">\nvar
+    vsDisableResize = false;\nvar vsCssUrl = \"\";\nvar vsWineryId = 1977;\n</script>\n<script
+    src=\"https://vinoshipper.com/iframe/v3/injector.js\"></script>\n<!-- End VinoShipper
+    Wine List Integration  -->"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
