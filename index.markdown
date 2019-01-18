@@ -56,8 +56,9 @@ Location:
     our outside space. \n\nOur peppy space is also available for private and semi-private
     events. Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info! \n\nLooking for an awesome gift? Hook someone up with an [**eGift
-    Card**](https://squ.re/2E1T1Dc) to the cider house or even some [**District-made
-    cider**](https://bit.ly/2RMsfoE) - now shipping to 40+ states!"
+    Card**](https://squ.re/2E1T1Dc) to the cider house, a membership to our exclusive
+    [**cider club**](https://bit.ly/2U47XEX), or even some [**District-made cider**](https://bit.ly/2RMsfoE)
+    - now shipping to 40+ states!"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
