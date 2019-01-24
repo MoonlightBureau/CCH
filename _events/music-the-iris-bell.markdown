@@ -1,5 +1,5 @@
 ---
-title: 'LIVE MUSIC: Bellwether Bayou + Slim Rosa'
+title: 'LIVE MUSIC: The October Sessions'
 date: 2018-09-19 21:11:00 -04:00
 event-date: 2019-01-26 19:00:00 -05:00
 end-time: '09pm'
