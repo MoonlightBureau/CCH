@@ -1,5 +1,5 @@
 ---
-title: Mardis Gras Brunch
+title: Mardi Gras Brunch
 date: 2019-01-30 09:54:00 -05:00
 event-date: 2019-02-24 12:00:00 -05:00
 end-time: 03PM
