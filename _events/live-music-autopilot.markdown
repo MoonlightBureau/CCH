@@ -1,5 +1,5 @@
 ---
-title: 'LIVE MUSIC: Autopilot'
+title: 'LIVE MUSIC: Autopilot + PineWalls'
 date: 2019-02-14 10:28:00 -05:00
 event-date: 2019-03-02 20:00:00 -05:00
 end-time: 10PM
