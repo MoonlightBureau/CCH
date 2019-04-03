@@ -1,9 +1,9 @@
 ---
 title: 'LIVE MUSIC: Elena & Los Fulanos'
 date: 2018-11-30 12:38:00 -05:00
-event-date: 2019-03-29 19:00:00 -04:00
+event-date: 2019-05-10 19:00:00 -04:00
 end-time: '09PM'
 giphy-url: https://media.giphy.com/media/w5eFyOHmkS8uc/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-elena-los-fulanos-tickets-57424622592
+event-url: https://www.eventbrite.com/e/live-music-elena-los-fulanos-tickets-59806153816
 ---
 
