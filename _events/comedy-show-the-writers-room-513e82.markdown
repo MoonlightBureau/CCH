@@ -1,5 +1,5 @@
 ---
-title: COMEDY SHOW - The Writers Room
+title: COMEDY SHOW - The Comments Section
 date: 2019-07-26 18:56:00 -04:00
 event-date: 2019-08-21 19:00:00 -04:00
 end-time: '09PM'
