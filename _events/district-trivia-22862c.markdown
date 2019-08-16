@@ -1,9 +1,9 @@
 ---
 title: District Trivia
 date: 2019-05-01 20:36:00 -04:00
-event-date: 2019-06-13 20:00:00 -04:00
-end-time: 10PM
-giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
-event-url: https://www.eventbrite.com/e/district-trivia-tickets-61204235516
+event-date: 2019-09-11 19:00:00 -04:00
+end-time: '09PM'
+giphy-url: https://media.giphy.com/media/xTk9ZNSEaGv7FtKY6s/giphy.gif
+event-url: https://www.eventbrite.com/e/comedy-show-the-comments-section-tickets-69379849999
 ---
 
