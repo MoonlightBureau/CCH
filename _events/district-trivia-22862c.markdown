@@ -1,5 +1,5 @@
 ---
-title: District Trivia
+title: COMEDY SHOW - The Comments Section
 date: 2019-05-01 20:36:00 -04:00
 event-date: 2019-09-11 19:00:00 -04:00
 end-time: '09PM'
