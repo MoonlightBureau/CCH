@@ -1,9 +1,9 @@
 ---
-title: District Trivia
+title: COMEDY SHOW - The Comments Section
 date: 2019-04-11 12:53:00 -04:00
-event-date: 2019-05-09 20:00:00 -04:00
-end-time: 10PM
-giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
-event-url: https://www.eventbrite.com/e/district-trivia-tickets-60268562894
+event-date: 2019-09-25 19:00:00 -04:00
+end-time: '09PM'
+giphy-url: https://media.giphy.com/media/xTk9ZNSEaGv7FtKY6s/giphy.gif
+event-url: https://www.eventbrite.com/e/comedy-show-the-comments-section-tickets-69380004461
 ---
 
