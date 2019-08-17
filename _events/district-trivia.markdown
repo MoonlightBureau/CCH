@@ -1,9 +1,9 @@
 ---
-title: District Trivia
+title: KIDS SHOW - The Fiddle Diva
 date: 2019-03-27 19:47:00 -04:00
-event-date: 2019-04-04 20:00:00 -04:00
-end-time: 10PM
-giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
-event-url: https://www.eventbrite.com/e/district-trivia-tickets-59503669076
+event-date: 2019-09-22 10:30:00 -04:00
+end-time: 1130AM
+giphy-url: https://media.giphy.com/media/l2JdSZGQmRrPr4Gg8/giphy.gif
+event-url: https://www.eventbrite.com/e/kids-show-the-fiddle-diva-tickets-69590397753
 ---
 
