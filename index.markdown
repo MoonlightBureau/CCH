@@ -59,8 +59,8 @@ Location:
     events@capitolciderhouse.com) for more info! \n\nLooking for an awesome gift?
     Hook someone up with an [**eGift Card**](https://squ.re/2E1T1Dc) to the cider
     house, a membership to our exclusive [**cider club**](https://bit.ly/2U47XEX),
-    or even some District-made pommeau - now available [**all over DC**] (https://bit.ly/2ob0RDH)
-    and shipping to [**40+ states**] (https://bit.ly/2RMsfoE)!"
+    or even some District-made pommeau - now available [**all over DC**](https://bit.ly/2ob0RDH)
+    and shipping to [**40+ states**](https://bit.ly/2RMsfoE)!"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
