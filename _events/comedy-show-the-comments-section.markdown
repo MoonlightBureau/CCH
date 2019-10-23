@@ -1,5 +1,5 @@
 ---
-title: COMEDY SHOW - The Comments Section
+title: 'COMEDY SHOW: The Comments Section'
 date: 2019-10-23 10:45:00 -04:00
 event-date: 2019-11-27 19:00:00 -05:00
 end-time: '09PM'
