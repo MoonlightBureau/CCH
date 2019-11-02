@@ -1,9 +1,9 @@
 ---
-title: Yoga & Cider Tasting
+title: Cider & Yoga?!
 date: 2018-08-14 22:15:00 -04:00
-event-date: 2018-11-06 18:30:00 -05:00
-end-time: 0730PM
+event-date: 2019-12-07 10:00:00 -05:00
+end-time: 11:00am
 giphy-url: https://media.giphy.com/media/QrF8iB877wYsU/giphy.gif
-event-url: https://www.eventbrite.com/e/yoga-cider-tickets-51312692645
+event-url: https://www.eventbrite.com/e/cider-yoga-tickets-79846610361
 ---
 
