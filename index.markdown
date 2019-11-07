@@ -60,8 +60,8 @@ Location:
     Hook someone up with an [**eGift Card**](https://squ.re/2E1T1Dc) to the cider
     house, a membership to our exclusive [**cider club**](https://bit.ly/2U47XEX),
     or even some District-made pommeau - now available [**all over DC**](https://bit.ly/2ob0RDH)
-    and shipping to [**40+ states**](https://bit.ly/2RMsfoE) (6+ bottles ship free,
-    10% off 12+ bottles and 20% off 24+ bottles)!!!"
+    and shipping to [**40+ states**](https://bit.ly/2RMsfoE) (6+ bottles ship FREE,
+    10% OFF 12+ bottles and 20% OFF 24+ bottles)!!!"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
