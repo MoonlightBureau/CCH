@@ -1,5 +1,5 @@
 ---
-title: 'KIDS SHOW: Rocknoceros'
+title: 'FAMILY FUN: Rocknoceros'
 date: 2019-06-05 09:51:00 -04:00
 event-date: 2019-11-24 10:30:00 -05:00
 end-time: 1130AM
