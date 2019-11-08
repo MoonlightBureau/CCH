@@ -1,5 +1,5 @@
 ---
-title: 'KIDS SHOW: Mr. Jon & Friends'
+title: 'FAMILY FUN: Mr. Jon & Friends'
 date: 2019-05-01 20:45:00 -04:00
 event-date: 2019-12-08 10:30:00 -05:00
 end-time: 1130AM

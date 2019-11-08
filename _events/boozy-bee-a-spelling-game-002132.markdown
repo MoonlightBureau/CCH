@@ -1,5 +1,5 @@
 ---
-title: 'BOOZY BEE: A Spelling Game'
+title: 'PUB GAME: Boozy Bee'
 date: 2018-10-29 12:38:00 -04:00
 event-date: 2019-11-03 18:00:00 -05:00
 end-time: 07PM

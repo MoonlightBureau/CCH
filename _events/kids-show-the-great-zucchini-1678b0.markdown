@@ -1,5 +1,5 @@
 ---
-title: 'KIDS SHOW: The Great Zucchini'
+title: 'FAMILY FUN: The Great Zucchini'
 date: 2019-09-05 20:38:00 -04:00
 event-date: 2020-02-02 10:30:00 -05:00
 end-time: 1115AM

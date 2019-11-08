@@ -1,5 +1,5 @@
 ---
-title: 'KIDS SHOW: Groovy Nate'
+title: 'FAMILY FUN: Groovy Nate'
 date: 2019-05-16 21:01:00 -04:00
 event-date: 2019-11-17 10:30:00 -05:00
 end-time: 1130AM

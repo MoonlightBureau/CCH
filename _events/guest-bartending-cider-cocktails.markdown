@@ -1,5 +1,5 @@
 ---
-title: Cider Cocktails Workshop
+title: 'WORKSHOP: Cider Cocktails'
 date: 2018-09-11 12:44:00 -04:00
 event-date: 2019-11-12 19:00:00 -05:00
 end-time: '08pm'
