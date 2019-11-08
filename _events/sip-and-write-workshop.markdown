@@ -1,5 +1,5 @@
 ---
-title: Sip & Write Workshop
+title: 'WORKSHOP: Sip & Write'
 date: 2019-05-30 23:03:00 -04:00
 event-date: 2019-12-10 19:00:00 -05:00
 end-time: '09PM'
