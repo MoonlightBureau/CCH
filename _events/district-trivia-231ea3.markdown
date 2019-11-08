@@ -1,5 +1,5 @@
 ---
-title: District Trivia
+title: 'PUB GAME: District Trivia'
 date: 2019-04-11 12:56:00 -04:00
 event-date: 2019-10-24 20:00:00 -04:00
 end-time: 10PM
