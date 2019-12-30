@@ -1,9 +1,9 @@
 ---
 title: 'PUB GAME: Boozy Bee'
 date: 2018-10-29 12:38:00 -04:00
-event-date: 2019-12-08 18:00:00 -05:00
+event-date: 2020-01-12 18:00:00 -05:00
 end-time: 07PM
 giphy-url: https://media.giphy.com/media/l41YuH2Txerp8Uj1m/giphy.gif
-event-url: https://www.eventbrite.com/e/pub-game-the-boozy-bee-tickets-83753315421
+event-url: https://www.eventbrite.com/e/pub-game-the-boozy-bee-tickets-87728752059
 ---
 
