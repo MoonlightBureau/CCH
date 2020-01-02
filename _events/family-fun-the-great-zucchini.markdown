@@ -1,0 +1,9 @@
+---
+title: 'FAMILY FUN: The Great Zucchini'
+date: 2020-01-01 20:51:00 -05:00
+event-date: 2020-04-05 10:30:00 -04:00
+end-time: 1115AM
+giphy-url: https://media.giphy.com/media/89sIi77nGsdnq/giphy.gif
+event-url: https://www.eventbrite.com/e/family-fun-the-great-zucchini-tickets-87913302053
+---
+
