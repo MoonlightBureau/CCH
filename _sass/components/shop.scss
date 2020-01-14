@@ -1,0 +1,75 @@
+.shopMain {
+  padding: 120px;
+  position: relative;
+
+  & .shopMain_content {
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  & .shopMain_BG {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    z-index: 0;
+    transform: rotate(-12deg);
+
+    overflow: visible;
+
+    img {
+      width: 222%;
+      height: auto;
+      display: block;
+      max-width: none;
+      margin-bottom: 32px;
+      max-width: 4000px;
+
+      margin-left: -50%;
+
+      transition: $transition-1;
+
+      &.shopBG_red {
+        margin-left: -40%;
+      }
+    }
+  }
+
+
+}
+
+
+
+
+.title {
+  grid-area: title;
+}
+.contentL {
+  grid-area: contentL;
+}
+.contentR {
+  grid-area: contentR;
+}
+
+.shopLibations {
+  display: grid;
+  grid-template-areas:
+  'title title'
+  'contentL contentR';
+  grid-template-rows: auto;
+  padding: 80px;
+  position: relative;
+  z-index: 1;
+
+
+  div {
+    outline: 6px solid $cch-blue;
+    outline-offset: -4px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-color: white
+  }
+
+}
