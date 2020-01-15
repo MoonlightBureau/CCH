@@ -1,0 +1,110 @@
+.ourCiders {
+  padding: 80px;
+  overflow: visible;
+}
+
+.varietyCarousel {
+  margin: 32px 0;
+}
+
+.varietyCard{
+  width: 400px;
+  border-left: 1px solid $cch-red;
+  padding: 24px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+@mixin shadowBase {
+  font-size: 56px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: white;
+  line-height: .9;
+}
+
+.shadowType_blue {
+      @include shadowBase;
+      -webkit-text-stroke: 1px $cch-blue;
+      text-shadow:
+        0 1px $cch-blue,
+        -1px 0 $cch-blue,
+        -1px 2px $cch-blue,
+        -2px 1px $cch-blue,
+        -2px 3px $cch-blue,
+        -3px 2px $cch-blue,
+        -3px 4px $cch-blue,
+        -4px 3px $cch-blue,
+        -4px 5px $cch-blue,;
+    }
+
+.shadowType_red {
+      @include shadowBase;
+      -webkit-text-stroke: 1.5px $cch-red;
+      text-shadow:
+        0 1px $cch-red,
+        -1px 0 $cch-red,
+        -1px 2px $cch-red,
+        -2px 1px $cch-red,
+        -2px 3px $cch-red,
+        -3px 2px $cch-red,
+        -3px 4px $cch-red,
+        -4px 3px $cch-red,
+        -4px 5px $cch-red,;
+    }
+
+
+.ourPorts {
+  background-color: $cch-blue;
+  margin: 40px;
+  padding: 40px;
+  color: white;
+  overflow: hidden;
+
+  .eyebrow {
+    color: $cch-blue;
+  }
+
+  p {
+    color: white;
+  }
+
+  & .varietyCard{
+    background-color: white;
+    border: none;
+    margin-right: 32px;
+
+    p {
+      color: $cch-blue;
+    }
+  }
+
+  .btn-prime {
+    color: $cch-blue;
+    background-color: white;
+    border-color: white;
+
+    &:hover {
+      color: white;
+      background-color: $cch-blue;
+    }
+  }
+  .btn-second {
+    color: white;
+    background-color: $cch-blue;
+    border-color: white;
+
+    &:hover {
+      color: $cch-blue;
+      background-color: white;
+    }
+  }
+
+}

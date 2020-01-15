@@ -1,6 +1,64 @@
 ---
 layout: default
 ---
+<!-- Libations——————————————————————————————— -->
+<div class="ourCiders">
+  <h5 class="eyebrow">From the brewery</h5>
+  <h2>Our Ciders</h2>
+  <p>Brewed in-house, our ciders are made with a <a href="#">classic process</a> in mind. Harvested from the finest apples praesent congue erat at massa lraesent congue erat at massa.</p>
+
+  <div class="varietyCarousel">
+    <div class="varietyCard center">
+      <h5 class="eyebrow">Capital Cider house</h5>
+      <h2 class="shadowType_red">Capital Cuvee</h2>
+      <p>Dry, wildflower, brandy, barrel aged</p>
+    </div>
+    <div class="varietyCard center">
+      <h5 class="eyebrow">Capital Cider house</h5>
+      <h2 class="shadowType_red">Pomme Franc</h2>
+      <p>Dry, jammy, cab franc infused</p>
+    </div>
+    <div class="varietyCard center">
+      <h5 class="eyebrow">Capital Cider house</h5>
+      <h2 class="shadowType_red">Wild Gold</h2>
+      <p>Dry, green apple, wild fermented</p>
+    </div>
+  </div>
+
+  <a class="btn-prime" type="button" name="button">Visit CCH</a>
+  <a class="btn-second" type="button" name="button">On Tap in DC</a>
+</div>
+
+<div class="ourPorts center">
+  <h5 class="eyebrow">From the brewery</h5>
+  <h2>Our Ciders</h2>
+  <p>Brewed in-house, our ciders are made with a <a href="#">classic process</a> in mind. Harvested from the finest apples praesent congue erat at massa lraesent congue erat at massa.</p>
+
+  <div class="varietyCarousel">
+    <div class="varietyCard center">
+      <h5 class="eyebrow">North Columbia</h5>
+      <h2 class="shadowType_red">Capital Cuvee</h2>
+      <p>Dry, wildflower, brandy, barrel aged</p>
+    </div>
+    <div class="varietyCard center">
+      <h5 class="eyebrow">North Columbia</h5>
+      <h2 class="shadowType_red">Pomme Franc</h2>
+      <p>Dry, jammy, cab franc infused</p>
+    </div>
+    <div class="varietyCard center">
+      <h5 class="eyebrow">North Columbia</h5>
+      <h2 class="shadowType_red">Wild Gold</h2>
+      <p>Dry, green apple, wild fermented</p>
+    </div>
+  </div>
+
+  <a class="btn-prime" type="button" name="button">Visit CCH</a>
+  <a class="btn-second" type="button" name="button">On Tap in DC</a>
+</div>
+
+
+<!-- SHOP———————————————————————————— -->
+
 
 <div class="shopMain center">
   <div class="shopMain_content">
@@ -72,3 +130,28 @@ layout: default
     <a class="btn-logo drizzly" name="Shop at Vinoshipper">{% include svg/drizzly.svg %}</a>
   </div>
 </div>
+
+<div class="shopMembership">
+  <div class="shopMembership_content">
+    <h2>Join Our exclusive cider club</h2>
+    <p>Off the Record is our membership plan with some amazing perks. Sign up today because space is limited.</p>
+    {{page.membership-benefits | markdownify}}
+    <a class="btn-prime" type="button" name="button">become a member</a>
+  </div>
+  <img class="hide-below-tablet shopBG_blue move-vert"
+      data-modifier="-8"
+      data-from="top-bottom"
+      data-to="bottom-top"
+      src="/uploads/offtherecord.png"
+      alt="">
+</div>
+
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $('.varietyCarousel').slick({
+      variableWidth: true
+    });
+  });
+</script>
