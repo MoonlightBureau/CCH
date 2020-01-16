@@ -6,4 +6,3 @@ end-time: '09PM'
 giphy-url: https://media.giphy.com/media/xTk9ZNSEaGv7FtKY6s/giphy.gif
 event-url: https://www.eventbrite.com/e/comedy-show-the-comments-section-tickets-87731474201
 ---
-

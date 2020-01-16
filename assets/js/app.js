@@ -159,7 +159,10 @@ $(document.links).filter(function() {
     var d = new Date()
     var e = (d.getTime() / 1000)
     var f = parseInt(e)
+    var weekOut = (f + 700000 )
     var event = Array.from(document.getElementsByClassName('event-item'))
+
+    console.log(event.length)
 
     event.forEach(function(event) {
         eventDate = event.dataset.date
@@ -168,7 +171,13 @@ $(document.links).filter(function() {
         if (g < f) {
             event.parentNode.removeChild(event)
         }
+
+        if (g > weekOut) {
+            event.parentNode.removeChild(event)
+        }
     });
+
+    console.log(event.length)
 
 // ------------------------------------------
 

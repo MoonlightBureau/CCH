@@ -1,6 +1,37 @@
 <!-- Filter if events are past or not -->
 
 {% assign event-sort = site.events | sort: "event-date" %}
+{% for event in event-sort limit: 120 %}
+
+    {% assign today = "today" | date: "%s"%}
+    {% assign event-date = event.event-date | date: "%s" %}
+
+    {% assign day = event.event-date | date: "%a" %}
+    {% assign month = event.event-date | date: "%b" %}
+    {% assign day-num = event.event-date | date: "%d" %}
+    {% assign start-time = event.event-date | date: "%I%p" %}
+    <a href="{{ event.event-url }}" rel="{{event.giphy-url}}" data-date="{{ event-date }}" class="event-item screenshot">
+        <div class="event-item flex flex-stretch py2">
+              <div class="flex-1 event-col1">
+                  <p class="event-date event-day"><span class="day">{{day}}</span></p>
+                  <p class="event-time">{{ start-time }}<br>to<br>{{ event.end-time }}</p>
+              </div>
+              <div class="flex-2 event-col2">
+                  <p class="event-date">
+                      <span class="month">{{month}}</span><span class="day-num">{{day-num}}</span>
+                  </p>
+                  <h5 class="event-title">{{ event.title }}</h5>
+              </div>
+        </div>
+    </a>
+
+{% endfor %}
+
+
+
+
+
+{% comment %}
 {% capture events %}
       {% for event in event-sort %}
           {% assign today = "today" | date: "%s"%}
@@ -46,3 +77,6 @@
     {% else %}
         {{ events }}
     {% endif %}
+
+
+{% endcomment %}
