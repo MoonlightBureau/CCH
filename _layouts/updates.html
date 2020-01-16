@@ -3,6 +3,7 @@ layout: default
 ---
 <!-- Libations——————————————————————————————— -->
 
+
 <!-- CIDERS——— -->
 <div class="libationSection ourCiders">
   <div class="ciderContent">
@@ -24,25 +25,21 @@ layout: default
   </div>
 
   <div class="varietyCarousel">
-      <div class="varietyCard center">
-          <h5 class="eyebrow ">Capital Cider house</h5>
-          <h2 class="shadowType_red">Capital Cuvee</h2>
-          <p>Dry, wildflower, brandy, barrel aged</p>
-      </div>
+    {% assign cider-sort = site.our-ciders | sort:"position", "last" %}
+    {% for cider in cider-sort %}
     <div class="varietyCard center">
-        <h5 class="eyebrow">Capital Cider house</h5>
-        <h2 class="shadowType_red">Pomme Franc</h2>
-        <p>Dry, jammy, cab franc infused</p>
+        <h5 class="eyebrow ">Capital Cider house</h5>
+        <h2 class="shadowType_red">{{ cider.title }}</h2>
+        <p>{{ cider.tasting-notes }}</p>
     </div>
-    <div class="varietyCard center">
-        <h5 class="eyebrow">Capital Cider house</h5>
-        <h2 class="shadowType_red">Wild Gold</h2>
-        <p>Dry, green apple, wild fermented</p>
-    </div>
+    {% endfor %}
   </div>
   <a class="btn-prime" type="button" name="button">Visit CCH</a>
   <a class="btn-second" type="button" name="button">On Tap in DC</a>
 </div>
+
+
+
 
 <!-- APPLE PORT———— -->
 
@@ -53,21 +50,14 @@ layout: default
     <p>A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced rye whiskey barrels for 11 months.</p>
   </div>
   <div class="varietyCarousel">
-    <div class="varietyCard center">
-      <h5 class="eyebrow">North Columbia</h5>
-      <h2 class="shadowType_red">Capital Cuvee</h2>
-      <p>Dry, wildflower, brandy, barrel aged</p>
-    </div>link
-    <div class="varietyCard center">
-      <h5 class="eyebrow">North Columbia</h5>
-      <h2 class="shadowType_red">Pomme Franc</h2>
-      <p>Dry, jammy, cab franc infused</p>
-    </div>
-    <div class="varietyCard center">
-      <h5 class="eyebrow">North Columbia</h5>
-      <h2 class="shadowType_red">Wild Gold</h2>
-      <p>Dry, green apple, wild fermented</p>
-    </div>
+    {% assign port-sort = site.our-ports | sort:"position", "last" %}
+    {% for port in port-sort %}
+      <div class="varietyCard center">
+        <h5 class="eyebrow redType">North Columbia</h5>
+        <h2 class="shadowType_blue"> {{ port.title }}</h2>
+        <p class="redType">{{ port.tasting-notes }}</p>
+      </div>link
+    {% endfor %}
   </div>
   <img class="move-vert"
       data-modifier="-8"
