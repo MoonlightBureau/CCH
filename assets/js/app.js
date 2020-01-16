@@ -1,3 +1,14 @@
+var arrow = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="revisions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="take2-copy-14" transform="translate(-1310.000000, -2374.000000)" fill="#FFFFFF" fill-rule="nonzero"><g id="Group-4" transform="translate(1232.000000, 2357.000000)"><g id="Group-3"><g id="Group-6-Copy-2" transform="translate(0.480000, 0.000000)"><path d="M88.4546919,36.0602346 L96.7166879,27.7982802 C97.1162035,27.402998 97.1162035,26.7570328 96.7166879,26.3575172 L88.4546919,18.0997962 C88.0594512,17.7002806 87.4134445,17.7002806 87.0139704,18.0997962 L86.0704645,19.0433021 C85.6624821,19.4470511 85.6709489,20.1057995 86.0874811,20.5010402 L91.2087182,25.3800196 L78.9942322,25.3800196 C78.4289919,25.3800196 77.9742348,25.8347768 77.9742348,26.4000171 L77.9742348,27.7600137 C77.9742348,28.325254 78.4289919,28.7800111 78.9942322,28.7800111 L91.2087182,28.7800111 L86.0874811,33.6589906 C85.6752238,34.0542313 85.6667155,34.7129797 86.0704645,35.1167287 L87.0139704,36.0602346 C87.4092112,36.4597502 88.0552178,36.4597502 88.4546919,36.0602346 Z" id="A"></path></g></g></g></g></g></svg>';
+
+$(document).ready(function(){
+  $('.varietyCarousel').slick({
+    variableWidth: true,
+    prevArrow: '<button type="button" class="slick-next">'+ arrow +'</button>',
+    nextArrow: '<button type="button" class="slick-next">'+ arrow +'</button>'
+  });
+});
+
+
 $( document ).ready(function(){
 
     $('.cch-open').lettering();
