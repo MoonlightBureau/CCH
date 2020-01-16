@@ -1,25 +1,116 @@
-.ourCiders {
-  padding: 80px;
-  overflow: visible;
-}
-
-.varietyCarousel {
-  margin: 32px 0;
-}
-
-.varietyCard{
-  width: 400px;
-  border-left: 1px solid $cch-red;
-  padding: 24px;
-
-  &:focus {
-    outline: none;
+.libationSection {
+  p {
+    line-height: 2;
+    margin: 16px 0;
+  }
+  a {
+    background-position: 0 19px;
   }
 }
 
-.slick-list {
-  overflow: visible !important;
+.ourCiders {
+  padding: 80px;
+  overflow: visible;
+
+  & .ciderContent {
+    max-width: 500px;
+
+    img {
+      position: absolute;
+      left: 750px;
+      top: 96px;
+      width: 550px;
+
+      &:last-child {
+        left: 865px;
+      }
+    }
+  }
 }
+
+.varietyCarousel {
+  margin: 48px 0;
+
+  & .varietyCard{
+    width: 400px;
+    border-left: 1px solid $cch-red;
+    padding: 24px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  & .slick-list {
+    overflow: visible !important;
+  }
+
+  button {
+    position: absolute;
+    bottom: -96px;
+    right: -40px;
+    display: inline-block;
+    background-color: $cch-blue;
+    border: 4px solid $cch-blue;
+    margin: auto;
+    cursor: pointer;
+    transition: $transition-1;
+    height: 48px;
+    width: 48px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    color: white ;
+    border-radius: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+    & svg {
+      width: 15px;
+      top: 2px;
+      left: -1px;
+      position: relative;
+
+      & g {
+        fill: white;
+      }
+    }
+
+    &:hover {
+      color: $cch-red;
+      background-color: white;
+      border-color: $cch-red;
+
+      & svg g {
+          fill: $cch-red;
+        }
+      }
+
+    &:first-child {
+        background-color: white;
+        right: 8px;
+        border: none;
+
+        &:hover {
+
+          & svg g {
+              fill: $cch-red;
+          }
+        }
+
+      & svg {
+        transform: rotate(180deg);
+        & g {
+          fill: $cch-blue;
+        }
+      }
+    }
+  }
+}
+
+
+
 
 @mixin shadowBase {
   font-size: 56px;
