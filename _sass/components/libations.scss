@@ -28,13 +28,118 @@
   }
 }
 
+.ourPorts {
+  background-color: $cch-blue;
+  margin: 40px;
+  padding: 80px 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 6;
+
+  & .portContent {
+    max-width: 800px;
+    color: white;
+    margin: 24px auto 64px auto;
+  }
+
+  p {
+    color: white;
+  }
+
+  & .varietyCarousel {
+
+    & .varietyCard {
+      background-color: white;
+      border: none;
+      margin-right: 40px;
+
+      p {
+        color: $cch-blue;
+      }
+    }
+    button {
+      right: 0;
+      border-color: white;
+
+      & svg g {
+        fill: white;
+      }
+
+      &:first-child {
+          right: 48px;
+          background-color: transparent;
+
+          &:hover {
+            background-color: white;
+          }
+
+          & svg g {
+            fill: white;
+          }
+      }
+    }
+  }
+
+  .btn-prime {
+    color: $cch-blue;
+    background-color: white;
+    border-color: white;
+
+    &:hover {
+      color: white;
+      background-color: $cch-blue;
+    }
+  }
+  .btn-second {
+    color: white;
+    background-color: $cch-blue;
+    border-color: white;
+
+    &:hover {
+      color: $cch-red;
+      background-color: white;
+    }
+  }
+
+
+  img {
+    position: absolute;
+    width: 45%;
+    min-width: 500px;
+    right: 0;
+    bottom: -95px;
+    z-index: 0;
+  }
+
+}
+
+
+
+
+
 .varietyCarousel {
   margin: 48px 0;
+  position: relative;
+  z-index: 6;
+
+  & .eyebrow {
+    font-size: 13px;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+  }
 
   & .varietyCard{
-    width: 400px;
+    width: 450px;
     border-left: 1px solid $cch-red;
     padding: 24px;
+    min-height: 198px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
 
     &:focus {
       outline: none;
@@ -43,6 +148,11 @@
 
   & .slick-list {
     overflow: visible !important;
+
+    ::before {
+      content: "";
+      width: 40px;
+    }
   }
 
   button {
@@ -150,52 +260,3 @@
         -4px 3px $cch-red,
         -4px 5px $cch-red,;
     }
-
-
-.ourPorts {
-  background-color: $cch-blue;
-  margin: 40px;
-  padding: 40px;
-  color: white;
-  overflow: hidden;
-
-  .eyebrow {
-    color: $cch-blue;
-  }
-
-  p {
-    color: white;
-  }
-
-  & .varietyCard{
-    background-color: white;
-    border: none;
-    margin-right: 32px;
-
-    p {
-      color: $cch-blue;
-    }
-  }
-
-  .btn-prime {
-    color: $cch-blue;
-    background-color: white;
-    border-color: white;
-
-    &:hover {
-      color: white;
-      background-color: $cch-blue;
-    }
-  }
-  .btn-second {
-    color: white;
-    background-color: $cch-blue;
-    border-color: white;
-
-    &:hover {
-      color: $cch-blue;
-      background-color: white;
-    }
-  }
-
-}

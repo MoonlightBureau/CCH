@@ -2,6 +2,8 @@
 layout: default
 ---
 <!-- Libations——————————————————————————————— -->
+
+<!-- CIDERS——— -->
 <div class="libationSection ourCiders">
   <div class="ciderContent">
     <h5 class="eyebrow redType">From the brewery</h5>
@@ -22,32 +24,34 @@ layout: default
   </div>
 
   <div class="varietyCarousel">
+      <div class="varietyCard center">
+          <h5 class="eyebrow ">Capital Cider house</h5>
+          <h2 class="shadowType_red">Capital Cuvee</h2>
+          <p>Dry, wildflower, brandy, barrel aged</p>
+      </div>
     <div class="varietyCard center">
-      <h5 class="eyebrow">Capital Cider house</h5>
-      <h2 class="shadowType_red">Capital Cuvee</h2>
-      <p>Dry, wildflower, brandy, barrel aged</p>
+        <h5 class="eyebrow">Capital Cider house</h5>
+        <h2 class="shadowType_red">Pomme Franc</h2>
+        <p>Dry, jammy, cab franc infused</p>
     </div>
     <div class="varietyCard center">
-      <h5 class="eyebrow">Capital Cider house</h5>
-      <h2 class="shadowType_red">Pomme Franc</h2>
-      <p>Dry, jammy, cab franc infused</p>
-    </div>
-    <div class="varietyCard center">
-      <h5 class="eyebrow">Capital Cider house</h5>
-      <h2 class="shadowType_red">Wild Gold</h2>
-      <p>Dry, green apple, wild fermented</p>
+        <h5 class="eyebrow">Capital Cider house</h5>
+        <h2 class="shadowType_red">Wild Gold</h2>
+        <p>Dry, green apple, wild fermented</p>
     </div>
   </div>
-
   <a class="btn-prime" type="button" name="button">Visit CCH</a>
   <a class="btn-second" type="button" name="button">On Tap in DC</a>
 </div>
 
-<div class="libationSection ourPorts center">
-  <h5 class="eyebrow ">From the brewery</h5>
-  <h2 class="blue">Our Ciders</h2>
-  <p>Brewed in-house, our ciders are made with a <a href="#">classic process</a> in mind. Harvested from the finest apples praesent congue erat at massa lraesent congue erat at massa.</p>
+<!-- APPLE PORT———— -->
 
+<div class="libationSection ourPorts">
+  <div class="portContent center">
+    <h5 class="eyebrow whiteType">From the brewery</h5>
+    <h2 class="sectionTitle whiteType">Our Apple Port</h2>
+    <p>A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced rye whiskey barrels for 11 months.</p>
+  </div>
   <div class="varietyCarousel">
     <div class="varietyCard center">
       <h5 class="eyebrow">North Columbia</h5>
@@ -65,7 +69,12 @@ layout: default
       <p>Dry, green apple, wild fermented</p>
     </div>
   </div>
-
+  <img class="move-vert"
+      data-modifier="-8"
+      data-from="top-bottom"
+      data-to="bottom-top"
+      src="/uploads/abstractDot.png"
+      alt="">
   <a class="btn-prime" type="button" name="button">Visit CCH</a>
   <a class="btn-second" type="button" name="button">On Tap in DC</a>
 </div>
@@ -77,7 +86,7 @@ layout: default
 <div class="shopMain center">
   <div class="shopMain_content">
     <h5 class="eyebrow">Shop CCH</h5>
-    <h2>Grab yourself some swag</h2>
+    <h2 class="sectionTitle redType">Grab yourself some swag</h2>
     <p>From Gift Cards 💳 to 🧢 👕 apparel, We got you covered. Grab an Item for your special someone at the CCH Shop.</p>
     <a class="btn-prime" type="button" name="button">Shop CCH</a>
   </div>
@@ -130,24 +139,24 @@ layout: default
 
 <div class="shopLibations">
   <div class="title">
-    <h2>Buy our libation</h2>
+    <h2 class="sectionTitle redType">Buy our libations</h2>
   </div>
   <div class="contentL">
-    <p>Find a retailer</p>
+    <h3>Find a retailer</h3>
     <p>New Columbia apple port can be found in over 25 shops and bars in the DC Metro Area.</p>
     <a class="btn-prime" type="button" name="button">See the map</a>
   </div>
   <div class="contentR">
-    <p>Buy Online</p>
+    <h3>Buy Online</h3>
     <p>Looking to get our booze sent directly to you? We’re shipping to over 40 plus states.</p>
     <a class="btn-logo" name="Shop at Vinoshipper">{% include svg/vinoshipper.svg %}</a>
-    <a class="btn-logo drizzly" name="Shop at Vinoshipper">{% include svg/drizzly.svg %}</a>
+    <!-- <a class="btn-logo drizzly" name="Shop at Vinoshipper">{% include svg/drizzly.svg %}</a> -->
   </div>
 </div>
 
 <div class="shopMembership">
   <div class="shopMembership_content">
-    <h2>Join Our exclusive cider club</h2>
+    <h2 class="sectionTitle">Join Our exclusive cider club</h2>
     <p>Off the Record is our membership plan with some amazing perks. Sign up today because space is limited.</p>
     {{page.membership-benefits | markdownify}}
     <a class="btn-prime" type="button" name="button">become a member</a>
@@ -157,6 +166,12 @@ layout: default
       data-from="top-bottom"
       data-to="bottom-top"
       src="/uploads/offtherecord.png"
+      alt="">
+  <img class="move-vert"
+      data-modifier="-8"
+      data-from="top-bottom"
+      data-to="bottom-top"
+      src="/uploads/abstractDot.png"
       alt="">
 </div>
 
