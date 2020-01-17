@@ -27,9 +27,6 @@ button {
     background-color: white;
   }
 
-  & a:visited {
-      color: white;
-  }
   & p {
     padding: 6px 30px;
     color: white;
@@ -74,9 +71,7 @@ button {
     border-color: $cch-red;
   }
 
-  & a:visited {
-      color: white;
-  }
+
   & p {
     padding: 6px 30px;
     color: white;
@@ -95,9 +90,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     cursor: pointer;
   }
-  &:visited {
-      color: white !important;
-  }
+
 }
 
 .btn-logo {
