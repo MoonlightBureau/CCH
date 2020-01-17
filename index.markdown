@@ -45,7 +45,7 @@ ourPorts:
 shop:
   eyebrow: Shop CCH
   title: GIFT CARDS!!!
-  desc: "Need a last minute gift \U0001F4B3? We got you."
+  desc: "Need a last minute gift \U0001F4B3? We got you"
   cta: check it out
   cta-link: https://squareup.com/gift/K601ER61YN8PV/order
 shopLibations:
