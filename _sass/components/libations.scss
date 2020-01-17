@@ -1,0 +1,353 @@
+.libationSection {
+  p {
+    line-height: 2;
+    margin: 16px 0;
+
+      @media #{$media-max-tablet}{
+        font-size: 16px;
+        line-height: 1.8;
+      }
+  }
+  a {
+    background-position: 0 19px;
+  }
+}
+
+.ourCiders {
+  padding: 80px;
+  overflow: visible;
+  position: relative;
+
+  & .ciderContent {
+    max-width: 500px;
+
+    img {
+      position: absolute;
+      left: 750px;
+      top: 96px;
+      width: 550px;
+
+      @media #{$media-min-xxl}{
+        width: 50vw;
+        left: 40vw;
+        top: -20px;
+      }
+
+      &:last-child {
+        left: 865px;
+
+        @media #{$media-min-xxl}{
+          left: 51vw;
+        }
+      }
+    }
+  }
+
+  @media #{$media-max-tablet}{
+    padding: 2rem;
+  }
+}
+
+.ourPorts {
+  background-color: $cch-blue;
+  margin: 40px;
+  padding: 80px 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 6;
+
+  @media #{$media-max-tablet}{
+    margin: 8px;
+    padding: 40px 16px;
+  }
+
+  & .portContent {
+    max-width: 800px;
+    color: white;
+    margin: 24px auto 64px auto;
+    @media #{$media-max-tablet}{
+      margin: 8px;
+      margin: 24px auto 40px auto;
+    }
+  }
+
+  p {
+    color: white;
+  }
+
+  & .varietyCarousel {
+
+    & .varietyCard {
+      background-color: white;
+      border: none;
+      margin-right: 40px;
+      @media #{$media-max-tablet}{
+          margin-right: 16px;
+      }
+
+      p {
+        color: $cch-blue;
+      }
+    }
+    button {
+      right: 0;
+      border-color: white;
+
+      & svg g {
+        fill: white;
+      }
+
+      &:first-child {
+          right: 48px;
+          background-color: transparent;
+
+          &:hover {
+            background-color: white;
+          }
+
+          & svg g {
+            fill: white;
+          }
+      }
+    }
+  }
+
+  .btn-prime {
+    color: $cch-blue;
+    background-color: white;
+    border-color: white;
+
+    &:hover {
+      color: white;
+      background-color: $cch-blue;
+    }
+
+  }
+  .btn-second {
+    color: white;
+    background-color: $cch-blue;
+    border-color: white;
+
+    &:hover {
+      color: $cch-red;
+      background-color: white;
+    }
+  }
+
+
+  img {
+    position: absolute;
+    width: 45%;
+    min-width: 500px;
+    right: 0;
+    bottom: -95px;
+    z-index: 0;
+  }
+
+}
+
+
+
+
+
+.varietyCarousel {
+  margin: 48px 0;
+  position: relative;
+  z-index: 6;
+  @media #{$media-max-tablet}{
+      margin: 32px 0;
+  }
+
+
+  & .varietyCard{
+    width: 450px;
+    border-left: 1px solid $cch-red;
+    padding: 24px;
+    min-height: 198px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @media #{$media-max-tablet}{
+      min-height: 168px;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    & .eyebrow {
+      font-size: 13px;
+      margin: 0;
+
+      @media #{$media-max-tablet}{
+          margin: 0 ;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-weight: 400;
+      font-size: 14px;
+
+       @media #{$media-max-tablet}{
+           line-height: 1.3;
+           margin: 8px 0 0 0;
+       }
+     }
+
+    @media #{$media-max-tablet}{
+      width: 225px;
+      padding: 24px 20px;
+    }
+
+  }
+
+  & .slick-list {
+    overflow: visible !important;
+  }
+
+  button {
+    position: absolute;
+    bottom: -96px;
+    right: -40px;
+    display: inline-block;
+    background-color: $cch-blue;
+    border: 4px solid $cch-blue;
+    margin: auto;
+    cursor: pointer;
+    transition: $transition-1;
+    height: 48px;
+    width: 48px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    color: white ;
+    border-radius: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    z-index: 8;
+
+    @media #{$media-max-tablet}{
+      bottom: 103px;
+      right: -51px;
+      display: none !important;
+
+      & svg {
+        left: -8px;
+      }
+    }
+
+    & svg {
+      width: 15px;
+      top: 2px;
+      left: -1px;
+      position: relative;
+
+      & g {
+        fill: white;
+      }
+    }
+
+    &:hover {
+      color: $cch-red;
+      background-color: white;
+      border-color: $cch-red;
+
+      & svg g {
+          fill: $cch-red;
+        }
+      }
+
+    &:first-child {
+        background-color: white;
+        right: 8px;
+        border: none;
+
+        &:hover {
+          & svg g {
+              fill: $cch-red;
+          }
+        }
+
+      & svg {
+        transform: rotate(180deg);
+        & g {
+          fill: $cch-blue;
+        }
+      }
+      @media #{$media-max-tablet}{
+        left: -47px;
+        right: auto;
+
+        & svg {
+          left: 5px;
+          }
+      }
+    }
+  }
+}
+
+
+
+
+@mixin shadowBase {
+  font-size: 56px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: white;
+  line-height: .9;
+
+  @media #{$media-max-tablet}{
+    font-size: 44px;
+    word-break: break-word;
+  }
+}
+
+.shadowType_blue {
+      @include shadowBase;
+      -webkit-text-stroke: 1px $cch-blue;
+      text-shadow:
+        0 1px $cch-blue,
+        -1px 0 $cch-blue,
+        -1px 2px $cch-blue,
+        -2px 1px $cch-blue,
+        -2px 3px $cch-blue,
+        -3px 2px $cch-blue,
+        -3px 4px $cch-blue,
+        -4px 3px $cch-blue,
+        -4px 5px $cch-blue,;
+        @media #{$media-max-tablet}{
+          text-shadow:
+            0 1px $cch-blue,
+            -1px 0 $cch-blue,
+            -1px 2px $cch-blue,
+            -2px 1px $cch-blue,
+            -2px 3px $cch-blue,
+        }
+    }
+
+.shadowType_red {
+      @include shadowBase;
+      -webkit-text-stroke: 1.5px $cch-red;
+      text-shadow:
+        0 1px $cch-red,
+        -1px 0 $cch-red,
+        -1px 2px $cch-red,
+        -2px 1px $cch-red,
+        -2px 3px $cch-red,
+        -3px 2px $cch-red,
+        -3px 4px $cch-red,
+        -4px 3px $cch-red,
+        -4px 5px $cch-red,;
+
+      @media #{$media-max-tablet}{
+        text-shadow:
+          0 1px $cch-red,
+          -1px 0 $cch-red,
+          -1px 2px $cch-red,
+          -2px 1px $cch-red,
+          -2px 3px $cch-red,
+      }
+    }

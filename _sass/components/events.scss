@@ -1,7 +1,15 @@
 
 
 
-
+.eventsContainer {
+  & .btn-prime {
+    margin: 4rem auto 6rem auto;
+    position: relative;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+  }
+}
 .events-odd {
     transform: rotate(var(--events-rotate));
 }

@@ -1,14 +1,5 @@
     <div class="cch-cideries relative sm-col-7 px3 illo-space">
-        <h5 class="eyebrow">{{ page.cideries.eyebrow }}</h5>
-        <h3>{{ page.cideries.title }}</h3>
-        <p>{{ page.cideries.description }}</p>
-        <div class="cider-rows">
-            {% assign ciderSort = site.cideries | sort:"position" %}
-            {% for cidery in site.cideries %}
-                <div class="cider-item">
-                    <h5>{{ cidery.title }}</h5>
-                    <p>{{ cidery.distance }}</p>
-                </div>
-            {% endfor %}
-        </div>
+        <h5 class="eyebrow">{{ page.libations.eyebrow }}</h5>
+        <h3>{{ page.libations.title }}</h3>
+        <p>{{ page.libations.description }}</p>
     </div>
