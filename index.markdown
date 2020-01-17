@@ -22,20 +22,22 @@ libations:
     that are otherwise hard to find in DC. Our menu is always changing, but we’re
     always keeping it local.
 ourCiders:
-  eyebrow: From the brewery
+  eyebrow: From the cidery
   title: Our Ciders
-  desc: Brewed in-house, our craft ciders are made with a <a href="#process">classic
+  desc: Made in-house, our craft ciders are made with a <a href="#process">classic
     process</a> in mind to create unique, refreshing, and amazingly delicious taste.
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
   cta2-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
 ourPorts:
-  eyebrow: From the brewery
-  title: Our Apple Port
-  desc: A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau
-    de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced
-    rye whiskey barrels for 11 months.
+  eyebrow: From the cidery
+  title: Our Pommeau
+  desc: "WHAT THE HECK IS POMMEAU?! \nPommeau is a traditional French cordial made
+    by blending raw, unfermented cider with an apple-based distillate (eau de vie)
+    - think of it as the apple version of port wine. Best enjoyed as an aperitif or
+    as an extremely versatile mixer, where pommeau can replace and elevate sweet vermouth
+    in classic cocktails like the Manhattan and Negroni."
   cta: Find a store
   cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
@@ -53,7 +55,7 @@ shopLibations:
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   online-title: Buy Online
-  online-desc: Want our booze delivered to your door? Now shipping to nearly 40 states!
+  online-desc: Want booze delivered to your door? Now shipping to nearly 40 states!
   online-cta-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shopMembership:
   title: Join Our Cider Club!
