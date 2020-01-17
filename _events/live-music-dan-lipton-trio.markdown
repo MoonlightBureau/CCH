@@ -1,6 +1,7 @@
 ---
 title: 'LIVE MUSIC: Dan Lipton Trio'
 date: 2019-04-02 23:31:00 -04:00
+published: false
 event-date: 2019-06-30 17:00:00 -04:00
 end-time: 07PM
 giphy-url: https://media.giphy.com/media/v9gQ6WlxWq83S/giphy.gif
