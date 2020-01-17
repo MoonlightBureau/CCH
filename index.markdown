@@ -24,15 +24,19 @@ libations:
 ourCiders:
   eyebrow: From the brewery
   title: Our Ciders
-  desc: Brewed in-house, our ciders are made with a <a href="#process">classic process</a> in mind. Harvested from the finest apples praesent congue erat at massa lraesent congue erat at massa.
+  desc: Brewed in-house, our ciders are made with a <a href="#process">classic process</a>
+    in mind. Harvested from the finest apples praesent congue erat at massa lraesent
+    congue erat at massa.
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
   cta2-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
-ourPorts:  
+ourPorts:
   eyebrow: From the brewery
   title: Our Apple Port
-  desc: A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced rye whiskey barrels for 11 months.
+  desc: A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau
+    de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced
+    rye whiskey barrels for 11 months.
   cta: Find a store
   cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
@@ -40,21 +44,25 @@ ourPorts:
 shop:
   eyebrow: Shop CCH
   title: Grab yourself some swag
-  desc: From gift cards 💳 to 🧢 👕 apparel, We got you covered. Grab an Item for your special someone at the CCH Shop
+  desc: "From gift cards \U0001F4B3 to \U0001F9E2 \U0001F455 apparel, We got you covered.
+    Grab an Item for your special someone at the CCH Shop"
   cta: check it out
   cta-link: https://squareup.com/gift/K601ER61YN8PV/order
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: New Columbia apple port can be found in over 25 shops and bars in the DC Metro Area.
+  retail-desc: New Columbia apple port can be found in over 25 shops and bars in the
+    DC Metro Area.
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   online-title: Buy Online
-  online-desc: Looking to get our booze sent directly to you? We’re shipping to over 40 plus states.
+  online-desc: Looking to get our booze sent directly to you? We’re shipping to over
+    40 plus states.
   online-cta-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shopMembership:
   title: Join Our exclusive cider club
-  desc: Off the Record is our membership plan with some amazing perks. Sign up today because space is limited.
+  desc: Off the Record is our membership plan with some amazing perks. Sign up today
+    because space is limited.
   cta: become a member
   cta-link: https://form.jotform.com/93258396901163
 membership-benefits: |-

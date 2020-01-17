@@ -10,5 +10,5 @@ membership-benefits: |-
   * preferred access to small    batch ciders
   * priority booking for special    events
   * 10% off ALL purchases
-
 ---
+

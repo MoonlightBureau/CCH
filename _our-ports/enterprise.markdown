@@ -1,5 +1,6 @@
 ---
 title: Enterprise
-tasting-notes: Sweet, Orange Blossom, Clove
 position: 1
+tasting-notes: Sweet, Orange Blossom, Clove
 ---
+
