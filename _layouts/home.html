@@ -139,7 +139,7 @@ layout: default
        {% assign cider-sort = site.our-ciders | sort:"position", "last" %}
        {% for cider in cider-sort %}
        <div class="varietyCard center">
-           <h5 class="eyebrow ">Capital Cider house</h5>
+           <h5 class="eyebrow ">{{ page.ourCiders.card-eyebrow }}</h5>
            <h2 class="shadowType_red shadowType">{{ cider.title }}</h2>
            <p>{{ cider.tasting-notes }}</p>
        </div>
@@ -164,7 +164,7 @@ layout: default
        {% assign port-sort = site.our-ports | sort:"position", "last" %}
        {% for port in port-sort %}
          <div class="varietyCard center">
-           <h5 class="eyebrow redType">North Columbia</h5>
+           <h5 class="eyebrow redType">{{ page.ourPorts.card-eyebrow }}</h5>
            <h2 class="shadowType_blue shadowType"> {{ port.title }}</h2>
            <p class="redType">{{ port.tasting-notes }}</p>
          </div>link
