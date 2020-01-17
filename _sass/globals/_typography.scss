@@ -165,9 +165,15 @@ hr {
 
 
 .sectionTitle {
-font-size: 54px;
-letter-spacing: 10px;
-line-height: .8;
-text-transform: uppercase;
-font-weight: 600;
+  font-size: 54px;
+  letter-spacing: 10px;
+  line-height: .8;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  @media #{$media-max-tablet}{
+    font-size: 40px;
+    line-height: .9;
+    letter-spacing: 8px;
+  }
 }

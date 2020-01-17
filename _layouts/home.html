@@ -140,7 +140,7 @@ layout: default
        {% for cider in cider-sort %}
        <div class="varietyCard center">
            <h5 class="eyebrow ">Capital Cider house</h5>
-           <h2 class="shadowType_red">{{ cider.title }}</h2>
+           <h2 class="shadowType_red shadowType">{{ cider.title }}</h2>
            <p>{{ cider.tasting-notes }}</p>
        </div>
        {% endfor %}
@@ -165,7 +165,7 @@ layout: default
        {% for port in port-sort %}
          <div class="varietyCard center">
            <h5 class="eyebrow redType">North Columbia</h5>
-           <h2 class="shadowType_blue"> {{ port.title }}</h2>
+           <h2 class="shadowType_blue shadowType"> {{ port.title }}</h2>
            <p class="redType">{{ port.tasting-notes }}</p>
          </div>link
        {% endfor %}
@@ -187,7 +187,7 @@ layout: default
    <div id="shop" class="shopMain center">
      <div class="shopMain_content">
        <h5 class="eyebrow">{{ page.shop.eyebrow }}</h5>
-       <h2 class="sectionTitle redType">{{ page.shop.title }}</h2>
+       <h2 class="sectionTitle redType shadowType">{{ page.shop.title }}</h2>
        <p>{{ page.shop.desc }}.</p>
        <a href="{{ page.shop.cta-link }}" class="btn-prime" type="button" name="button">{{ page.shop.cta }}</a>
      </div>
@@ -219,13 +219,13 @@ layout: default
        {{page.membership-benefits | markdownify}}
        <a href="{{ page.shopMembership.cta-link }}" class="btn-prime" type="button" name="button">{{ page.shopMembership.cta }}</a>
      </div>
-     <img class="hide-below-tablet shopBG_blue move-vert"
+     <img class="shopBG_blue move-vert"
          data-modifier="-8"
          data-from="top-bottom"
          data-to="bottom-top"
          src="/uploads/offtherecord.png"
          alt="">
-     <img class="move-vert"
+     <img class="hide-below-tablet move-vert"
          data-modifier="-8"
          data-from="top-bottom"
          data-to="bottom-top"

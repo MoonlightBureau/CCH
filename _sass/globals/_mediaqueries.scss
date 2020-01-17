@@ -1,11 +1,13 @@
 $tablet: 40em;
 $tabletplus: 41em;
 $xl: 1400px;
+$xxl: 1600px;
 $l: 52em;
 
 $media-max-tablet: "screen and (max-width: #{$tablet})";
 $media-max-l: "screen and (max-width: #{$l})";
 $media-min-xl: "screen and (min-width: #{$xl})";
+$media-min-xxl: "screen and (min-width: #{$xxl})";
 $media-min-tablet: "screen and (min-width: #{$tablet})";
 // @media #{$media-max-tablet}{}
 // @media #{$media-max-l}{}
