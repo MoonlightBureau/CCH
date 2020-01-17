@@ -27,6 +27,7 @@ ourCiders:
   desc: Brewed in-house, our ciders are made with a <a href="#process">classic process</a>
     in mind. Harvested from the finest apples praesent congue erat at massa lraesent
     congue erat at massa.
+  card-eyebrow: Capitol Cider House
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
@@ -37,6 +38,7 @@ ourPorts:
   desc: A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau
     de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced
     rye whiskey barrels for 11 months.
+  card-eyebrow: North Columbia
   cta: Find a store
   cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
