@@ -227,7 +227,7 @@
 </defs>
 <title>money</title>
 <g id="moneystacks" data-name="Layer 2">
-    <g class="push-mobile-12">
+    <!-- <g class="push-mobile-12">
         <g class="moneyPiece" data-modifier="300">
             <use id="money13" width="466.55" height="317.78" transform="translate(501.47 45.3) scale(0.81)" xlink:href="#money"/>
         </g>
@@ -246,7 +246,7 @@
         <g class="moneyPiece" data-modifier="150">
             <use id="money10" width="466.55" height="317.78" transform="translate(389.7 147.56) scale(0.86)" xlink:href="#money"/>
         </g>
-    </g>
+    </g> -->
 
     <g class="push-mobile-8">
         <g class="moneyPiece" data-modifier="100">

@@ -15,7 +15,7 @@ why-cch:
     Only showcasing producers within 200 miles of the Capitol building. Always gluten
     free. Not too sweet. More like a fine wine than a popsicle. '
 libations:
-  eyebrow: Locally sources
+  eyebrow: Locally sourced
   title: Libations
   description: All our goods are sourced from within 200 miles of the US Capitol Building.
     We have a few of our own concoctions and many ciders from Mid-Atlantic producers
@@ -68,8 +68,8 @@ membership-benefits: |-
   * priority booking for special    events
   * 10% off ALL purchases
 BrewProcess-intro:
-  label: Our Craft Ciders
-  title: Made Right Here
+  label: OUR CIDER PROCESS
+  title: How It’s Made
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
   title: Select
@@ -102,12 +102,7 @@ Location:
     while sampling a flight of regional ciders. Kids are welcome, and friendly dogs
     can hang out in our outside space. \n\nOur peppy space is also available for private
     and semi-private events. Email us at [**events@capitolciderhouse.com**](mailto:
-    events@capitolciderhouse.com) for more info! \n\nLooking for an awesome gift?
-    Hook someone up with an [**eGift Card**](https://squ.re/2E1T1Dc) to the cider
-    house, a membership to our exclusive [**cider club**](https://bit.ly/35MOtdR),
-    or even some District-made pommeau - now available [**all over DC**](https://bit.ly/2ob0RDH)
-    and shipping to [**40+ states**](https://bit.ly/2RMsfoE) (6+ bottles ship FREE,
-    10% OFF 12+ bottles and 20% OFF 24+ bottles)!!!"
+    events@capitolciderhouse.com) for more info!"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter

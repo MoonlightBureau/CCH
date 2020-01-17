@@ -86,8 +86,8 @@ $( document ).ready(function(){
 
     	basicScroll.create({
     		elem: elem,
-            from: 'middle-middle',
-        	to: 'bottom-top',
+            from: 'middle-bottom',
+        	to: 'bottom-middle',
     		direct: true,
     		props: {
     			'--translateY': {
@@ -173,8 +173,6 @@ $(document.links).filter(function() {
     var weekOut = (f + 700000 )
     var event = Array.from(document.getElementsByClassName('event-item'))
 
-    console.log(event.length)
-
     event.forEach(function(event) {
         eventDate = event.dataset.date
         g = parseInt(eventDate)
@@ -188,7 +186,6 @@ $(document.links).filter(function() {
         }
     });
 
-    console.log(event.length)
 
 // ------------------------------------------
 
