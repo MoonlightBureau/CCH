@@ -24,9 +24,8 @@ libations:
 ourCiders:
   eyebrow: From the brewery
   title: Our Ciders
-  desc: Brewed in-house, our ciders are made with a <a href="#process">classic process</a>
-    in mind. Harvested from the finest apples praesent congue erat at massa lraesent
-    congue erat at massa.
+  desc: Brewed in-house, our craft ciders are made with a <a href="#process">classic
+    process</a> in mind to create unique, refreshing, and amazingly delicious taste.
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
