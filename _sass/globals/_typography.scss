@@ -37,12 +37,13 @@ p {
     }
 }
 
+
 .eyebrow {
     margin: 0 0 1rem;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 6px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 h1 {
@@ -149,4 +150,30 @@ li p {
 
 hr {
   opacity: 0.4;
+}
+
+
+.redType {
+  color: $cch-red !important;
+}
+.blueType {
+  color: $cch-blue;
+}
+.whiteType {
+  color: white;
+}
+
+
+.sectionTitle {
+  font-size: 54px;
+  letter-spacing: 10px;
+  line-height: .8;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  @media #{$media-max-tablet}{
+    font-size: 40px;
+    line-height: .9;
+    letter-spacing: 8px;
+  }
 }

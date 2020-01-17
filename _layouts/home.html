@@ -78,6 +78,7 @@ layout: default
             </div>
         </section>
         <section>
+
             <!-- Cidery Section -->
             <div id="cidery" class="outter-wrapper relative">
                 <div class="my15 max-width-3 mx-auto col-offset">
@@ -106,8 +107,141 @@ layout: default
             </div>
         </section>
         <section>
+
+
+
+
+
+   <!-- Libations——————————————————————————————— -->
+
+
+   <!-- CIDERS——— -->
+   <div class="libationSection ourCiders">
+     <div class="ciderContent">
+       <h5 class="eyebrow redType">{{ page.ourCiders.eyebrow }}</h5>
+       <h2 class="sectionTitle">{{ page.ourCiders.title }}</h2>
+       <p>{{ page.ourCiders.desc }}</p>
+     <img class="hide-below-tablet move-vert"
+         data-modifier="2"
+         data-from="top-bottom"
+         data-to="bottom-top"
+         src="/uploads/ciderglasses.png"
+         alt="">
+     <img class="hide-below-tablet move-vert"
+         data-modifier="-2"
+         data-from="top-bottom"
+         data-to="bottom-top"
+         src="/uploads/ciderglasses.png"
+         alt="">
+     </div>
+
+     <div class="varietyCarousel">
+       {% assign cider-sort = site.our-ciders | sort:"position", "last" %}
+       {% for cider in cider-sort %}
+       <div class="varietyCard center">
+           <h5 class="eyebrow ">Capital Cider house</h5>
+           <h2 class="shadowType_red shadowType">{{ cider.title }}</h2>
+           <p>{{ cider.tasting-notes }}</p>
+       </div>
+       {% endfor %}
+     </div>
+     <a href="{{ page.ourCiders.cta-link }}" class="btn-prime" type="button" name="button">{{ page.ourCiders.cta }}</a>
+     <a href="{{ page.ourCiders.cta2-link }}" class="btn-second" type="button" name="button">{{ page.ourCiders.cta2 }}</a>
+   </div>
+
+
+
+
+   <!-- APPLE PORT———— -->
+
+   <div class="libationSection ourPorts">
+     <div class="portContent center">
+       <h5 class="eyebrow whiteType">{{ page.ourPorts.eyebrow }}</h5>
+       <h2 class="sectionTitle whiteType">{{ page.ourPorts.title }}</h2>
+       <p>{{ page.ourPorts.desc }}</p>
+     </div>
+     <div class="varietyCarousel">
+       {% assign port-sort = site.our-ports | sort:"position", "last" %}
+       {% for port in port-sort %}
+         <div class="varietyCard center">
+           <h5 class="eyebrow redType">North Columbia</h5>
+           <h2 class="shadowType_blue shadowType"> {{ port.title }}</h2>
+           <p class="redType">{{ port.tasting-notes }}</p>
+         </div>link
+       {% endfor %}
+     </div>
+     <img class="move-vert"
+         data-modifier="-8"
+         data-from="top-bottom"
+         data-to="bottom-top"
+         src="/uploads/abstractDot.png"
+         alt="">
+     <a href="{{ page.ourPorts.cta-link }}" class="btn-prime" type="button" name="button">{{ page.ourPorts.cta }}</a>
+     <a href="{{ page.ourPorts.cta2-link }}" class="btn-second" type="button" name="button">{{ page.ourPorts.cta2 }}</a>
+   </div>
+
+
+   <!-- SHOP———————————————————————————— -->
+
+
+   <div id="shop" class="shopMain center">
+     <div class="shopMain_content">
+       <h5 class="eyebrow">{{ page.shop.eyebrow }}</h5>
+       <h2 class="sectionTitle redType shadowType">{{ page.shop.title }}</h2>
+       <p>{{ page.shop.desc }}.</p>
+       <a href="{{ page.shop.cta-link }}" class="btn-prime" type="button" name="button">{{ page.shop.cta }}</a>
+     </div>
+    {% include components/shopMain-bg.html %}
+   </div>
+
+
+   <div class="shopLibations">
+     <div class="title">
+       <h2 class="sectionTitle redType">{{ page.shopLibations.title }}</h2>
+     </div>
+     <div class="contentL">
+       <h3>{{ page.shopLibations.retail-title }}</h3>
+       <p>{{ page.shopLibations.retail-desc }}</p>
+       <a href="{{ page.shopLibations.retail-cta-link }}" class="btn-prime" type="button" name="button">{{ page.shopLibations.retail-cta }}</a>
+     </div>
+     <div class="contentR">
+       <h3>{{ page.shopLibations.online-title }}</h3>
+       <p>{{ page.shopLibations.online-desc }}</p>
+       <a href="{{ page.shopLibations.online-cta-link }}" class="btn-logo" name="Shop at Vinoshipper">{% include svg/vinoshipper.svg %}</a>
+       <!-- <a class="btn-logo drizzly" name="Shop at Vinoshipper">{% include svg/drizzly.svg %}</a> -->
+     </div>
+   </div>
+
+   <div class="shopMembership">
+     <div class="shopMembership_content">
+       <h2 class="sectionTitle">{{ page.shopMembership.title }}</h2>
+       <p>{{ page.shopMembership.desc }}</p>
+       {{page.membership-benefits | markdownify}}
+       <a href="{{ page.shopMembership.cta-link }}" class="btn-prime" type="button" name="button">{{ page.shopMembership.cta }}</a>
+     </div>
+     <img class="shopBG_blue move-vert"
+         data-modifier="-8"
+         data-from="top-bottom"
+         data-to="bottom-top"
+         src="/uploads/offtherecord.png"
+         alt="">
+     <img class="hide-below-tablet move-vert"
+         data-modifier="-8"
+         data-from="top-bottom"
+         data-to="bottom-top"
+         src="/uploads/abstractDot.png"
+         alt="">
+   </div>
+
+
+   <!-- END UPDATES —————————————————— -->
+
+
+
+
+
             <!-- Brew Process -->
-                <div id="process" class="my15">
+                <div id="process" class="my5">
                     {% include components/brew-process.html %}
                 </div>
         </section>
@@ -128,24 +262,25 @@ layout: default
                 alt="">
             </div>
         </section>
-        <section>
-            <!-- Events -->
-            <div id="events" class="my5 center mx-auto">
+      <!-- Events -->
+        <section class="eventsContainer">
+            <div id="events" class="my3 center mx-auto">
                 <div class="cch-events red-text">Events</div>
             </div>
-            <div class="events-wrap my5 max-width-4 mx-auto ">
+            <div class="events-wrap my2 max-width-4 mx-auto ">
 
                 {% include components/event.html%}
 
             </div>
+            <a class="btn-prime my2" href="https://www.eventbrite.com/o/capitol-cider-house-17509653566">see all events</a>
         </section>
+
+      <!-- contact -->
         <section id="lastSection" class="move-vert"
         data-modifier="-11"
         data-from="top-bottom"
         data-to="bottom-top"
         alt="">
-            <!-- contact -->
-
             <div id="contact" class="cch-address vh80 cntr-cntr-child px3">
                 <div class="center max-width-4 margin-auto">
                     <p class="hiiiiii">👋</p>

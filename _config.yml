@@ -2,11 +2,14 @@
 title: Capitol Cider House
 timezone: America/New_York
 collections:
-  cideries:
-    title: Cideries
+  our-ciders:
+    title: Ciders
     output: true
   events:
     title: Events
+    output: true
+  our-ports:
+    title: Ports
     output: true
   posts:
     title: Posts
@@ -17,11 +20,6 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: cideries
-  values:
-    distance: 1.2 Miles
-- scope:
-    path: ''
     type: events
   values:
     title: Spooky Trivia
@@ -29,6 +27,18 @@ defaults:
     end-time: 2AM
     giphy-url: https://media.giphy.com/media/3ohs7KViF6rA4aan5u/giphy.gif
     event-url: 
+- scope:
+    path: ''
+    type: our-ciders
+  values:
+    title: Wild Gold
+    tasting-notes: Dry, green apple, wild fermented
+- scope:
+    path: ''
+    type: our-ports
+  values:
+    title: Goldrush
+    tasting-notes: Sweet, honey, butterscotch
 email: hello@capitolciderhouse.com
 opening-date: 
 description: Capitol Cider House is cidery and taproom located at 3930 Georgia Avenue,
