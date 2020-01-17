@@ -25,7 +25,7 @@ ourCiders:
   eyebrow: From the cidery
   title: Our Ciders
   desc: Made in-house, our craft ciders are made with a <a href="#process">classic
-    process</a> in mind to create unique, refreshing, and amazingly delicious taste.
+    process</a> in mind to create unique, refreshing and amazingly delicious taste.
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
@@ -45,7 +45,7 @@ ourPorts:
 shop:
   eyebrow: Shop CCH
   title: GIFT CARDS!!!
-  desc: "Need a last minute gift \U0001F4B3? We got you."
+  desc: "Need a last minute gift \U0001F4B3? We got you"
   cta: check it out
   cta-link: https://squareup.com/gift/K601ER61YN8PV/order
 shopLibations:
