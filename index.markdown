@@ -22,49 +22,45 @@ libations:
     that are otherwise hard to find in DC. Our menu is always changing, but we’re
     always keeping it local.
 ourCiders:
-  eyebrow: From the brewery
+  eyebrow: From the cidery
   title: Our Ciders
-  desc: Brewed in-house, our ciders are made with a <a href="#process">classic process</a>
-    in mind. Harvested from the finest apples praesent congue erat at massa lraesent
-    congue erat at massa.
-  card-eyebrow: Capitol Cider House
+  desc: Made in-house, our craft ciders are made with a <a href="#process">classic
+    process</a> in mind to create unique, refreshing and amazingly delicious taste.
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
   cta2-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
 ourPorts:
-  eyebrow: From the brewery
-  title: Our Apple Port
-  desc: A distinctly American pommeau. Fresh-pressed Winesap apples collide with eau
-    de vie crafted from a custom blend of wild-fermented cider. Aged in locally-sourced
-    rye whiskey barrels for 11 months.
-  card-eyebrow: North Columbia
+  eyebrow: From the cidery
+  title: Our Pommeau
+  desc: "WHAT THE HECK IS POMMEAU?! \nPommeau is a traditional French cordial made
+    by blending raw, unfermented cider with an apple-based distillate (eau de vie)
+    - think of it as the apple version of port wine. Best enjoyed as an aperitif or
+    as an extremely versatile mixer, where pommeau can replace and elevate sweet vermouth
+    in classic cocktails like the Manhattan and Negroni."
   cta: Find a store
   cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
   cta2-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shop:
   eyebrow: Shop CCH
-  title: Grab yourself some swag
-  desc: "From gift cards \U0001F4B3 to \U0001F9E2 \U0001F455 apparel, We got you covered.
-    Grab an Item for your special someone at the CCH Shop"
+  title: GIFT CARDS!!!
+  desc: "Need a last minute gift \U0001F4B3? We got you"
   cta: check it out
   cta-link: https://squareup.com/gift/K601ER61YN8PV/order
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: New Columbia apple port can be found in over 25 shops and bars in the
-    DC Metro Area.
+  retail-desc: Find us in 30+ select retailers across DC!
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   online-title: Buy Online
-  online-desc: Looking to get our booze sent directly to you? We’re shipping to over
-    40 plus states.
+  online-desc: Want booze delivered to your door? Now shipping to nearly 40 states!
   online-cta-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shopMembership:
-  title: Join Our exclusive cider club
-  desc: Off the Record is our membership plan with some amazing perks. Sign up today
-    because space is limited.
+  title: Join Our Cider Club!
+  desc: OFF THE RECORD is our cider club devoted to the apples and its many interpretations.
+    Check out these amazing perks! Space is limited so sign up today.
   cta: become a member
   cta-link: https://form.jotform.com/93258396901163
 membership-benefits: |-
