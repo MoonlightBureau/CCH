@@ -1,6 +1,6 @@
 ---
 title: FN Treat
-position: 2
+position: 3
 tasting-notes: Dry, nutty, roasted pumpkin
 ---
 

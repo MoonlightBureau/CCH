@@ -1,6 +1,6 @@
 ---
 title: Capital Cuvée
-position: 5
+position: 0
 tasting-notes: Dry, wildflower, brandy barrel aged
 ---
 
