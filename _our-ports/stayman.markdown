@@ -1,6 +1,6 @@
 ---
 title: Stayman
-position: 1
+position: 0
 tasting-notes: Sweet, orange blossom, clove
 ---
 

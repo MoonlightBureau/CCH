@@ -1,6 +1,6 @@
 ---
 title: Reserve
-position: 0
+position: 4
 tasting-notes: Blend of nine different pommeau
 ---
 

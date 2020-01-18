@@ -1,6 +1,6 @@
 ---
 title: Northern Spy
-position: 4
+position: 3
 tasting-notes: Sweet, vanilla, boozy
 ---
 

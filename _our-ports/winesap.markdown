@@ -1,6 +1,6 @@
 ---
 title: Winesap
-position: 3
+position: 2
 tasting-notes: Sweet, herbaceous, rich butter
 ---
 
