@@ -1,6 +1,6 @@
 ---
 title: Pippin
-position: 0
+position: 1
 tasting-notes: Sweet, caramel, green apple
 ---
 
