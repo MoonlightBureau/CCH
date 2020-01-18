@@ -24,8 +24,8 @@ libations:
 ourCiders:
   eyebrow: From the cidery
   title: On Tap
-  desc: Made in-house, our craft ciders are made with a <a href="#process">classic
-    process</a> in mind to create unique, refreshing and amazingly delicious taste.
+  desc: We use a <a href="#process">classic process</a> to create unique, refreshing
+    and amazingly delicious craft cider, mead, perry and more!
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
