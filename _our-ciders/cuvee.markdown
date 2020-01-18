@@ -1,5 +1,5 @@
 ---
-title: Capital Cuvee
-tasting-notes: Sweet, honey, butterscotch
+title: Capital Cuvée
+tasting-notes: Dry, wildflower, brandy barrel aged
 ---
 

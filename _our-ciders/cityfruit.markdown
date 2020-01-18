@@ -1,5 +1,5 @@
 ---
 title: City Fruit
-tasting-notes: Semi-dry, Compote, Sesame (Perry)
+tasting-notes: Semi-dry, compote, sesame (PERRY)
 ---
 
