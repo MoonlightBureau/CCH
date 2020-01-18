@@ -23,7 +23,7 @@ libations:
     always keeping it local.
 ourCiders:
   eyebrow: From the cidery
-  title: Our Ciders
+  title: On Tap
   desc: Made in-house, our craft ciders are made with a <a href="#process">classic
     process</a> in mind to create unique, refreshing and amazingly delicious taste.
   cta: Visit CCH
