@@ -1,5 +1,5 @@
 ---
 title: FN Treat
-tasting-notes: Dry, Nutty, Roasted Pumpkin
+tasting-notes: Dry, nutty, roasted pumpkin
 ---
 
