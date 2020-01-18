@@ -26,7 +26,6 @@ ourCiders:
   title: Our Ciders
   desc: Made in-house, our craft ciders are made with a <a href="#process">classic
     process</a> in mind to create unique, refreshing and amazingly delicious taste.
-  card-eyebrow: Capitol Cider House
   cta: Visit CCH
   cta-link: "#contact"
   cta2: On Tap in DC
@@ -39,7 +38,6 @@ ourPorts:
     - think of it as the apple version of port wine. Best enjoyed as an aperitif or
     as an extremely versatile mixer, where pommeau can replace and elevate sweet vermouth
     in classic cocktails like the Manhattan and Negroni."
-  card-eyebrow: North Columbia
   cta: Find a store
   cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
@@ -76,7 +74,7 @@ membership-benefits: |-
   * priority booking for special    events
   * 10% off ALL purchases
 BrewProcess-intro:
-  label: OUR CIDER PROCESS
+  label: OUR PROCESS
   title: How It’s Made
 BrewProcess1:
   number-image: "/uploads/1@2x.png"
