@@ -1,6 +1,6 @@
 ---
 title: GoldRush
-position: 5
+position: 0
 tasting-notes: Sweet, honey, butterscotch
 ---
 
