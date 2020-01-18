@@ -1,5 +1,5 @@
 ---
 title: Winesap
-tasting-notes: Sweet, Herbaceous, Rich Butter
+tasting-notes: Sweet, herbaceous, rich butter
 ---
 
