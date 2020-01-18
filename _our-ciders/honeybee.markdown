@@ -1,6 +1,6 @@
 ---
 title: Wild Honeybee
-position: 1
+position: 4
 tasting-notes: Sweet, honey, tang (MEAD)
 ---
 
