@@ -51,7 +51,7 @@ shop:
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: Find us in 30+ select retailers across DC!
+  retail-desc: Our products are now available in 30+ select retailers across DC!
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   online-title: Buy Online
@@ -90,25 +90,25 @@ BrewProcess2:
 BrewProcess3:
   number-image: "/uploads/3@2x.png"
   title: Ferment
-  description: We add yeast and other natural ingredients, like honey or fruit juice,
+  description: We add yeast and other natural ingredients, like honey or local fruit,
     to our fresh apple juice. Then it's time to sit back and let nature take her course.
     The yeast gets to work, turning those natural sugars into alcohol and CO<sub>2</sub>.
 BrewProcess4:
   number-image: "/uploads/4@2x.png"
   title: Package  &  Pour
-  description: Once the cider is ready, we package it up in bottles and kegs. It's
-    ready to enjoy now, or we can wait a few months to develop more flavor. Come have
-    a glass with us!
+  description: Once the cider is ready, we package it up in kegs. It's ready to enjoy
+    now, or we can wait a few months to develop more flavor. Come have a glass with
+    us and take home a crowler (or two)!
 Location:
   label: Our Location
   title: Check out our new digs
-  description: "We invite you to visit our brand new production space and tasting
-    room at [3930 Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on
-    our patio, play one of our many board games and enjoy some grub (we have food!!!)
-    while sampling a flight of regional ciders. Kids are welcome, and friendly dogs
-    can hang out in our outside space. \n\nOur peppy space is also available for private
-    and semi-private events. Email us at [**events@capitolciderhouse.com**](mailto:
-    events@capitolciderhouse.com) for more info!"
+  description: "We invite you to visit our production space and tasting room at [3930
+    Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on our patio, play
+    one of our many board games and enjoy some grub (we have food!!!) while sampling
+    a flight of ciders. Kids are welcome, and friendly dogs can hang out in our outside
+    space. \n\nOur peppy space is also available for private and semi-private events.
+    Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
+    for more info!"
 no-events:
   title: Check Back Later
   description: Womp Womp. We don't have any events right now but sign up for our newsletter
