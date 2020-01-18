@@ -1,6 +1,6 @@
 ---
 title: Wild Gold
-position: 0
+position: 1
 tasting-notes: Dry, green apple, wild fermented
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Pomme Franc
-position: 1
+position: 0
 tasting-notes: Dry, jammy, cab franc infused
 ---
 
