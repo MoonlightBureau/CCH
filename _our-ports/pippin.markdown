@@ -1,5 +1,5 @@
 ---
 title: Pippin
-tasting-notes: Sweet, Caramel, Green Apple
+tasting-notes: Sweet, caramel, green apple
 ---
 

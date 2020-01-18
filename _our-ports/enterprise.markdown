@@ -1,6 +1,6 @@
 ---
-title: Enterprise
+title: Northern Spy
 position: 1
-tasting-notes: Sweet, Orange Blossom, Clove
+tasting-notes: Sweet, vanilla, boozy
 ---
 

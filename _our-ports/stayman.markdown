@@ -1,5 +1,5 @@
 ---
 title: Stayman
-tasting-notes: Sweet, Orange Blossom, Clove
+tasting-notes: Sweet, orange blossom, clove
 ---
 
