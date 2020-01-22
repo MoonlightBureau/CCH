@@ -1,6 +1,6 @@
 ---
-title: Wild Gold
+title: Spicy Peach
 position: 2
-tasting-notes: Dry, green apple, wild fermented
+tasting-notes: Dry, fiery, peach
 ---
 
