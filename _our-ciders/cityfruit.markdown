@@ -1,6 +1,6 @@
 ---
-title: City Fruit
+title: Golden Barrel
 position: 5
-tasting-notes: Semi-dry, compote, sesame (PERRY)
+tasting-notes: Dry, white wine, stone fruit
 ---
 
