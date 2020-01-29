@@ -1,9 +1,9 @@
 ---
-title: EGGStraordinary Fest
+title: 2020 Family Gras
 date: 2019-03-21 12:21:00 -04:00
-event-date: 2019-04-14 11:00:00 -04:00
-end-time: 02PM
-giphy-url: https://media.giphy.com/media/Qw4X3FGaZ6y9cLu1EwE/giphy.gif
-event-url: https://www.eventbrite.com/e/eggstraordinary-fest-tickets-59145808706
+event-date: 2020-02-23 10:00:00 -05:00
+end-time: 12PM
+giphy-url: https://media.giphy.com/media/PcGOnI3NtRFn2/giphy.gif
+event-url: https://www.eventbrite.com/e/2020-family-gras-tickets-92098871203
 ---
 
