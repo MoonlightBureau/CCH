@@ -1,6 +1,6 @@
 ---
-title: Golden Barrel
+title: Peargatory
 position: 5
-tasting-notes: Dry, white wine, stone fruit
+tasting-notes: Semi-dry, zesty, butter (PERRY)
 ---
 

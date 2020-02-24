@@ -1,6 +1,6 @@
 ---
-title: Capital Cuvée
+title: Golden Barrel
 position: 0
-tasting-notes: Dry, wildflower, brandy barrel aged
+tasting-notes: Dry, white wine, stone fruit
 ---
 
