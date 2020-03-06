@@ -1,6 +1,6 @@
 ---
-title: FN Treat
+title: Petite Pomme
 position: 3
-tasting-notes: Dry, nutty, roasted pumpkin
+tasting-notes: Dry, black plum, violet
 ---
 
