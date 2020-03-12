@@ -1,6 +1,7 @@
 ---
 title: 'COMEDY SHOW: Comedy is Calling'
 date: 2019-08-18 19:26:00 -04:00
+published: false
 event-date: 2020-03-15 19:00:00 -04:00
 end-time: '0830PM'
 giphy-url: https://media.giphy.com/media/l46CwEYnbFtFfjZNS/giphy.gif
