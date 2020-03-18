@@ -1,6 +1,6 @@
 ---
-title: Wild Honeybee
+title: Hewe's Crab
 position: 4
-tasting-notes: Sweet, honey, tang (MEAD)
+tasting-notes: Dry, fruit forward, rich tannin
 ---
 
