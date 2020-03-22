@@ -1,0 +1,6 @@
+{% if page.is-warning == true %}
+  <div id="warningAnnouncement">
+    {{ page.warningAnnouncement | markdownify}}
+    <button type="button" name="button" onclick="closeAnnouncement()" id="closeAnnouncement">&times;</button>
+  </div>
+{% endif %}
