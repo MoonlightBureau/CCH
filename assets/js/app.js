@@ -188,6 +188,11 @@ $(document.links).filter(function() {
     });
 
 
+    console.log(newList);
+
+
+
+
 // ------------------------------------------
 
 
@@ -259,3 +264,9 @@ function previewImages() {
 };
 
   previewImages();
+
+
+function closeAnnouncement() {
+  var announcement = document.getElementById('warningAnnouncement')
+  announcement.classList.add("warningAnnouncement--hidden");
+}

@@ -1,0 +1,51 @@
+#warningAnnouncement {
+  width: 62%;
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 24px 32px 24px;
+  background-color: $cch-blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-content: center;
+  z-index: 5;
+
+  @media #{$media-max-tablet}{
+    width: 80%;
+    top: 54px;
+  }
+
+  & p {
+    color: white;
+    line-height: 1.5;
+    margin-bottom: unset;
+    font-weight: 400;
+
+    & a {
+      background-position: 0 18px;
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: white;
+    font-size: 24px;
+    transform: none;
+    transition: .3s all;
+
+    &:hover {
+      color: $cch-red;
+      transform: scale(1.4);
+      }
+  }
+}
+
+.warningAnnouncement--hidden {
+  display: none !important;
+}

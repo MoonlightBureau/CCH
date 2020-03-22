@@ -20,10 +20,10 @@ body {
 }
 
 .body-wrap {
-    margin-top: 7.5rem;
+    padding-top: 7.5rem;
     overflow: hidden;
     @media #{$media-max-tablet}{
-        margin-top: 5.5rem;
+        padding-top: 5.5rem;
     }
 }
 
