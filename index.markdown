@@ -3,8 +3,8 @@ title: Home
 is-warning: true
 warningAnnouncement: Help us weather the storm with a [gift card](https://squareup.com/gift/K601ER61YN8PV/order)
   or [house account](https://cch.inkind.com/). We're also open for curbside pickup
-  & delivery (anywhere in DC) - 7 days a week (weekdays 4-8pm, weekends 12-8pm). Email
-  [order@capitolciderhouse.com](mailto:order@capitolciderhouse.com) for further details.
+  & delivery (anywhere in DC) - 7 days a week (weekdays 4-8pm, weekends 12-8pm). Check
+  out our [new online store](cider2go.com) for further details.
 is-open-month-only: false
 hours: 'Wednesday: 4pm-10pm </br> Thursday: 4pm-11pm </br> Friday: 4pm-12am </br>
   Saturday: 11am-12am </br> Sunday: 11am-9pm'
