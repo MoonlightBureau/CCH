@@ -50,8 +50,8 @@ ourPorts:
 shop:
   eyebrow: Shop CCH
   title: ONLINE STORE
-  desc: "From booze \U0001F942 to apparel \U0001F9E2 , we got you covered. Need a
-    [gift card (https://squareup.com/gift/K601ER61YN8PV/order), we do that, too."
+  desc: "Booze \U0001F942 to apparel \U0001F9E2 , gift cards   and MORE - we got you
+    covered. "
   cta: check it out
   cta-link: https://www.cider2go.com
 shopLibations:
