@@ -49,10 +49,11 @@ ourPorts:
   cta2-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shop:
   eyebrow: Shop CCH
-  title: GIFT CARDS!!!
-  desc: "Need a last minute gift \U0001F4B3? We got you"
+  title: NEW ONLINE STORE!!!
+  desc: "From booze \U0001F942 to apparel \U0001F9E2 , we got you covered. Need a
+    [gift card]  (https://squareup.com/gift/K601ER61YN8PV/order), we do that too."
   cta: check it out
-  cta-link: https://squareup.com/gift/K601ER61YN8PV/order
+  cta-link: cider2go.com
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
