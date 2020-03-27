@@ -68,7 +68,7 @@ shopMembership:
   desc: OFF THE RECORD is our cider club devoted to the apples and its many interpretations.
     Check out these amazing perks! Space is limited so sign up today.
   cta: become a member
-  cta-link: https://form.jotform.com/93258396901163
+  cta-link: https://www.cider2go.com/s/order#3
 membership-benefits: |-
   * FREE 32oz growlette when you join
   * 2 complimentary house cider tastes per visit
