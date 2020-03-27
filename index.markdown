@@ -53,7 +53,7 @@ shop:
   desc: "From booze \U0001F942 to apparel \U0001F9E2 , we got you covered. Need a
     [gift card](https://squareup.com/gift/K601ER61YN8PV/order), we do that too."
   cta: check it out
-  cta-link: cider2go.com
+  cta-link: https://www.cider2go.com
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
