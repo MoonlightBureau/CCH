@@ -6,8 +6,8 @@ warningAnnouncement: Help us weather the storm with a [gift card](https://square
   & delivery (anywhere in DC) - 7 days a week (weekdays 4-8pm, weekends 12-8pm). Check
   out our [new online store](https://cider2go.com) for further details.
 is-open-month-only: false
-hours: 'Wednesday: 4pm-10pm </br> Thursday: 4pm-11pm </br> Friday: 4pm-12am </br>
-  Saturday: 11am-12am </br> Sunday: 11am-9pm'
+hours: 'Monday: 4pm-8pm </br> Tuesday: 4pm-8pm </br> Wednesday: 4pm-8pm </br> Thursday:
+  4pm-8pm </br> Friday: 4pm-8pm </br> Saturday: 12pm-8pm </br> Sunday: 12pm-8pm'
 why-cider:
   title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
