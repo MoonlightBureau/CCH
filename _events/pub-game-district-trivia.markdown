@@ -1,9 +1,9 @@
 ---
-title: 'PUB GAME: District Trivia'
+title: 'VIRTUAL PUB GAME: Trivia'
 date: 2020-01-29 13:41:00 -05:00
-event-date: 2020-02-27 20:00:00 -05:00
+event-date: 2020-04-02 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
-event-url: https://www.eventbrite.com/e/pub-game-district-trivia-tickets-92081222415
+event-url: https://www.eventbrite.com/e/virtual-pub-game-trivia-tickets-97013663479
 ---
 
