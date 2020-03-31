@@ -1,10 +1,10 @@
 ---
-title: 'COMEDY SHOW: Comedy is Calling'
+title: 'VIRTUAL COMEDY SHOW: Comedy is Calling'
 date: 2019-08-18 19:26:00 -04:00
 published: false
-event-date: 2020-03-15 19:00:00 -04:00
-end-time: '0830PM'
+event-date: 2020-04-05 19:30:00 -04:00
+end-time: '0900PM'
 giphy-url: https://media.giphy.com/media/l46CwEYnbFtFfjZNS/giphy.gif
-event-url: https://www.eventbrite.com/e/comedy-show-comedy-is-calling-tickets-96364806731
+event-url: https://www.eventbrite.com/e/virtual-comedy-show-comedy-is-calling-tickets-96364868917
 ---
 
