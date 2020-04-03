@@ -1,6 +1,6 @@
 ---
-title: New Pips On The Block
+title: Lil' Pip
 position: 1
-tasting-notes: Dry, balanced acidity, light bodied
+tasting-notes: Dry, crisp, concord grape
 ---
 
