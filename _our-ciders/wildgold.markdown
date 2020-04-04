@@ -1,6 +1,6 @@
 ---
-title: Spicy Peach
+title: Unholy Trinity
 position: 2
-tasting-notes: Dry, fiery, peachy
+tasting-notes: Dry, confectionary, citrus
 ---
 
