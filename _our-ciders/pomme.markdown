@@ -1,6 +1,6 @@
 ---
-title: Lil' Pip
+title: Black Twig
 position: 1
-tasting-notes: Dry, crisp, concord grape
+tasting-notes: Dry, fresh lavender, floral nectar
 ---
 
