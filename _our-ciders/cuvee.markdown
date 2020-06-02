@@ -1,6 +1,6 @@
 ---
-title: Golden Russet
+title: Honey Lavender
 position: 0
-tasting-notes: Dry, white wine, stone fruit
+tasting-notes: Semi-dry, floral, apples & honey (CYSER)
 ---
 
