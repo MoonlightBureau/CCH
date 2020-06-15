@@ -3,11 +3,11 @@ title: Home
 is-warning: true
 warningAnnouncement: Help us weather the storm with a [gift card](https://squareup.com/gift/K601ER61YN8PV/order)
   or [house account](https://cch.inkind.com/). We're also open for curbside pickup
-  & delivery (anywhere in DC) - 7 days a week (weekdays 4-8pm, weekends 12-8pm). Check
-  out our [new online store](https://cider2go.com) for further details.
+  & delivery (anywhere in DC). Check out our [new online store](https://cider2go.com)
+  for further details.
 is-open-month-only: false
-hours: 'Monday: 4pm-8pm </br> Tuesday: 4pm-8pm </br> Wednesday: 4pm-8pm </br> Thursday:
-  4pm-8pm </br> Friday: 4pm-8pm </br> Saturday: 12pm-8pm </br> Sunday: 12pm-8pm'
+hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: 4pm-8pm </br> Thursday:
+  4pm-8pm </br> Friday: 4pm-8pm </br> Saturday: 12pm-6pm </br> Sunday: 12pm-6pm'
 why-cider:
   title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
