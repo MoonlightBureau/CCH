@@ -3,7 +3,7 @@ title: Home
 is-warning: true
 warningAnnouncement: Help us weather the storm with a [gift card](https://squareup.com/gift/K601ER61YN8PV/order)
   or [house account](https://cch.inkind.com/). We're also open for curbside pickup
-  & delivery (anywhere in DC). Check out our [new online store](https://cider2go.com)
+  & contactless delivery (anywhere in DC). Check out our [new online store](https://cider2go.com)
   for further details.
 is-open-month-only: false
 hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: 4pm-8pm </br> Thursday:
