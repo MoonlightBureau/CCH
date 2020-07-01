@@ -1,6 +1,6 @@
 ---
 title: Hewe's Crab
-position: 4
+position: 6
 tasting-notes: Dry, fruit forward, rich tannin
 ---
 
