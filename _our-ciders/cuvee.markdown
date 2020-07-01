@@ -1,6 +1,6 @@
 ---
 title: Honey Lavender
-position: 0
+position: 2
 tasting-notes: Semi-dry, floral, apples & honey (CYSER)
 ---
 

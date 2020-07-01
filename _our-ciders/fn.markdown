@@ -1,6 +1,6 @@
 ---
 title: Washington Grapeskins
-position: 3
+position: 5
 tasting-notes: Dry, crystallized honey, mild tannin
 ---
 
