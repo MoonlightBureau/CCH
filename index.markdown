@@ -1,10 +1,16 @@
 ---
 title: Home
 is-warning: true
-warningAnnouncement: Help us weather the storm with a [gift card](https://squareup.com/gift/K601ER61YN8PV/order)
-  or [house account](https://cch.inkind.com/). We're also open for curbside pickup
-  & contactless delivery (anywhere in DC). Check out our [new online store](https://cider2go.com)
-  for further details.
+warningAnnouncement: "We are excited to welcome you back to Capitol Cider House for
+  dine in service THIS WEEKEND! Indoor and outdoor seating is very limited and reservations
+  are strongly encouraged. [Email](hello@capitolciderhouse.com) to book a table, including
+  date/time preferences as well as party size (max 6). Dine in service only available
+  on weekends right now (12-8pm). \n\nAs we establish our new normal, we ask that
+  guests remember to practice social distancing throughout their dining experience,
+  as well as wear a mask whenever possible. Thank you for your assistance in keeping
+  our community safe. Hope to see you soon!\n\nAnd we'll still be offering pickup
+  and delivery services in DC if you'd rather enjoy some cider from the comfort of
+  your own home. Check out our [online store](cider2go.com) for more details."
 is-open-month-only: false
 hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: 4pm-8pm </br> Thursday:
   4pm-8pm </br> Friday: 4pm-8pm </br> Saturday: 12pm-6pm </br> Sunday: 12pm-6pm'
