@@ -1,6 +1,6 @@
 ---
 title: Home
-is-warning: true
+is-warning: false
 warningAnnouncement: We are excited to welcome you back to Capitol Cider House for
   dine in service THIS WEEKEND! Indoor and outdoor seating is very limited and reservations
   are strongly encouraged. [Email](hello@capitolciderhouse.com) us to book a table,
