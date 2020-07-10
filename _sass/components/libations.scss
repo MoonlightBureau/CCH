@@ -298,12 +298,14 @@
   font-weight: 800;
   color: white;
   line-height: .9;
+  font-family: helvetica;
 
   @media #{$media-max-tablet}{
     font-size: 44px;
     word-break: break-word;
   }
 }
+
 
 .shadowType_blue {
       @include shadowBase;
