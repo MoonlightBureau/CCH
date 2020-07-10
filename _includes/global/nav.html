@@ -3,11 +3,17 @@
     <nav class="vert-cntr-child justify-between">
     <a href="#top" class="brand-logo">{% include svg/apple.svg %}</a>
 
+<div class="nav-right">
+    <div class="hide-mobile">
+      <a href="https://resy.com/cities/dc/capitol-cider-house" id="resyButton-_8U2Yr9_5">Book your Capitol Cider House reservation on Resy</a>
+    </div>
+    <a class="book-alt" href="https://resy.com/cities/dc/capitol-cider-house">Book</a>
     <input type="checkbox" id="nav" class="hidden"/>
     <label for="nav" class="nav-open"><i></i><i></i></label>
       <div class="nav-container fixed top-0 right-0 p1 z2 flex flex-column">
             <ul class="block list-reset">
-                <!-- <a href=#about onclick='checkoff()'><li class="nav-item">About</li></a> -->
+
+                <a href="https://resy.com/cities/dc/capitol-cider-house" onclick='checkoff()'><li class="nav-item">Book Now</li></a>
 
                 <a href=#cidery onclick='checkoff()'><li class="nav-item">Libations</li></a>
 
@@ -21,6 +27,9 @@
 
                 <a href=#contact onclick='checkoff()'><li class="nav-item">Contact</li></a>
 
+
+
+
             </ul>
         <div class="form-wrap">
             <p class="sign-up hide-xs">emails you’ll actually want to open</p>
@@ -28,6 +37,7 @@
             {% include components/signupform.html%}
         </div>
     </div>
-    {% include components/warningAnnouncement.html %}
+  </div>
+
 </nav>
 </div>

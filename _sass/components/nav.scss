@@ -30,6 +30,46 @@ nav {
        }
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+
+  & span {
+    margin-right: 24px;
+  }
+
+  & iframe {
+    height: 40px;
+    width: 140px;
+  }
+}
+
+.book-alt {
+  background-color: #FF2600;
+  padding: 10px 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  border-radius: 3px;
+  margin-right: 16px;
+  display: none;
+
+  @media #{$media-max-tablet}{
+    display: block;
+  }
+}
+
+.hide-mobile {
+  @media #{$media-max-tablet}{
+    display: none;
+  }
+}
+
+.show-mobile {
+
+}
+
+
 .brand-logo  {
     width: 3rem;
      @media #{$media-max-tablet}{

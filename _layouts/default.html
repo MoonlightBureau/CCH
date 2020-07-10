@@ -4,6 +4,7 @@
   {% include global/head.html %}
 
   <body class="home">
+    {% include components/warningAnnouncement.html %}
 
     {% include global/nav.html %}
 
@@ -14,6 +15,10 @@
     <script src="/assets/js/jquery.lettering-0.6.1.min.js"></script>
     <script src="/assets/js/app.js"></script>
     <script src="/assets/js/slick.min.js"></script>
+    <script src="https://widgets.resy.com/embed.js"></script>
+    <script>
+        resyWidget.addButton(document.getElementById('resyButton-_8U2Yr9_5'), {"venueId":29067,"apiKey":"ccuJJgyoSTDTkCYFDnsM1w8TBdXIu9kK","replace":true,});
+    </script>
     <!-- <script src="/assets/js/fuzzco.js"></script> -->
 
   </body>
