@@ -39,8 +39,8 @@ ourCiders:
     and amazingly delicious craft cider, mead, perry and more!
   cta: Visit CCH
   cta-link: "#contact"
-  cta2: On Tap in DC
-  cta2-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
+  cta2: Buy Online
+  cta2-link: cider2go.com
 ourPorts:
   eyebrow: From the cidery
   title: Our Pommeau
