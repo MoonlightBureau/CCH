@@ -40,7 +40,7 @@ ourCiders:
   cta: Visit CCH
   cta-link: "#contact"
   cta2: Buy Online
-  cta2-link: cider2go.com
+  cta2-link: https://cider2go.com
 ourPorts:
   eyebrow: From the cidery
   title: Our Pommeau
