@@ -1,6 +1,7 @@
 ---
 title: 'LIVE MUSIC: Featherburn'
 date: 2019-11-04 21:18:00 -05:00
+published: false
 event-date: 2020-10-10 20:00:00 -04:00
 end-time: 10PM
 giphy-url: http://giphygifs.s3.amazonaws.com/media/hlhcWmTLxFicE/giphy.gif
