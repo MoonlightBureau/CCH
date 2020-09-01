@@ -1,6 +1,6 @@
 ---
 title: Apple Vine
-position: 5
+position: 6
 tasting-notes: Dry, crystallized honey, mild tannin
 ---
 

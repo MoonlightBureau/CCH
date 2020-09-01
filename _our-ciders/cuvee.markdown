@@ -1,6 +1,6 @@
 ---
-title: Honey Lavender
-position: 2
-tasting-notes: Semi-dry, floral, apples & honey (CYSER)
+title: Life's A Peach
+position: 1
+tasting-notes: Dry, crisp, peachy
 ---
 

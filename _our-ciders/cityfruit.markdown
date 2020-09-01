@@ -1,7 +1,7 @@
 ---
 title: Peargatory
 published: false
-position: 7
+position: 8
 tasting-notes: Semi-dry, zesty, butter (PERRY)
 ---
 
