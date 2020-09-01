@@ -1,6 +1,6 @@
 ---
-title: Stayman
+title: Pink Lady
 position: 1
-tasting-notes: Sweet, orange blossom, clove
+tasting-notes: Sweet, sweet lemon, peach
 ---
 
