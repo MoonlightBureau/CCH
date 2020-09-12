@@ -1,6 +1,6 @@
 ---
 title: Life's A Peach
-position: 2
+position: 1
 tasting-notes: Dry, crisp, peachy
 ---
 
