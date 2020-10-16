@@ -1,7 +1,6 @@
 ---
-title: Apple Vine
-published: false
+title: Sunnyside
 position: 6
-tasting-notes: Dry, crystallized honey, mild tannin
+tasting-notes: Semi-dry, apples & wildflower honey
 ---
 
