@@ -1,6 +1,6 @@
 ---
 title: Sunnyside
-position: 6
+position: 3
 tasting-notes: Semi-dry, apples & wildflower honey
 ---
 
