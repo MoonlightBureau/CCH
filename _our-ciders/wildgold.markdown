@@ -1,6 +1,6 @@
 ---
 title: Unholy Trinity
-position: 6
+position: 7
 tasting-notes: Dry, confectionary, citrus
 ---
 
