@@ -1,7 +1,7 @@
 ---
-title: Peargatory
+title: Grape Crush
 published: false
 position: 7
-tasting-notes: Semi-dry, zesty, butter (PERRY)
+tasting-notes: Dry, rosé, jammy
 ---
 
