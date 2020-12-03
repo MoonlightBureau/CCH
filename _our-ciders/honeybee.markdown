@@ -1,6 +1,6 @@
 ---
-title: Hewe's Crab
-position: 7
-tasting-notes: Dry, fruit forward, rich tannin
+title: Blackberry Mint
+position: 4
+tasting-notes: Semi-dry, blackberries, mint
 ---
 
