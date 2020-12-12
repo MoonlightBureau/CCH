@@ -1,7 +1,7 @@
 ---
-title: Unholy Trinity
+title: Mah Plums
 published: false
 position: 8
-tasting-notes: Dry, confectionary, citrus
+tasting-notes: Dry, jammy, rosé
 ---
 
