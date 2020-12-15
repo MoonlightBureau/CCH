@@ -1,9 +1,9 @@
 ---
-title: BOTTOMLESS BRUNCH - Cider & Short Eats
+title: 'VIRTUAL WORKSHOP: Hot Cider Cocktails'
 date: 2018-12-19 11:55:00 -05:00
-event-date: 2019-08-24 11:00:00 -04:00
-end-time: 03PM
+event-date: 2021-01-20 20:30:00 -05:00
+end-time: '0930PM'
 giphy-url: https://media.giphy.com/media/l4FGrc36ps3naFSow/giphy.gif
-event-url: https://www.eventbrite.com/e/bottomless-brunch-cider-short-eats-tickets-69633761455
+event-url: http://hotcider.eventbrite.com/
 ---
 
