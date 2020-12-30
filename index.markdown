@@ -13,7 +13,7 @@ warningAnnouncement: We are excited to welcome you back to Capitol Cider House f
   you soon!
 is-open-month-only: false
 hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: CLOSED </br> Thursday:
-  CLOSED </br> Friday: 4pm-9pm </br> Saturday: 12pm-9pm </br> Sunday: 12pm-6pm'
+  CLOSED </br> Friday: 4pm-8pm </br> Saturday: 1pm-8pm </br> Sunday: 1pm-5pm'
 why-cider:
   title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
@@ -119,6 +119,7 @@ Location:
     one of our many board games and enjoy some grub (we have food!!!) while sampling
     a flight of ciders. Kids are welcome, and friendly dogs can hang out in our outside
     space. \n\nOur peppy space is also available for private and semi-private events.
+    We also offer custom virtual events like guided tastings and interactive workshops.
     Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info!"
 no-events:
