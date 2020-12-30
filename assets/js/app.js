@@ -182,13 +182,12 @@ $(document.links).filter(function() {
             event.parentNode.removeChild(event)
         }
 
-        if (g > weekOut) {
-            event.parentNode.removeChild(event)
-        }
+        // if (g > weekOut) {
+        //     event.parentNode.removeChild(event)
+        // }
     });
 
 
-    console.log(newList);
 
 
 
