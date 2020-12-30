@@ -36,7 +36,9 @@
       {% for event in event-sort %}
           {% assign today = "today" | date: "%s"%}
           {% assign event-date = event.event-date | date: "%s" %}
-          {% if today <= event-date %}
+          
+            {% if today <= event-date %}
+
 
 <!-- LAYOUT -->
 
