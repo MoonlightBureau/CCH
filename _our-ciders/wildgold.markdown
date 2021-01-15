@@ -1,6 +1,6 @@
 ---
 title: Mah Plums
-position: 7
+position: 5
 tasting-notes: Dry, sweet magnolia, jammy
 ---
 
