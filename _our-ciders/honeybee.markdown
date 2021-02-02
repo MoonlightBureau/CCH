@@ -1,6 +1,6 @@
 ---
 title: Blackberry Mint
-position: 6
+position: 7
 tasting-notes: Semi-dry, blackberries, mint
 ---
 
