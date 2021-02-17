@@ -63,11 +63,14 @@ shop:
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: Our products are now available in 30+ select retailers across DC!
+  retail-desc: Our cider is now available in 100+ select retailers across DC & MD!
+    Interested in carrying our cider at your shop? Email sales@capitolciderhouse.com
+    to get started.
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   online-title: Buy Online
-  online-desc: Want booze delivered to your door? Now shipping to nearly 40 states!
+  online-desc: "Want booze delivered to your door? Or to your friend's door? Let us
+    help! Now shipping to nearly 40 states! ✈️\U0001F381"
   online-cta-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shopMembership:
   title: Join Our Cider Club!
