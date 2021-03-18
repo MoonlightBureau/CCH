@@ -1,5 +1,5 @@
 ---
-title: 'VIRTUAL GUIDED TASTING: Cider & Doughnuts'
+title: 'VIRTUAL PAIRING: Cider & Doughnuts'
 date: 2019-10-23 11:41:00 -04:00
 event-date: 2021-04-14 19:00:00 -04:00
 end-time: '0800PM'
