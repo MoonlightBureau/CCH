@@ -1,7 +1,6 @@
 ---
-title: Blackberry Mint
-published: false
+title: Notorious R.I.G.
 position: 5
-tasting-notes: Semi-dry, blackberries, mint
+tasting-notes: Dry, juicy, bright
 ---
 
