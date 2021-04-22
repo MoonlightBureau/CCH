@@ -1,7 +1,7 @@
 ---
 title: Blackberry Mint
 published: false
-position: 8
+position: 5
 tasting-notes: Semi-dry, blackberries, mint
 ---
 

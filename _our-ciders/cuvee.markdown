@@ -1,7 +1,7 @@
 ---
 title: Life's A Peach
 published: false
-position: 2
+position: 3
 tasting-notes: Dry, crisp, peachy
 ---
 
