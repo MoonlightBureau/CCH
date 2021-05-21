@@ -30,7 +30,7 @@ libations:
   title: Libations
   description: All our goods are sourced from within 200 miles of the US Capitol Building.
     We have a few of our own concoctions and many ciders from Mid-Atlantic producers
-    that are otherwise hard to find in DC. Our [menu](https://www.cider2go.com/uploads/b/019e87f0-6cae-11ea-8d47-31dac6667162/6e1d8660-ba54-11eb-9ea0-67a588ef46f7.pdf)
+    that are otherwise hard to find in DC. Our [menu](https://www.cider2go.com/taproom)
     is always changing, but we’re always keeping it local.
 ourCiders:
   eyebrow: From the cidery
