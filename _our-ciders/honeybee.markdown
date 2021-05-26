@@ -1,6 +1,6 @@
 ---
 title: Capitol Rosé
-position: 5
+position: 1
 tasting-notes: Juicy & Bright
 ---
 
