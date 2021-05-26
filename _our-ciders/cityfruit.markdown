@@ -1,7 +1,7 @@
 ---
 title: Grape Crush
 published: false
-position: 3
+position: 4
 tasting-notes: Dry, rosé, jammy
 ---
 
