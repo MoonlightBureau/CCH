@@ -1,7 +1,6 @@
 ---
-title: Notorious R.I.G.
-published: false
+title: Capitol Rosé
 position: 5
-tasting-notes: Dry, juicy, bright
+tasting-notes: Juicy & Bright
 ---
 
