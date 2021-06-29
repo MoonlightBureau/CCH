@@ -13,7 +13,7 @@ warningAnnouncement: We are excited to welcome you back to Capitol Cider House f
   you soon!
 is-open-month-only: false
 hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: CLOSED </br> Thursday:
-  CLOSED </br> Friday: 4pm-9pm </br> Saturday: 1pm-9pm </br> Sunday: 1pm-6pm'
+  CLOSED </br> Friday: 4pm-10pm </br> Saturday: 2pm-10pm </br> Sunday: 2pm-8pm'
 why-cider:
   title: Why Cider?
   text: 'It’s making a comeback. Cider is the original American beverage of choice,
