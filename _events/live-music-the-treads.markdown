@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: The Treads'
+title: 'LIVE MUSIC: Amanda Dove + ChiefLow + PecadoNaturaL'
 date: 2019-01-10 18:39:00 -05:00
-position: 11
-event-date: 2020-02-08 20:00:00 -05:00
-end-time: 10PM
-giphy-url: https://media.giphy.com/media/l46Cu9f4i5W6E6DjW/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-the-treads-tickets-90432154007
+position: 4
+event-date: 2021-09-18 19:00:00 -04:00
+end-time: '09PM'
+giphy-url: https://media.giphy.com/media/1wq4LG6HO8rTsloIPq/giphy.gif?cid=ecf05e470m84jvn3rlltlg2j5hrk4o0ysdz461v5smrdz16x&rid=giphy.gif&ct=g
+event-url: https://www.eventbrite.com/e/live-music-amanda-dove-chieflow-pecadonatural-tickets-168136114645
 ---
 

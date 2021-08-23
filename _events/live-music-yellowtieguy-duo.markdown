@@ -1,7 +1,6 @@
 ---
 title: 'LIVE MUSIC: Austin Loman Trio'
 date: 2019-09-12 16:04:00 -04:00
-published: false
 position: 2
 event-date: 2021-09-04 19:00:00 -04:00
 end-time: '09PM'
