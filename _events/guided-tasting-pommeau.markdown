@@ -1,6 +1,7 @@
 ---
 title: 'VIRTUAL PAIRING: Cider & Doughnuts'
 date: 2019-10-23 11:41:00 -04:00
+position: 41
 event-date: 2021-04-14 19:00:00 -04:00
 end-time: '08PM'
 giphy-url: https://media.giphy.com/media/8aM0z4EOqAgPZIYprz/giphy.gif

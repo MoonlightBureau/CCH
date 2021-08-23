@@ -1,6 +1,7 @@
 ---
 title: DCDW Closing Party
 date: 2019-09-10 20:00:00 -04:00
+position: 37
 event-date: 2019-09-27 20:00:00 -04:00
 end-time: 11PM
 giphy-url: https://media.giphy.com/media/st7RtYXtqAFMs/giphy.gif
