@@ -2,6 +2,7 @@
 title: 'LIVE MUSIC: Colonel Josh & The Honky Tonk Heroes'
 date: 2019-01-09 15:23:00 -05:00
 published: false
+position: 21
 event-date: 2020-09-19 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/3o6Mb2La0HF0naZpKw/giphy.gif

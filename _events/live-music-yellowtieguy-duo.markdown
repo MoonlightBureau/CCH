@@ -2,6 +2,7 @@
 title: 'LIVE MUSIC: Dan Lipton Trio'
 date: 2019-09-12 16:04:00 -04:00
 published: false
+position: 3
 event-date: 2020-09-05 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/RhrAmVUHxjTQvEPBWi/giphy.gif
