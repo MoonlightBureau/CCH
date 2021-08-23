@@ -1,5 +1,5 @@
 ---
-title: 'VIRTUAL COMEDY SHOW: Comedy is Calling'
+title: 'COMEDY SHOW: Comedy is Calling'
 date: 2019-08-18 19:26:00 -04:00
 position: 1
 event-date: 2020-05-03 19:30:00 -04:00
