@@ -1,7 +1,6 @@
 ---
-title: Grape Crush
-published: false
+title: Hot Damn!
 position: 4
-tasting-notes: Dry, rosé, jammy
+tasting-notes: Peachy & Spicy-ish
 ---
 
