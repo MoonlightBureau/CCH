@@ -1,6 +1,6 @@
 ---
 title: Hot Damn!
-position: 4
+position: 5
 tasting-notes: Peachy & Spicy-ish
 ---
 
