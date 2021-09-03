@@ -1,6 +1,6 @@
 ---
 title: Life's A Peach
-position: 5
+position: 4
 tasting-notes: Golden & Peachy
 ---
 
