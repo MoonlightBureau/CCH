@@ -1,7 +1,7 @@
 ---
 title: 'VIRTUAL PUB GAME: Trivia'
 date: 2020-01-29 13:41:00 -05:00
-position: 55
+position: 56
 event-date: 2020-06-11 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
