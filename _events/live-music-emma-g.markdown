@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Deccan Traps'
+title: 'LIVE MUSIC: The Sam Elmore Band'
 date: 2019-06-25 08:46:00 -04:00
 position: 11
-event-date: 2021-10-23 19:00:00 -04:00
+event-date: 2021-11-27 19:00:00 -05:00
 end-time: '09PM'
-giphy-url: https://media.giphy.com/media/fy5iARUXimtVK/giphy.gif?cid=ecf05e47mznih3lajqk8o4pzay63o8485pazz19gkhrndj4b&rid=giphy.gif&ct=g
-event-url: https://www.eventbrite.com/e/live-music-deccan-traps-tickets-180119250527
+giphy-url: https://media.giphy.com/media/dM2xuxnJCg4H6/giphy.gif
+event-url: https://www.eventbrite.com/e/live-music-the-sam-elmore-band-tickets-200093724717
 ---
 
