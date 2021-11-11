@@ -1,5 +1,5 @@
 ---
-title: 'PUB GAME: District Trivia'
+title: 'LIVE MUSIC: Hannah Jaye & The Hideaways'
 date: 2021-09-27 20:24:00 -04:00
 position: 13
 event-date: 2021-12-11 19:00:00 -05:00
