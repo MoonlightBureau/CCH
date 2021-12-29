@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Hannah Jaye & The Hideaways'
+title: 'VIRTUAL GUIDED TASTING: Cider & Pommeau'
 date: 2021-09-27 20:24:00 -04:00
 position: 0
-event-date: 2021-12-11 19:00:00 -05:00
-end-time: '09PM'
-giphy-url: https://media.giphy.com/media/xVifkum8oLzEEacbXv/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-hannah-jaye-the-hideaways-tickets-209298275777
+event-date: 2022-01-26 20:30:00 -05:00
+end-time: '0930PM'
+giphy-url: https://media.giphy.com/media/lz7GtEHgSHencsRmYW/giphy-downsized-large.gif
+event-url: https://drinkcider.eventbrite.com
 ---
 
