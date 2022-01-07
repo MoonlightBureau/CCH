@@ -1,6 +1,6 @@
 ---
 title: GoldRush
-position: 0
+position: 1
 tasting-notes: Honey & Butterscotch
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Amaro
-position: 2
+position: 0
 tasting-notes: Caramel & Candied Orange Peel
 ---
 

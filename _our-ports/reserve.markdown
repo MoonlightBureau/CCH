@@ -1,6 +1,6 @@
 ---
 title: Reserve
-position: 5
+position: 4
 tasting-notes: Confectionary & Complex
 ---
 
