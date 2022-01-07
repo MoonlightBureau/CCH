@@ -1,7 +1,7 @@
 ---
-title: Northern Spy
+title: Amaro
 published: false
 position: 2
-tasting-notes: Sweet, vanilla, boozy
+tasting-notes: Caramel & Candied Orange Peel
 ---
 
