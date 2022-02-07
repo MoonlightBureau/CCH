@@ -1,7 +1,6 @@
 ---
-title: Pippin
-published: false
-position: 3
-tasting-notes: Sweet, caramel, green apple
+title: Madeira
+position: 2
+tasting-notes: Roasted Plum & Hazelnut
 ---
 
