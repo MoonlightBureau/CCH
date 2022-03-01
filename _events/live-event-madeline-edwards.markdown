@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Christopher Colletta'
+title: 'LIVE MUSIC: Deccan Traps'
 date: 2019-05-30 22:41:00 -04:00
-position: 12
-event-date: 2022-02-19 19:00:00 -05:00
+position: 19
+event-date: 2022-04-09 19:00:00 -04:00
 end-time: '09PM'
-giphy-url: https://media.giphy.com/media/DfiYifB0Ku2mXbY90Y/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-christopher-colletta-tickets-243125363507
+giphy-url: https://media.giphy.com/media/RMk32NEpSgcIoljwwz/giphy.gif
+event-url: https://www.eventbrite.com/e/live-music-deccan-traps-tickets-275349948107
 ---
 
