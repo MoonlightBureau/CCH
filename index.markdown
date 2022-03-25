@@ -29,8 +29,9 @@ libations:
   eyebrow: Locally sourced
   title: Libations
   description: All our apples are sourced from within 200 miles of the US Capitol
-    Building. We have a full drink menu, including a wide range of housemade cider
-    and pommeau. Our menu is always changing, but we’re always keeping it local.
+    Building. We have an exciting beverage lineup at the cider house, including a
+    wide range of housemade cider and pommeau. Our menu is always changing, but we’re
+    always keeping it local.
 ourCiders:
   eyebrow: From the cidery
   title: On Tap
