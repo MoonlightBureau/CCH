@@ -69,7 +69,7 @@ shopLibations:
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   online-title: Buy Online
   online-desc: "Want booze delivered to your door? Or to your friend's door? Let us
-    help! Now shipping to nearly 40 states! ✈️\U0001F381"
+    help! \nNow shipping nationwide! ✈️\U0001F381"
   online-cta-link: https://vinoshipper.com/shop/capitol_cider_house?list=
 shopMembership:
   title: Join Our Cider Club!
