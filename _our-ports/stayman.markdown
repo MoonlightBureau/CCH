@@ -1,6 +1,6 @@
 ---
 title: Pink Lady
-position: 3
+position: 4
 tasting-notes: Sweet Lemon & Vanilla
 ---
 

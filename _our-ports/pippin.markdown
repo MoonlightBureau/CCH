@@ -1,6 +1,6 @@
 ---
 title: Madeira
-position: 2
+position: 3
 tasting-notes: Roasted Plum & Hazelnut
 ---
 
