@@ -115,7 +115,7 @@ BrewProcess4:
     us and take home a crowler (or two)!
 Location:
   label: Our Location
-  title: Check out our new digs
+  title: Hang out at the taproom
   description: "We invite you to visit our production space and tasting room at [3930
     Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on our patio, play
     one of our many board games and enjoy some grub (we have food!!!) while sampling
