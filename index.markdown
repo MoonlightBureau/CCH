@@ -22,16 +22,15 @@ why-cider:
     culture than in good ole Washington, DC? '
 why-cch:
   title: Why Capitol Cider House?
-  text: 'At Capitol Cider House, we do cider right. No added chemicals or preservatives.
-    Only showcasing producers within 200 miles of the Capitol building. Always gluten
-    free. Not too sweet. More like a fine wine than a popsicle. '
+  text: 'At Capitol Cider House, we do cider right! We focus on crafting hard cider
+    with modern flavors and zero sugar. Our cider is sustainably sourced, naturally
+    gluten free, unfiltered and free of added sulfites. '
 libations:
   eyebrow: Locally sourced
   title: Libations
-  description: All our goods are sourced from within 200 miles of the US Capitol Building.
-    We have a few of our own concoctions and many ciders from Mid-Atlantic producers
-    that are otherwise hard to find in DC. Our menu is always changing, but we’re
-    always keeping it local.
+  description: All our apples are sourced from within 200 miles of the US Capitol
+    Building. We have a full drink menu, including a wide range of housemade cider
+    and pommeau. Our menu is always changing, but we’re always keeping it local.
 ourCiders:
   eyebrow: From the cidery
   title: On Tap
@@ -133,5 +132,5 @@ email: hello@capitolciderhouse.com
 layout: home
 ---
 
-Capitol Cider House is located at [3930 Georgia Avenue NW](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of DC’s Petworth neighborhood. We focus on creating and curating craft hard cider with modern flavors.
+Capitol Cider House is located at [3930 Georgia Avenue NW](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of DC’s vibrant Petworth neighborhood. We focus on crafting hard cider with modern flavors and zero sugar.
  
