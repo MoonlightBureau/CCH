@@ -1,7 +1,7 @@
 ---
 title: 'LIVE MUSIC: Deccan Traps'
 date: 2019-05-30 22:41:00 -04:00
-position: 14
+position: 13
 event-date: 2022-04-09 19:00:00 -04:00
 end-time: '09PM'
 giphy-url: https://media.giphy.com/media/RMk32NEpSgcIoljwwz/giphy.gif
