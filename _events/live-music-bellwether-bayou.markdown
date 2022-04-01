@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Landon Paddock Jazz Duo'
+title: 'LIVE MUSIC: Christopher Colletta'
 date: 2021-09-27 20:28:00 -04:00
 position: 0
-event-date: 2022-03-12 19:00:00 -05:00
-end-time: '09PM'
-giphy-url: https://media.giphy.com/media/iLSABrJFsmZ5ZEFshZ/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-landon-paddock-jazz-duo-tickets-265158946547
+event-date: 2022-05-14 20:00:00 -04:00
+end-time: 10PM
+giphy-url: https://media.giphy.com/media/3o6Mb2Z0o9GOnSRmKI/giphy.gif
+event-url: https://www.eventbrite.com/e/live-music-christopher-colletta-tickets-311891845907
 ---
 
