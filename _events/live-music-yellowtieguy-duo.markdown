@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Jahnel Daliya Duo'
+title: 'LIVE MUSIC: Elena & Los Fulanos'
 date: 2019-09-12 16:04:00 -04:00
 position: 1
-event-date: 2022-03-26 19:00:00 -04:00
-end-time: '09PM'
-giphy-url: https://media.giphy.com/media/3o85xx69HG11jP4QIo/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-jahnel-daliya-duo-tickets-275338624237
+event-date: 2022-05-28 20:00:00 -04:00
+end-time: 10PM
+giphy-url: https://media.giphy.com/media/553AXTqcTlxMhBYDnd/giphy.gif
+event-url: https://www.eventbrite.com/e/live-music-elena-los-fulanos-tickets-311893540977
 ---
 
