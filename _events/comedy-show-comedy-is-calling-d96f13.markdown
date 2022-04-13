@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Sam Jones Trio'
+title: 'LIVE MUSIC: Sweet Something Jazz Quartet'
 date: 2021-09-27 20:25:00 -04:00
 position: 4
-event-date: 2022-04-02 19:00:00 -04:00
-end-time: '09PM'
-giphy-url: https://media.giphy.com/media/V49a5IZS8C8ta/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-sam-jones-trio-tickets-275342676357
+event-date: 2022-05-22 17:00:00 -04:00
+end-time: 07PM
+giphy-url: https://media.giphy.com/media/9ba97GfCysPMI5sZjf/giphy.gif
+event-url: https://www.eventbrite.com/e/live-music-sweet-something-jazz-quartet-tickets-320403243727
 ---
 
