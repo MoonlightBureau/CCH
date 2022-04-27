@@ -1,7 +1,7 @@
 ---
 title: 'COMEDY SHOW: Comedy is Calling'
 date: 2019-04-11 12:54:00 -04:00
-position: 16
+position: 15
 event-date: 2022-04-29 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/xTk9ZNSEaGv7FtKY6s/giphy.gif
