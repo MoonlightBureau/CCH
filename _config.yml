@@ -47,7 +47,7 @@ description: Capitol Cider House is cidery and taproom located at 3930 Georgia A
 url: https://capitolciderhouse.com
 permalink: pretty
 social-media-image: "/uploads/cch_OG.png"
-is-resy: true
+is-resy: false
 exclude:
 - node_modules
 - gulpfile.js
