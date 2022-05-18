@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Deccan Traps'
+title: 'PUB GAME: District Trivia'
 date: 2019-05-30 22:41:00 -04:00
 position: 2
-event-date: 2022-04-09 19:00:00 -04:00
+event-date: 2022-06-30 19:00:00 -04:00
 end-time: '09PM'
-giphy-url: https://media.giphy.com/media/RMk32NEpSgcIoljwwz/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-deccan-traps-tickets-275349948107
+giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
+event-url: https://www.eventbrite.com/e/pub-game-district-trivia-tickets-344253450337
 ---
 
