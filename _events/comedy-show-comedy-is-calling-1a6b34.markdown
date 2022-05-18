@@ -1,7 +1,7 @@
 ---
 title: 'COMEDY SHOW: Comedy is Calling'
 date: 2021-12-13 15:20:00 -05:00
-position: 17
+position: 16
 event-date: 2022-05-20 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/xTk9ZNSEaGv7FtKY6s/giphy.gif
