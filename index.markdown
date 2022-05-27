@@ -36,10 +36,10 @@ ourCiders:
   title: On Tap
   desc: We use a <a href="#process">classic process</a> to create unique, refreshing
     and amazingly delicious craft cider, mead, perry and more!
-  cta: Visit CCH
-  cta-link: "#contact"
+  cta: Find a store
+  cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
-  cta2-link: https://cider2go.com
+  cta2-link: https://www.cider2go.com/2go
 ourPorts:
   eyebrow: From the cidery
   title: Our Pommeau
@@ -51,7 +51,7 @@ ourPorts:
   cta: Find a store
   cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
   cta2: Buy Online
-  cta2-link: https://vinoshipper.com/shop/capitol_cider_house?list=
+  cta2-link: https://www.cider2go.com/2go
 shop:
   eyebrow: Shop CCH
   title: ONLINE STORE
