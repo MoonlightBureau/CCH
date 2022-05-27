@@ -62,7 +62,7 @@ shop:
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: Available in 200+ select retailers across DC & MD! Interested in carrying
+  retail-desc: Available in 250+ select retailers across DC & MD! Interested in carrying
     our cider at your shop? Email  sales@capitolciderhouse.com.
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
@@ -119,8 +119,8 @@ Location:
     Georgia Avenue](https://goo.gl/maps/B1CaUkK4Lu62). Chill out on our patio, play
     one of our many board games and enjoy some grub (we have food!!!) while sampling
     a flight of ciders. Kids are welcome, and friendly dogs can hang out in our outside
-    space. \n\nOur peppy space is also available for private and semi-private events.
-    We also offer custom virtual events like guided tastings and interactive workshops.
+    space. \n\nOur peppy space is available for private and semi-private events. We
+    also offer custom virtual events like guided tastings and interactive workshops.
     Email us at [**events@capitolciderhouse.com**](mailto: events@capitolciderhouse.com)
     for more info!"
 no-events:
