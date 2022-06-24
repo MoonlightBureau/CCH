@@ -1,7 +1,7 @@
 ---
 title: 'LIVE MUSIC: Bellwether Bayou'
 date: 2019-06-25 08:46:00 -04:00
-position: 21
+position: 20
 event-date: 2022-07-16 20:00:00 -04:00
 end-time: 10PM
 giphy-url: https://media.giphy.com/media/U7yBROuogUtSbF8pXM/giphy.gif
