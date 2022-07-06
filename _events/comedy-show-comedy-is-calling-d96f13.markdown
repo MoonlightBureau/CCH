@@ -5,6 +5,6 @@ position: 10
 event-date: 2022-07-17 15:00:00 -04:00
 end-time: 06PM
 giphy-url: https://media.giphy.com/media/l49q05pDQgpkdVMMzO/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-the-in-cider-jazz-jam-tickets-380521960427
+event-url: https://ciderjazzjam.eventbrite.com
 ---
 
