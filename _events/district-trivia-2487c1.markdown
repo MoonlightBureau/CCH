@@ -1,10 +1,10 @@
 ---
-title: 'LIVE MUSIC: Eli Waltz'
+title: 'LIVE MUSIC: Guy Bouchie'
 date: 2019-04-11 12:55:00 -04:00
 position: 1
-event-date: 2022-04-16 19:00:00 -04:00
-end-time: '09PM'
-giphy-url: https://media.giphy.com/media/3o6Mbamy6Lz7wR8Gt2/giphy.gif
-event-url: https://www.eventbrite.com/e/live-music-eli-waltz-tickets-275351944077
+event-date: 2022-08-13 20:00:00 -04:00
+end-time: 10PM
+giphy-url: https://media.giphy.com/media/3oFyDrFqZ3BuOFsnC0/giphy.gif
+event-url: https://www.eventbrite.com/e/live-music-guy-bouchie-tickets-390814134597
 ---
 
