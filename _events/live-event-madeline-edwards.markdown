@@ -2,9 +2,9 @@
 title: 'PUB GAME: District Trivia'
 date: 2019-05-30 22:41:00 -04:00
 position: 16
-event-date: 2022-08-25 19:00:00 -04:00
+event-date: 2022-09-22 19:00:00 -04:00
 end-time: '09PM'
 giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
-event-url: https://www.eventbrite.com/e/pub-game-district-trivia-tickets-390819891817
+event-url: https://www.eventbrite.com/e/pub-game-district-trivia-tickets-410186106687
 ---
 
