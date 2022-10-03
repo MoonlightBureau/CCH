@@ -1,9 +1,9 @@
 ---
-title: 'POP-UP: Sommer Street Pizza'
+title: Capitol Spider House Halloween Soirée
 date: 2022-07-06 21:29:00 -04:00
-event-date: 2022-07-31 16:00:00 -04:00
-end-time: 07PM
-giphy-url: https://media.giphy.com/media/jn2iXu2HRpMuovBrrV/giphy.gif
-event-url: https://www.eventbrite.com/e/pop-up-sommer-street-pizza-tickets-391189998817
+event-date: 2022-10-30 18:00:00 -04:00
+end-time: '09PM'
+giphy-url: https://media.giphy.com/media/7702jh3NsloOseiDUk/giphy-downsized-large.gif
+event-url: https://www.eventbrite.com/e/capitol-spider-house-halloween-soiree-tickets-431245897087
 ---
 
