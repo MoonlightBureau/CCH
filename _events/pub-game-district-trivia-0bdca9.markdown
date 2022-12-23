@@ -1,10 +1,10 @@
 ---
-title: 'PUB GAME: District Trivia'
+title: 'PUB GAME: Drag Bingo'
 date: 2022-02-08 11:01:00 -05:00
 position: 4
-event-date: 2022-12-01 19:00:00 -05:00
+event-date: 2023-01-18 19:00:00 -05:00
 end-time: '09PM'
-giphy-url: https://media.giphy.com/media/APDFlaP8poxD9DV1PM/giphy.gif
-event-url: https://www.eventbrite.com/e/pub-game-district-trivia-tickets-475531295907
+giphy-url: https://media.giphy.com/media/yble1suOGfHJ6/giphy.gif
+event-url: https://www.eventbrite.com/e/pub-game-drag-bingo-tickets-491260081127
 ---
 
