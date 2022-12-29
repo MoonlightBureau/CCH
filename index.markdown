@@ -12,7 +12,7 @@ warningAnnouncement: We are excited to welcome you back to Capitol Cider House f
   own home. Check out our [online store](cider2go.com) for more details. Hope to see
   you soon!
 is-open-month-only: false
-hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: CLOSED </br> Thursday:
+hours: 'Monday: CLOSED </br> Tuesday: CLOSED </br> Wednesday: 4-10pm </br> Thursday:
   4-10pm </br> Friday: 4-11pm </br> Saturday: 2-11pm </br> Sunday: 2-8pm'
 why-cider:
   title: Why Cider?
