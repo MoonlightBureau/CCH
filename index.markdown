@@ -24,7 +24,7 @@ why-cch:
   title: Why Capitol Cider House?
   text: 'At Capitol Cider House, we do cider right! We focus on crafting hard cider
     with modern flavors and zero sugar. Our cider is sustainably sourced, naturally
-    gluten free, unfiltered and free of added sulfites. '
+    gluten free and unfiltered. '
 libations:
   eyebrow: Locally sourced
   title: Libations
@@ -62,7 +62,7 @@ shop:
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: Available in 300+ select retailers across DC & MD! Interested in carrying
+  retail-desc: Available in 400+ select retailers across DC & MD! Interested in carrying
     our cider at your shop? Email  sales@capitolciderhouse.com.
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
