@@ -1,6 +1,7 @@
 ---
 title: 'LIVE MUSIC: Jazz Night with The Alex Hamburger & Jose Luiz Martins Duo'
 date: 2019-04-11 12:54:00 -04:00
+published: false
 position: 18
 event-date: 2023-02-11 20:00:00 -05:00
 end-time: 10PM
