@@ -94,7 +94,7 @@ BrewProcess1:
   title: Select
   description: Our home grown ciders start in local orchards. We choose cider apples
     known for complex flavors. Every production run is different. We grab what's growing
-    well and will taste great in your cup!
+    well and will taste great in your glass!
 BrewProcess2:
   number-image: "/uploads/2@2x.png"
   title: Press
