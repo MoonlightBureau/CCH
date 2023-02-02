@@ -23,14 +23,14 @@ why-cider:
 why-cch:
   title: Why Capitol Cider House?
   text: 'At Capitol Cider House, we do cider right! We focus on crafting hard cider
-    with modern flavors and zero sugar. Our cider is sustainably sourced, naturally
-    gluten free and unfiltered. '
+    with modern flavors. Our cider is sustainably sourced, naturally gluten free and
+    unfiltered. '
 libations:
   eyebrow: Locally sourced
   title: Libations
   description: All our apples are sourced from within 200 miles of the US Capitol
-    Building. We have an exciting beverage lineup, including a wide range of housemade
-    cider and pommeau. Our menu is always changing, but we’re always keeping it local.
+    Building. Our exciting beverage lineup includes a wide range of housemade cider
+    and pommeau. The menu is always changing, but we’re always keeping it local.
 ourCiders:
   eyebrow: From the cidery
   title: On Tap
@@ -94,7 +94,7 @@ BrewProcess1:
   title: Select
   description: Our home grown ciders start in local orchards. We choose cider apples
     known for complex flavors. Every production run is different. We grab what's growing
-    well and will taste great in your cup!
+    well and will taste great in your glass!
 BrewProcess2:
   number-image: "/uploads/2@2x.png"
   title: Press
@@ -132,5 +132,5 @@ email: hello@capitolciderhouse.com
 layout: home
 ---
 
-Capitol Cider House is located at [3930 Georgia Avenue NW](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of DC’s vibrant Petworth neighborhood. We focus on crafting hard cider with modern flavors and zero sugar.
+Capitol Cider House is located at [3930 Georgia Avenue NW](https://goo.gl/maps/B1CaUkK4Lu62), steps from the metro in the heart of DC’s vibrant Petworth neighborhood. We focus on crafting hard cider with modern flavors. Welcome to the #brightciderlife !
  
