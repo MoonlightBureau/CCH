@@ -1,5 +1,5 @@
 ---
-title: 'LIVE MUSIC: Soul/Funk Night with &Friends'
+title: 'LIVE MUSIC: Soul/Funk Night with Hard Raki'
 date: 2021-09-27 20:28:00 -04:00
 position: 19
 event-date: 2023-02-18 20:00:00 -05:00
