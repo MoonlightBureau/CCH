@@ -1,9 +1,9 @@
 ---
 title: 'COMEDY SHOW: Comedy is Calling'
 date: 2023-01-25 11:34:00 -05:00
-event-date: 2023-02-19 18:00:00 -05:00
-end-time: '08PM'
+event-date: 2023-03-03 20:00:00 -05:00
+end-time: 10PM
 giphy-url: https://media.giphy.com/media/xTk9ZNSEaGv7FtKY6s/giphy.gif
-event-url: https://www.eventbrite.com/e/comedy-show-comedy-is-calling-tickets-524657463597
+event-url: https://www.eventbrite.com/e/comedy-show-comedy-is-calling-tickets-559033252507
 ---
 
