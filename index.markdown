@@ -62,7 +62,7 @@ shop:
 shopLibations:
   title: Buy our libations
   retail-title: Find a retailer
-  retail-desc: Available in 400+ select retailers across DC & MD! Interested in carrying
+  retail-desc: Available in 500+ select retailers across DC & MD! Interested in carrying
     our cider at your shop? Email  sales@capitolciderhouse.com.
   retail-cta: See the map
   retail-cta-link: https://drive.google.com/open?id=19TypaH_RCAil_5xG3Gw4UsCbR3crSry3&usp=sharing
