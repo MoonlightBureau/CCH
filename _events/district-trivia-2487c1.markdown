@@ -1,5 +1,5 @@
 ---
-title: 'LIVE MUSIC: Americana Night with The Dan Lipton Trio'
+title: 'LIVE MUSIC: Americana Night with Dan Lipton &  The Whiskey Disciples'
 date: 2019-04-11 12:55:00 -04:00
 position: 1
 event-date: 2023-04-01 19:00:00 -04:00
