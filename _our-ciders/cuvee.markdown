@@ -1,6 +1,6 @@
 ---
-title: Life's A Peach
+title: Strawberry Blonde
 position: 5
-tasting-notes: Golden & Peachy
+tasting-notes: Jammy & Summery
 ---
 
