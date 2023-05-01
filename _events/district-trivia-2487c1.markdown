@@ -1,5 +1,5 @@
 ---
-title: 'LIVE MUSIC: Americana Night with The Iris Bell'
+title: 'LIVE MUSIC: Americana Night with Bellwether Bayou'
 date: 2019-04-11 12:55:00 -04:00
 position: 1
 event-date: 2023-05-06 20:00:00 -04:00
