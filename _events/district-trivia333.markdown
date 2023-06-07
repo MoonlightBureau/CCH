@@ -1,6 +1,7 @@
 ---
 title: 'LIVE MUSIC: Songwriter Spotlight Night with Jasper Juniper'
 date: 2019-04-11 12:53:00 -04:00
+published: false
 position: 9
 event-date: 2023-06-24 20:00:00 -04:00
 end-time: 10PM
